@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-10-23T13:08:13">
+<ObjectRepository>
+<CommonName>accidentAdminList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCadministrationLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentalDeathList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCaccidentalDeathLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentBrokerFeeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCbrokersFeeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentConsultingFeeEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCconsultingFeeTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentContractOptionList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCcontractOptionsLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentContractStateList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCcontractStateLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentDescEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCdescriptionTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentEligibleLivesEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCeligibleLivesTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentEmergencyRoomList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCemergencyRoomLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentNonEmergencyRoomList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCnonEmergencyRoomLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentNoteEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html tag</Property1>
+<Value1>TEXTAREA</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>class</Property3>
+<Value3>gwt-TextArea</Value3>
+<Property4>index</Property4>
+<Value4>0</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentRateguaranteeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCrateGuaranteeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentRateStructureList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCrateStrucutreLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentScaleList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCscaleLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentServiceFeeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCserviceFeeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentSpouseIncludeBenefitList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCincludeBenefitLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentTypeBenefitList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCaccidentTypeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentWebCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-9</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>accidentWellnessList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCwellnessLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>actionMenu</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Actions</Value2>
+<Property3>html tag</Property3>
+<Value3>TD</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-uid-10</Value4>
+<Property5>class</Property5>
+<Value5>gwt-MenuItem</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addGroupName</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-addGroupName</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>additionalTaskCheckAll</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WorkflowAdditionalTasksAllNone-input</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addNewCase</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Add new case</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-AddNewCase_1</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addNewInforceProposalTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebTable</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-CreateCaseTable</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>adobeReader</CommonName>
+<ClassID>37</ClassID>
+<Property1>regexpwndtitle</Property1>
+<Value1> Adobe Reader</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>AEB</CommonName>
+<ClassID>1</ClassID>
+<Property1>micclass</Property1>
+<Value1>Browser</Value1>
+<Property2>CreationTime</Property2>
+<Value2>0</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>AEB_WriteUp</CommonName>
+<ClassID>1</ClassID>
+<Property1>micclass</Property1>
+<Value1>Browser</Value1>
+<Property2>CreationTime</Property2>
+<Value2>1</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>AEBSalesWriteUp</CommonName>
+<ClassID>5</ClassID>
+<Path>AEB_WriteUp</Path>
+<Property1>micclass</Property1>
+<Value1>Page</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>AssurantEmployeeBenefits</CommonName>
+<ClassID>5</ClassID>
+<Path>AEB</Path>
+<Property1>micclass</Property1>
+<Value1>Page</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerAdminList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIadministrationLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerBrokerFeeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIbrokersFeeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerConsultingFeeEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIconsultingFeeTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerContractOptionList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIcontractOptionsLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerContractStateList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIcontractStateLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerDescEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIdescriptionTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerEligibleLivesEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIeligibleLivesTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerNoteEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html tag</Property1>
+<Value1>TEXTAREA</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>class</Property3>
+<Value3>gwt-TextArea</Value3>
+<Property4>index</Property4>
+<Value4>2</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerPlanLevelList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIPlanLevelLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerRateguaranteeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIrateGuaranteeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerRateStructureList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIrateStrucutreLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerScaleList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIscaleLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerServiceFeeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIserviceFeeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerTobaccoList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCITobaccoLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerTransferList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCITransferLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cancerWebCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-11</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>caseSearch</CommonName>
+<ClassID>4</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>Link</Value1>
+<Property2>innertext</Property2>
+<Value2>Case search</Value2>
+<Property3>html tag</Property3>
+<Value3>A</Value3>
+<Property4>text</Property4>
+<Value4>Case search</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>caseSearchTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-ResultsTable</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>caseSummaryTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebTable</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-CaseSummaryTable</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>categorizeDocument</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>checkbox</Value1>
+<Property2>name</Property2>
+<Property3>micclass</Property3>
+<Value3>WebCheckBox</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-CategorizeDocumentsSelectAllNone-input</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>category</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>all items</Property4>
+<Value4>Case;Common;True Group;Voluntary;Submission;Worksite;Underwriting</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>census_Tab</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Census</Value2>
+<Property3>innerhtml</Property3>
+<Value3>Census</Value3>
+<Property4>html tag</Property4>
+<Value4>DIV</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>censusEEFam</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>eefam_29</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-CensusEefam_0 - 29</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>censusMale</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>male_29</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-censusMale_0 - 29</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>completeWriteUpLink</CommonName>
+<ClassID>4</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>innertext</Property1>
+<Value1>Complete Write-Up</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>consolidatedProposeCheckAll</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-ProposeAllNone-input</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>coverageStatusTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>column names</Property1>
+<Value1>Coverage Status:;Type;Seq;Plan Status;Issue Status;Sub Plan;Base Plan;Description</Value1>
+<Property2>micclass</Property2>
+<Value2>WebTable</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>CreateProposalSaveButton</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>class</Property1>
+<Value1>buttonprimary</Value1>
+<Property2>html tag</Property2>
+<Value2>BUTTON</Value2>
+<Property3>outertext</Property3>
+<Value3>Save</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>critical_IllnessWebCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-10</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessAdminList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIadministrationLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessBenefitPlanLevelList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIPlanLevelLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessBrokerFeeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIbrokersFeeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessConsultingFeeEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIconsultingFeeTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessContractOptionList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIcontractOptionsLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessContractStateList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIcontractStateLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessDescEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIdescriptionTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessEligibleLivesEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIeligibleLivesTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessmaximumBenefitAmountList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCImaximumBenefitAmountLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessNoteEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html tag</Property1>
+<Value1>TEXTAREA</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>class</Property3>
+<Value3>gwt-TextArea</Value3>
+<Property4>index</Property4>
+<Value4>1</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessRateguaranteeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIrateGuaranteeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessRateStructureList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIrateStrucutreLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessRateTypeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIrateTypeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessScaleList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIscaleLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessServiceFeeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIserviceFeeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessTobaccoList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCITobaccoLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessTransferList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCITransferLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>criticalIllnessWellnessList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSCIwellnessLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>dentalCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>checkbox</Value1>
+<Property2>name</Property2>
+<Value2>COMDEN</Value2>
+<Property3>micclass</Property3>
+<Value3>WebCheckBox</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-uid-1</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>documentInfoTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-DocumentInfoTable</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>documentsTab</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html tag</Property1>
+<Value1>DIV</Value1>
+<Property2>innertext</Property2>
+<Value2>Documents</Value2>
+<Property3>class</Property3>
+<Value3>gwt-Label</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>documentsTabProposals</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-cwTree-staticTree-root-child0-content</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>documentsTabProposalsImage</CommonName>
+<ClassID>3</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>file name</Property1>
+<Value1>clear.cache.gif</Value1>
+<Property2>image type</Property2>
+<Value2>Plain Image</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>documentsTabTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>column names</Property1>
+<Value1>ProposalsProposal ACC1-CAN1-CIB1-GAP1.*</Value1>
+<Property2>rows</Property2>
+<Value2>3</Value2>
+<Property3>cols</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>documentType</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>all items</Property4>
+<Value4>Census;Experience;In Force Plan Info;Other;Plan Detail Info;RFP;RFP Appendices</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>effDate</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-effDate</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>eligibleEES</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-CDCLivesEligible</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>empZip</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>eeszipCode_1</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-censusEesZipCode_1</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>fileDownloadDialog</CommonName>
+<ClassID>31</ClassID>
+<Property1>text</Property1>
+<Value1>File Download</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>fileDownloadDialogOpenButton</CommonName>
+<ClassID>33</ClassID>
+<Path>AEB.fileDownloadDialog</Path>
+<Property1>text</Property1>
+<Value1>&amp;Open</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>forAEB</CommonName>
+<ClassID>4</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>text</Property1>
+<Value1>For AEB</Value1>
+<Property2>micclass</Property2>
+<Value2>Link</Value2>
+<Property3>innertext</Property3>
+<Value3>For AEB</Value3>
+<Property4>html tag</Property4>
+<Value4>A</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapAdminList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCadministrationLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapContractOptionList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCcontractOptionsLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapContractStateList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCcontractStateLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapDescEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCdescriptionTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapEligibleLivesEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCeligibleLivesTB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapInpatient</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSGAPInPatientLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapNoteEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html tag</Property1>
+<Value1>TEXTAREA</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>class</Property3>
+<Value3>gwt-TextArea</Value3>
+<Property4>index</Property4>
+<Value4>3</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapOutpatient</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSGAPOutPatientLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapRateguaranteeList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCrateGuaranteeLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapRateStructureList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCrateStrucutreLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapScaleList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WSACCscaleLB</Value1>
+<Property2>Class Name</Property2>
+<Value2>WebList</Value2>
+<Property3>index</Property3>
+<Value3>1</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>gapWebCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-13</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>groupName</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-groupName</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>groupNameSearch</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Search</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-GroupNameSearch</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>groupOffice</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-GroupOffice</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>groupOfficeTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-GroupOfficeTable</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>kansasCityCheckBox</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html tag</Property1>
+<Value1>Label</Value1>
+<Property2>innertext</Property2>
+<Value2>Kansas City</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>kansasWebCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-116</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>kickstartPlan</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-16</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>kickstartPlanNote</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-KickstartPlanNote</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>kickstartPlanTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-KickstartPlanTable</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>lastRecord</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>\&gt;\&gt; \|</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>loginToOnlineAdvantage</CommonName>
+<ClassID>4</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>text</Property1>
+<Value1>Login to Online Advantage</Value1>
+<Property2>micclass</Property2>
+<Value2>Link</Value2>
+<Property3>innertext</Property3>
+<Value3>Login to Online Advantage</Value3>
+<Property4>html tag</Property4>
+<Value4>A</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>nbcCode</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-nbcCode</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>noOfLives</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-lives</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>noResultsFound</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>Class Name</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>No Results Found</Value2>
+<Property3>innerhtml</Property3>
+<Value3>No Results Found</Value3>
+<Property4>html tag</Property4>
+<Value4>B</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>parr</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-parr</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>participatingEES</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-CDCLivesParticipating</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>partNumber</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-partNumber</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>password</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>password</Value1>
+<Property2>name</Property2>
+<Value2>PASSWORD</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>pdfImage</CommonName>
+<ClassID>3</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>class</Property1>
+<Value1>gwt-Image</Value1>
+<Property2>file name</Property2>
+<Value2>pdf_icon.gif</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>planDescription</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-CDCPlanDescription</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>planNotInEditedStatus</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>innertext</Property1>
+<Value1>GAP 1 , Plan not in edited status</Value1>
+<Property2>class</Property2>
+<Value2>warningmessage</Value2>
+<Property3>html tag</Property3>
+<Value3>DIV</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>plansTab</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html tag</Property1>
+<Value1>DIV</Value1>
+<Property2>innertext</Property2>
+<Value2>Plans</Value2>
+<Property3>class</Property3>
+<Value3>gwt-Label</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>plansTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>column names</Property1>
+<Value1>Plan description;Type;Seq;Series;Sub;Eff date;Discount description;lives;Premium;Proposed;Show;Delivery;Sold;Status</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>planType</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-CDCTypeOfPlan</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>policyNumber</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-policyNumber</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>policyNumberSearch</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-PolPartSearch</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>producerName</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-producer</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>producerSearch</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Search</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-ProducerSearch</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>producerTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebTable</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-ProducerTable</Value2>
+<Property3>index</Property3>
+<Value3>0</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>proposalReqSubmitted</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>innertext</Property1>
+<Value1>Proposal Request has been submitted</Value1>
+<Property2>class</Property2>
+<Value2>infomessage</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>proposePlansButton</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-Propose</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>publicTaskListTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebTable</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-PublicTasklist</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>pushToStatus</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WorkflowPushToStatus</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>requestBeingProcessed</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>innertext</Property1>
+<Value1>Request being processed</Value1>
+<Property2>index</Property2>
+<Value2>0</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>retrievingDefaultValues</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>innertext</Property1>
+<Value1>Retrieving Default Values</Value1>
+<Property2>index</Property2>
+<Value2>0</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salesAutomationSystem</CommonName>
+<ClassID>4</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>text</Property1>
+<Value1>Sales Automation System (SAS)</Value1>
+<Property2>micclass</Property2>
+<Value2>Link</Value2>
+<Property3>innertext</Property3>
+<Value3>Sales Automation System (SAS)</Value3>
+<Property4>html tag</Property4>
+<Value4>A</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salesRep</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-salesRep</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>save</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Save</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-Save</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>saveGroupOffice</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Save</Value2>
+<Property3>html id</Property3>
+<Value3>gwt-debug-SaveGroupOffice</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>saveKickstartPlan</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-SaveKickstartPlan</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>savePlansToSolar</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Save plans to Solar and close write-up</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>innertext</Property4>
+<Value4>Save plans to Solar and close write-up</Value4>
+<Property5>html tag</Property5>
+<Value5>BUTTON</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>saveWriteUp</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Save</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-saveButton_debug2</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>searchByCaseID</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-caseId</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>searchByCaseId_SearchButton</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-CaseIdSearch</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>searchExistingPolicies</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>button</Value1>
+<Property2>name</Property2>
+<Value2>Search Existing Policies</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-SearchExisting_1</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>securityWarningDialog</CommonName>
+<ClassID>31</ClassID>
+<Property1>text</Property1>
+<Value1>Security Warning</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>securityWarningYesButton</CommonName>
+<ClassID>33</ClassID>
+<Path>securityWarningDialog</Path>
+<Property1>text</Property1>
+<Value1>&amp;Yes</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>column names</Property1>
+<Value1>Select Coverages...</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>setUpCase</CommonName>
+<ClassID>4</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>Link</Value1>
+<Property2>innertext</Property2>
+<Value2>Set up case</Value2>
+<Property3>html tag</Property3>
+<Value3>A</Value3>
+<Property4>text</Property4>
+<Value4>Set up case</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>sicCode</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-sicCode</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>sicSource</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>textarea</Value1>
+<Property2>name</Property2>
+<Value2>WebEdit</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>TEXTAREA</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-sicSource</Value5>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>situsState</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-situsState</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>solarCaseTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebTable</Value1>
+<Property2>html id</Property2>
+<Value2>gwt-debug-SolarCases</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>solarPlansSynchedSuccDialog</CommonName>
+<ClassID>31</ClassID>
+<Path>AEB</Path>
+<Property1>text</Property1>
+<Value1>Message from webpage</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>solarPlansSynchedSuccDialogOKButton</CommonName>
+<ClassID>33</ClassID>
+<Path>AEB.solarPlansSynchedSuccDialog</Path>
+<Property1>text</Property1>
+<Value1>OK</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>states</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-state</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>synchronizePlans</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-18</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>taskList</CommonName>
+<ClassID>19</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-debug-TaskListMenu</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>tasklist_Tab</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Tasklist</Value2>
+<Property3>html tag</Property3>
+<Value3>TD</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-uid-2</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>test_Praveen</CommonName>
+<ClassID>13</ClassID>
+<Path></Path>
+<Property1>html tag</Property1>
+<Value1>test</Value1>
+<Property2>Test</Property2>
+<Value2>123213</Value2>
+<Property3></Property3>
+<Value3></Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>username</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>USERNAME</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>workflowTab</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html tag</Property1>
+<Value1>DIV</Value1>
+<Property2>innertext</Property2>
+<Value2>Workflow</Value2>
+<Property3>class</Property3>
+<Value3>gwt-Label</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>workflowTabSaveButton</CommonName>
+<ClassID>14</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WorkflowSave</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>workFlowTasksTable</CommonName>
+<ClassID>21</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>html id</Property1>
+<Value1>gwt-debug-WorkflowTasks</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>worksiteWebCheckBox</CommonName>
+<ClassID>15</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>html id</Property1>
+<Value1>gwt-uid-96</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>writeup_Tab</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Writeup</Value2>
+<Property3>innerhtml</Property3>
+<Value3>Writeup</Value3>
+<Property4>html tag</Property4>
+<Value4>DIV</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>writeUpCase</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB.AssurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Write Up Case</Value2>
+<Property3>html tag</Property3>
+<Value3>TD</Value3>
+<Property4>html id</Property4>
+<Value4>gwt-uid-11</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>writeupSavedSuccessfully</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>class</Property1>
+<Value1>infomessage</Value1>
+<Property2>innertext</Property2>
+<Value2>Write Up saved successfully</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>WriteUpSaveSuccessful</CommonName>
+<ClassID>17</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>Class Name</Property1>
+<Value1>WebElement</Value1>
+<Property2>class</Property2>
+<Value2>infomessage</Value2>
+<Property3>innertext</Property3>
+<Value3>Write Up saved successfully</Value3>
+<Property4>html tag</Property4>
+<Value4>DIV</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>zipCode</CommonName>
+<ClassID>16</ClassID>
+<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>zipCode_1</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+<Property5>html id</Property5>
+<Value5>gwt-debug-censusZipCode_1</Value5>
+</ObjectRepository>
+</dataroot>

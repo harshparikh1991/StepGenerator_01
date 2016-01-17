@@ -1,0 +1,35 @@
+<dataroot>
+	<ObjectRepository><CommonName Value="1">google search</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google").WebEdit("name:=q")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="2">google search button</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google").WebButton("name:=Google Search")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="3">im feeling lucky</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google").WebButton("name:=I'm Feeling Lucky")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="4">web</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google").WebElement("innertext:=Web")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="5">images</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google").Link("innertext:=Images")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="6">videos</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google").Link("innertext:=Videos")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="7">GoogleBrowser</CommonName>
+		<ObjPath>Browser("CreationTime:=0")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="8">Googlepage</CommonName>
+		<ObjPath>Browser("CreationTime:=0").Page("title:=*RegExFullStop*Google")</ObjPath>
+	</ObjectRepository>
+</dataroot>
+
+

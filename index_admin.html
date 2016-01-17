@@ -1,0 +1,331 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Step Generator Home</title>
+		<link rel="stylesheet" href= "./CSS/jquery-ui.css" />
+		<link rel="stylesheet" href= "./CSS/proj.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src= ".\js\jquery-1.9.1.js"></script>
+		<script src= ".\js\jquery-ui.js"></script>
+		<script src= ".\js\tinybox.js"></script>
+		<script src= ".\js\indexFunctions.js"></script>
+		<script type="text/vbscript" src=".\vb\IndexVBFunctions.vbs"></script>
+		<link rel="stylesheet" href="/resources/demos/style.css" />
+		<script>
+			$(function() {
+				$( "#tabs" ).tabs();
+			});
+		</script>
+		<script type="text/javascript">
+			function getUserName(){
+				if (window != top)
+					top.location.href=location.href
+
+				var formData = location.search;
+				formData = formData.substring(1, formData.length);
+
+				formData = unescape(formData);
+				var formArray = formData.split("?");
+
+				var arrUserName = formArray[0].split("=");
+				var strUserName = arrUserName[1];
+				document.getElementById("HeadTitle1").innerHTML = "Welcome, " + strUserName;
+				document.getElementById("UserName").value = strUserName;
+			}
+			
+		</script>
+		
+		<script type="text/vbscript">
+			dim arr1()
+			dim arrAppID()
+			pad = getXMLPath(2)
+			pad = LTrim(pad)
+			pad = Replace(pad, Chr(34), "")
+			Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+			xmlDoc.Async = "False"
+			xmlDoc.Load(pad)
+			i = 0
+			strQuery = "dataroot/Applications/ (ApplicationName)"
+			Set colNodes = xmlDoc.selectNodes( strQuery )
+			For Each appName in colNodes
+				ReDim Preserve arr1(i)
+				arr1(i)=appName.text
+				i = i + 1
+			Next
+			On Error Resume Next
+				arr1 = BubbleSort(arr1, "ASC")
+			On Error GoTo 0
+			
+		</script>
+		
+		<style>
+		  header {
+    				height: 30;
+    				background: green;
+  			}
+		</style>
+	</head>
+
+	<body bgcolor="#ffffff" onload ="getUserName();getPath();">
+	<div id="testhead">
+		<a class = "home" href=".\Login.html" title="Logout" onclick="logout();"><font face="verdana">Logout</font></a>
+		<a style="cursor:help" class = "help" href="#" onclick="window.open('./help/help.pdf', '_blank', 'fullscreen=no'); return false;" title="Help"><u>Help</u></a>
+		
+		<Label for"HeadTitle" class="headTitle" id="HeadTitle1" style="cursor:auto"></label>
+
+<!--		<a class = "logout" href="" onclick="" title="Home">Home</a> -->
+	</div>
+	<br>
+		<!-- <div id="header"></div> -->
+	
+		<div id="tabs" style = "font-size:12; font-weight: normal;">
+			<ul>
+				<li><a href="#tabs-1"><font color="#0066CC"><b>Select Application</b></font></a></li>
+				<li><a href="#tabs-2"><font color="#0066CC"><b>Add Application</b></font></a></li>
+				<li><a href="#tabs-3"><font color="#0066CC"><b>Update Application</b></font></a></li>
+				<li><a href="#tabs-4"><font color="#0066CC"><b>Delete Application</b></font></a></li>
+				<li><a href="#tabs-5"><font color="#0066CC"><b>Application Provisioning</b></font></a></li>
+			</ul>
+			
+			<div id="tabs-1">  <!-- Select Application Tab-->
+				<br><br>
+				<div>
+					<form name = "main" action="./Framework.html" method = get>
+						<fieldset>
+							<p>
+								<br>
+								<h3><u><font color="#009933"><span style="display:inline-block; width: 10px;"></span>Select Application: </font></u></h3>
+									<span style="display:inline-block; width: 10px;"></span>
+									Application Name: <span style="display:inline-block; width: 18px;"></span>
+									<select name="strAppSelected" id="combo1" style="width: 200px;" onchange="getDBPathFromSelection();" tabindex="1">;
+										<script type="text/vbscript">
+											for i = 0 to Ubound(arr1)
+												document.write("<option >" & arr1(i) & "</option>")
+											next
+										</script>
+									</select>
+									<!--<span style="display:inline-block; width: 50;"></span>-->
+									<div class="indexrightCol">
+										<input class="myButton" type="submit" value="Continue" onClick="return CheckDBFile();" tabindex="3"></input>
+									</div>
+									<br><br>
+									<span style="display:inline-block; width: 10px;"></span>
+									Application OR Path: <span style="display:inline-block; width: 3px;"></span>
+									<textarea name="DBPath" id="name1" rows=auto cols="80" readonly="readonly"></textarea>
+									
+									<script>
+										function fireEvent(element,event){
+											if (document.createEventObject){
+												// dispatch for IE
+												var evt = document.createEventObject();
+												return element.fireEvent('on'+event,evt)
+											}
+											else{
+												// dispatch for firefox + others
+												var evt = document.createEvent("Events");
+												evt.initEvent(event, true, true ); // event type,bubbling,cancelable
+												return !element.dispatchEvent(evt);
+											}
+										}
+										function fun(){
+											fireEvent(document.getElementById("combo1"), "change");;
+										}
+										fun();
+									</script>
+									<br><br>
+									<span style="display:inline-block; width: 10px;"></span>
+									XML Script Path: <span style="display:inline-block; width: 29px;"></span>
+									<input type="file" id="files" name="files[]" tabindex="2"/>
+									<output id="list"></output>
+									<script>
+										function handleFileSelect(evt) {
+											var files = evt.target.files; // FileList object
+
+											// files is a FileList of File objects. List some properties.
+											var output = [];
+											for (var i = 0, f; f = files[i]; i++) {
+											  output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+														  f.size, ' bytes, last modified: ',
+														  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
+														  '</li>');
+											}
+											document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+										}
+										try{
+										document.getElementById('files').addEventListener('change', handleFileSelect, false);
+										}
+										catch (e){
+										}
+									</script>
+									<!--
+									<br><br>
+									<span style="display:inline-block; width: 133px;"></span>
+									 ----------------------------------------<i>OR</i>---------------------------------------- 
+									<br><br> 
+									<span style="display:inline-block; width: 133px;"></span> -->
+									<textarea style="display:none;" name="TSDBPath" id="TSDBPath" rows=auto cols="80"></textarea>
+									<textarea style="display:none;" name="UserName" id="UserName" rows=auto cols="80"></textarea>
+									<!--<br><br>-->
+									
+								<!--</h5>-->
+							</p>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+
+			<div id="tabs-2">  <!-- Add Application Tab-->
+				<br>
+				<br>
+				<form name = "addApp">
+					<fieldset>
+						<p>
+							<br>
+							<h3> <u><span style="display:inline-block; width: 10px;"></span><font color="#009933"> Add Application: </font></u></h3>
+							<span style="display:inline-block; width: 10px;"></span>
+							Application Name: <span style="display:inline-block; width: 18px;"></span>
+								<input type = "text" id = "appName" style="width: 195px; height: 20px;" tabindex="1">
+								<!--<span style="display:inline-block; width:50;"></span>-->
+								<div class="indexrightCol">
+									<input class="myButton" id="btnaddApp" type="button" value="Add Application" tabindex="3"/ >
+								</div>
+								<br><br>
+							<span style="display:inline-block; width: 10px;"></span>
+							Application OR Path: <span style="display:inline-block; width: 3px;" ></span>
+								<textarea id="dbNewPath" rows=auto cols="80" tabindex="2"></textarea>
+								<br><br>
+						</p>
+					</fieldset>
+				</form>				
+			</div>
+
+			<div id="tabs-3">  <!-- Update Application Tab-->
+				<br><br>
+				<form name = "editApp">
+					<fieldset>
+						<p>
+							<br>
+							<h3> <u><span style="display:inline-block; width: 10px;"></span><font color="#009933"> Update Application: </font> </u></h3>
+							<span style="display:inline-block; width: 10px;"></span>
+							Application Name: <span style="display:inline-block; width: 18px;"></span>
+								<select name="strEditAppSelected" id="combo2" style="width: 200px;" onchange="getDBPathFromSelection2();" tabindex="1">;
+									<script type="text/vbscript">
+										for i = 0 to Ubound(arr1)
+											document.write("<option >" & arr1(i) & "</option>")
+										next
+									</script>
+								</select>
+								<!--<span style="display:inline-block; width: 50;"></span>-->
+								<div class="indexrightCol">
+									<input class="myButton" id="btnEditApp" type="button" value="Update Application" tabindex="3"/ >
+								</div>
+								<br><br>
+								<span style="display:inline-block; width: 10px;"></span>
+								Application OR Path: <span style="display:inline-block; width: 3px;"></span>
+								<textarea name="DBPath1" id="name2" rows=auto cols="80" tabindex="2"></textarea>
+								
+								<script>
+									function fireEvent(element,event){
+										if (document.createEventObject){
+											// dispatch for IE
+											var evt = document.createEventObject();
+											return element.fireEvent('on'+event,evt)
+										}
+										else{
+											// dispatch for firefox + others
+											var evt = document.createEvent("Events");
+											evt.initEvent(event, true, true ); // event type,bubbling,cancelable
+											return !element.dispatchEvent(evt);
+										}
+									}
+
+									function fun(){
+											fireEvent(document.getElementById("combo2"), "change");;
+									}
+									fun();
+								</script>
+								<br><br>
+						</p>
+					</fieldset>
+				</form>
+			</div>
+
+			<div id="tabs-4">  <!-- Delete Application Tab-->
+				<br><br>
+				<form name = "delApp">
+					<fieldset>
+						<p>
+							<br>
+							<h3> <u><span style="display:inline-block; width: 10px;"></span><font color="#009933"> Delete Application: </font></u></h3>
+							<span style="display:inline-block; width: 10px;"></span>
+							Application Name: <span style="display:inline-block; width: 18px;"></span>
+								<select name="strDelAppSelected" id="combo3" style="width: 200px;" onchange="getDBPathFromSelection3();" tabindex="1">;
+									<script type="text/vbscript">
+										for i = 0 to Ubound(arr1)
+											document.write("<option >" & arr1(i) & "</option>")
+										next
+									</script>
+								</select>
+								<!--<span style="display:inline-block; width: 50;"></span>-->
+								<div class="indexrightCol">
+									<input class="myButton" id="btnDelApp" type="button" value="Delete Application" tabindex="2"/ >
+								</div>
+								<br><br>
+								<span style="display:inline-block; width: 10px;"></span>
+								Application OR Path: <span style="display:inline-block; width: 3px;"></span>
+								<textarea name="DBPath2" id="name3" rows=auto cols="80"></textarea>
+									<script>
+										function fireEvent(element,event){
+											if (document.createEventObject){
+												// dispatch for IE
+												var evt = document.createEventObject();
+												return element.fireEvent('on'+event,evt)
+											}
+											else{
+												// dispatch for firefox + others
+												var evt = document.createEvent("Events");
+												evt.initEvent(event, true, true ); // event type,bubbling,cancelable
+												return !element.dispatchEvent(evt);
+											}
+										}
+										function fun(){
+											fireEvent(document.getElementById("combo3"), "change");;
+										}
+										fun();
+									</script>
+								<br><br>
+						</p>
+					</fieldset>
+				</form>
+			</div>
+
+			<div id="tabs-5">  <!-- Application Provisiong Tab-->
+				<br>
+				<br>
+				<form name = "appProv">
+					<fieldset>
+						<p>
+							<br>
+							<h3> <u><span style="display:inline-block; width: 10px;"></span><font color="#009933"> Application Provisioning: </font></u></h3>
+							<span style="display:inline-block; width: 10px;"></span>
+							LAN ID: <span style="display:inline-block; width: 42px;"></span>
+							<input type = "text" id = "strUName" style="width: 195px; height: 20px;" tabindex="1">
+							<!--<span style="display:inline-block; width:50;"></span>-->
+							<br><br>
+							<span style="display:inline-block; width: 10px;"></span>
+							Admin Rights: <span style="display:inline-block; width: 3px;" ></span>
+							<label for="no">No</label> 
+							<input type="radio" name="mygroup" id="no" value="no" tabindex="2" checked/>
+							<label for="yes">Yes</label> 
+							<input type="radio" name="mygroup" id="yes" value="yes" tabindex="3" />
+							<br><br>
+							<div class="indexrightCol">
+								<input class="myButton" id="btnaddApp" type="button" value="Submit" tabindex="4" OnClick="SubmitAdmin();"/ >
+							</div>
+						</p>
+					</fieldset>
+				</form>				
+			</div>
+		</div>
+	</body>
+</html>

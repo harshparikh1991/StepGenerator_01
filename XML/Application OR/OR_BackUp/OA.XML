@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-10-23T13:14:40">
+<ObjectRepository>
+<CommonName>menuPolicy_span</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>headerForm:menuPolicy_span</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addAccessFormFirstName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>addAccessForm:firstName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addAccessFormLastName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>addAccessForm:lastName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addAccessFormEmail</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>addAccessForm:email</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addAccessFormSavePrivilegesButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>addAccessForm:savePrivilegesButton</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>viewCensusDataFormLastName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>viewCensusDataForm:lastName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>mainformFirstNameEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:firstNameEdit</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>mainformLastNameEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:lastNameEdit</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>mainformMemberNumberEdit</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:memberNumberEdit</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>Terminate</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>type</Property1>
+<Value1>submit</Value1>
+<Property2>name</Property2>
+<Value2>Terminate &gt;&gt;</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addModifyCoverageTable</CommonName>
+<ClassID>21</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>memberGroupTransferForm2:availableTable</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>sigDateInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>memberGroupTransferForm2:sigDateInputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>continueButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Continue &gt;&gt;</Value1>
+<Property2>type</Property2>
+<Value2>submit</Value2>
+<Property3>html tag</Property3>
+<Value3>INPUT</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>saveButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Save</Value1>
+<Property2>type</Property2>
+<Value2>submit</Value2>
+<Property3>html tag</Property3>
+<Value3>INPUT</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsFistName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependents:dependentList:0:dependentFistName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsLastName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependents:dependentList:0:dependentLastName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsDateOfBirthCalendarInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependents:dependentList:0:dateOfBirthCalendarInputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsDependentGender</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependents:dependentList:0:dependentGender</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsDependentRelationship</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependents:dependentList:0:dependentRelationship</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addModifyCoverageForm5Return</CommonName>
+<ClassID>14</ClassID>
+<Value1>addModifyCoverageForm5:return</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>mainformDependentInfoTab</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:dependentInfoTab_lbl</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>addNewDependentButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:_id202</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberFormFirstName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:firstName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberFormMiddleName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:middleName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberFormLastName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:lastName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberFormSuffix</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:suffix</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberFormMemberGroup</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:memberGroup</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>onlineAdvantageLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Online Advantage</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>contactUsElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Contact Us</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>customerAdvocacyLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Customer Advocacy</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TerminateCoverageUpdateMessage</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:confirmation</Value1>
+<Property2>class</Property2>
+<Value2>confirmmessage</Value2>
+<Property3>innertext</Property3>
+<Value3>Your request has been processed successfully.</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormCoverageList_1</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:coverageList:0:coverageAmountContrib</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormCoverageList_2</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:coverageList:1:coverageAmountContrib</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormCoverageList_3</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:coverageList:2:coverageAmountContrib</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormCoverageList_4</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:coverageList:3:coverageAmountContrib</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormSigDateInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:sigDateInputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormLifeEvent</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:lifeEvent</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:_id110InputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectCoveragesFormSelectCvrgsToMemberInfo</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>selectCoveragesForm:selectCvrgsToMemberInfo</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>contactUsBackButton</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>contactUsForm:backButton</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormDobCalendarInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:dobCalendarInputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormGender</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:gender</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormSSN</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:ssn</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormAddrLine1</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:addrLine1</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormAddrLine2</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:addrLine2</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormCity</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:city</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormState</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:state</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormZip</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:zip</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>manageAccessFormAddUserButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>manageAccessForm:addUserButton</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>aebPage</CommonName>
+<ClassID>5</ClassID>
+<Path>brwsr</Path>
+<Property1>title</Property1>
+<Value1>Assurant Employee Benefits</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>oaEmpPage</CommonName>
+<ClassID>5</ClassID>
+<Path>brwsr</Path>
+<Property1>title</Property1>
+<Value1>Online Advantage for Employers</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>brwsr</CommonName>
+<ClassID>1</ClassID>
+<Property1>creationtime</Property1>
+<Value1>0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormCountry</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:country</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormSalaryAmt</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:salaryAmt</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormPayPeriod</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:payPeriod</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormHours</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:hours</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormEmploymentStatus</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:employmentStatus</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormFullTimeInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:_id136InputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormPartTimeInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:_id140InputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormDepartmentsValue</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:departmentsValue</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMemberInfoFormMbrInfoToDpndnts</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollMemberInfoForm:mbrInfoToDpndnts</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>contactUsComment</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>contactUsForm:cuMessageBody</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>contactUsSubmitButton</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>contactUsForm:submitButton</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>contactUsConfirmationElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Contact Us Confirmation</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>contactUsConfirmationContinueButton</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>contactUsConfirmationForm:continueButton</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dependentFistName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dependentFistName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_middleName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:middleName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dependentLastName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dependentLastName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>editMembersLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Edit Members</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dependentSuffix</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dependentSuffix</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollMembersLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Enroll Members</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dateOfBirthCalendarInputDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dateOfBirthCalendarInputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dependentGender</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dependentGender</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dependentSSN</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dependentSSN</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberDetailsElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Member Details</Value1>
+<Property2>html tag</Property2>
+<Value2>P</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:dependentList_0_dependentRelationship</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:dependentList:0:dependentRelationship</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollDependentsForm:depToReviewSummary</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollDependentsForm:depToReviewSummary</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberTable</CommonName>
+<ClassID>21</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>selectCoveragesForm:firstName</Value1>
+<Property2>html tag</Property2>
+<Value2>Table</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>formEnrollSummary:completeEnrollment</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>formEnrollSummary:completeEnrollment</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>Congratulations_enrollment</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Congratulations! The enrollment was successful.</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>enrollConfirmForm:policyOverview</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>enrollConfirmForm:policyOverview</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>terminateCoverageLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html tag</Property1>
+<Value1>A</Value1>
+<Property2>name</Property2>
+<Value2>Terminate Coverage</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>terminateCoverageElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Terminate Coverage</Value1>
+<Property2>html tag</Property2>
+<Value2>TD</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>viewTransactionHistoryLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>View Transaction History</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberNumberTable</CommonName>
+<ClassID>21</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>bbTesting:orderByDateTable</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>compareCensusLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Compare Census</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>compareCensusElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Compare Census</Value1>
+<Property2>html tag</Property2>
+<Value2>H1</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>compareBillsLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Compare Bills</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>billComparisonElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Bill Comparison</Value1>
+<Property2>html tag</Property2>
+<Value2>H1</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salaryEditorLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html tag</Property1>
+<Value1>A</Value1>
+<Property2>name</Property2>
+<Value2>Salary Editor</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salaryEditorElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Salary Editor</Value1>
+<Property2>html tag</Property2>
+<Value2>H1</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>policyFormsLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Policy Forms</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>formsElement</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Forms</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>onlineAdvantageUserGuideLink</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Online Advantage User Guide</Value1>
+<Property2>html tag</Property2>
+<Value2>A</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>aVPageViewWindow</CommonName>
+<ClassID>43</ClassID>
+<Path>pdfBrwsr</Path>
+<Property1>nativeclass</Property1>
+<Value1>AVL_AVView</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>pdfBrwsr</CommonName>
+<ClassID>1</ClassID>
+<Property1>title</Property1>
+<Value1>https://stage2.assurantemployeebenefits.com/816/aebcom/xhtml_clip/foremployers/OA-User-Guide.pdf</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>adobeReaderWindow</CommonName>
+<ClassID>37</ClassID>
+<Property1>text</Property1>
+<Value1>OA-User-Guide\[1\].pdf - Adobe Reader</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>avPageViewObject</CommonName>
+<ClassID>43</ClassID>
+<Path>adobeReaderWindow</Path>
+<Property1>regexpwndtitle</Property1>
+<Value1>AVPageView</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PolicyNumberSelection</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>policySelectionForm:compassPolicyNumber</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TerminateCoverage_No</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>type</Property1>
+<Value1>submit</Value1>
+<Property2>name</Property2>
+<Value2>No</Value2>
+<Property3>outerhtml</Property3>
+<Value3>&lt;INPUT class=formbuttonsecondary value=No type=submit name=mainform:_id21&gt;</Value3>
+<Property4>value</Property4>
+<Value4>No</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>Display</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>salaryEditorForm:_id17.*</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SalaryEditorMemberGroup</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:memberGroup</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SalaryEditorFirstName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:firstName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SalaryEditorLastName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:lastName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>Search</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>Search</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SalaryEditorName</CommonName>
+<ClassID>4</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:_id1.*</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TerminateCoverage_Yes</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>type</Property1>
+<Value1>submit</Value1>
+<Property2>name</Property2>
+<Value2>Yes</Value2>
+<Property3>outerhtml</Property3>
+<Value3>&lt;INPUT class=formbuttonsecondary value=Yes type=submit name=mainform:_id19&gt;</Value3>
+<Property4>value</Property4>
+<Value4>Yes</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TerminationDate</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:maindateInputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TerminationReasonCode</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>mainform:terminationReasonCode</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TerminateMemberCoveragesTable</CommonName>
+<ClassID>21</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>column names</Property1>
+<Value1>Select coverage\(s\) to terminate</Value1>
+<Property2>name</Property2>
+<Value2>All\/None</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>viewMemberDataTable</CommonName>
+<ClassID>21</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>viewCensusDataForm:_id103</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salaryEditorTable</CommonName>
+<ClassID>21</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:_id102</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salaryEditorForm[n]</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:_id102:0:_id113:[n]:_id114</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>viewCensusDataFormFirstName</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>viewCensusDataForm:firstName</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>viewCensusDataFormSearchButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>viewCensusDataForm:searchButton</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberNewSalary[n]</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>salaryEditorForm:_id102:0:_id113:[n]:_id143</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberEffectiveDate[n]</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>salaryEditorForm:_id102:0:_id113:[n]:_id150InputDate</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberHourperWeek[n]</CommonName>
+<ClassID>16</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>salaryEditorForm:_id102:0:_id113:[n]:_id148</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberPayPeriod[n]</CommonName>
+<ClassID>19</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>name</Property1>
+<Value1>salaryEditorForm:_id102:0:_id113:[n]:_id145</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salaryEditorSubmitButton</CommonName>
+<ClassID>14</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>html id</Property1>
+<Value1>salaryEditorForm:updateSalaries</Value1>
+<Property2>type</Property2>
+<Value2>submit</Value2>
+<Property3>name</Property3>
+<Value3>Submit</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>salaryEditorConfirmationData</CommonName>
+<ClassID>17</ClassID>
+<Path>brwsr.oaEmpPage</Path>
+<Property1>innertext</Property1>
+<Value1>Confirmation Data</Value1>
+<Property2>html tag</Property2>
+<Value2>H2</Value2>
+</ObjectRepository>
+</dataroot>

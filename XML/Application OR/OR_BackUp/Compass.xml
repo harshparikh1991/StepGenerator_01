@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-10-23T13:13:19">
+<ObjectRepository>
+<CommonName>BenefitGroupsTable</CommonName>
+<ClassID>110</ClassID>
+<Path>SchemeBenefitGroups</Path>
+<Property1>block name</Property1>
+<Value1>BNGP</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillingGroupsCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>BillingGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillingGroupsForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Billing Groups</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillingGroupsOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>BillingGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillingGroupsTable</CommonName>
+<ClassID>110</ClassID>
+<Path>BillingGroupsForm</Path>
+<Property1>block name</Property1>
+<Value1>BGRP</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillSortClassHistoryCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>BillSortClassHistoryForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillSortClassHistoryForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Bill Sort Class History</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillSortClassHistoryOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>BillSortClassHistoryForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>BillSortClassHistoryTable</CommonName>
+<ClassID>110</ClassID>
+<Path>BillSortClassHistoryForm</Path>
+<Property1>block name</Property1>
+<Value1>SOCL</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>cafeteriaSelectionForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Cafeteria Selection</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>compassSystemDate</CommonName>
+<ClassID>80</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_TF_SYSDATE_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>DependentFacilityCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>MemberFacilitySelectionForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>DependentFacilitySelectionTable</CommonName>
+<ClassID>110</ClassID>
+<Path>MemberFacilitySelectionForm</Path>
+<Property1>block name</Property1>
+<Value1>ASDO</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>FileLocationLookupForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>File Location Look up</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>FileLocationLookupFormTable</CommonName>
+<ClassID>110</ClassID>
+<Path>FileLocationLookupForm</Path>
+<Property1>block name</Property1>
+<Value1>MGDR_MIG_DIR_NM_1</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>FileLocationLookupOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>FileLocationLookupForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>FirstRecordButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_PB_FIRSTREC_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>Forms</CommonName>
+<ClassID>106</ClassID>
+<Property1>title</Property1>
+<Value1>Forms</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>helpScreenDetailsTabbedRegion</CommonName>
+<ClassID>109</ClassID>
+<Path>helpScreenForm</Path>
+<Property1>label</Property1>
+<Value1>Details</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>helpScreenDetailsTabbedRegionCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>helpScreenForm.helpScreenDetailsTabbedRegion</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_DETL_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>helpScreenDetailsTabbedRegionOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>helpScreenForm.helpScreenDetailsTabbedRegion</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_DETL_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>helpScreenForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Help Screen</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>helpScreenTable</CommonName>
+<ClassID>110</ClassID>
+<Path>helpScreenForm.helpScreenDetailsTabbedRegion</Path>
+<Property1>block name</Property1>
+<Value1>HELP_DETL_TF</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>input2204</CommonName>
+<ClassID>1</ClassID>
+<Path></Path>
+<Property1>Propqq1</Property1>
+<Value1>Valueqq1</Value1>
+<Property2></Property2>
+<Value2></Value2>
+<Property3></Property3>
+<Value3></Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>interfaceAliasForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Interface Alias</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>interfaceAliasFormCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>interfaceAliasForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>interfaceAliasFormOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>interfaceAliasForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>interfaceAliasTable</CommonName>
+<ClassID>110</ClassID>
+<Path>interfaceAliasForm</Path>
+<Property1>block name</Property1>
+<Value1>PAAL</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>LastRecordButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_PB_LASTREC_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>MemberFacilitySelectionForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Member Facility Selection</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberGroupIDTable</CommonName>
+<ClassID>110</ClassID>
+<Path>memberGroupsForm</Path>
+<Property1>block name</Property1>
+<Value1>MBGP</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberGroupsForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Member Groups</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>memberGroupsFormCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>memberGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>NavigationBox</CommonName>
+<ClassID>84</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_TF_GO_BUTTON_LIST_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>NavigationGoButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_PB_GO_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>NextRecordButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_IB_DOWN_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>OKButton</CommonName>
+<ClassID>97</ClassID>
+<Path>SimpleSchemeInstall</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>OracleApplications</CommonName>
+<ClassID>96</ClassID>
+<Property1>Class Name</Property1>
+<Value1>OracleApplications</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PackageSelectionTable</CommonName>
+<ClassID>110</ClassID>
+<Path>cafeteriaSelectionForm</Path>
+<Property1>block name</Property1>
+<Value1>PKSL</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PayrollRulesCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>PayrollRulesForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PayrollRulesForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Payroll Rules</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PayrollRulesFormDescription</CommonName>
+<ClassID>111</ClassID>
+<Path>PayrollRulesForm</Path>
+<Property1>developer name</Property1>
+<Value1>PARL_DESCRIPT_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PayrollRulesFormFileLocationButton</CommonName>
+<ClassID>97</ClassID>
+<Path>PayrollRulesForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_MGDR_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PayrollRulesOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>PayrollRulesForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PayrollRulesTrancheTable</CommonName>
+<ClassID>110</ClassID>
+<Path>PayrollRulesForm</Path>
+<Property1>block name</Property1>
+<Value1>PARN</Value1>
+<Property2>column names</Property2>
+<Value2>Effective Dt;Expiry Date;Payroll Format;File Location;Retention Period</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>postSchemeInstallForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>short title</Property1>
+<Value1>Post Scheme Install</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PreviousRecordButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_IB_UP_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>processingStatus</CommonName>
+<ClassID>102</ClassID>
+<Path>SimpleSchemeInstall</Path>
+<Property1>developer name</Property1>
+<Value1>CSEN_PROC_STAT_CD_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PSI_cancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>postSchemeInstallForm.schemeTab</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PSI_schemeName</CommonName>
+<ClassID>111</ClassID>
+<Path>postSchemeInstallForm.schemeTab</Path>
+<Property1>developer name</Property1>
+<Value1>CASD_PLAN_NM_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>PSI_schemeNumber</CommonName>
+<ClassID>111</ClassID>
+<Path>postSchemeInstallForm.schemeTab</Path>
+<Property1>developer name</Property1>
+<Value1>CASD_CONT_NO_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>QueryButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_IB_QUERY_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>Scheme</CommonName>
+<ClassID>111</ClassID>
+<Path>SimpleSchemeInstall</Path>
+<Property1>developer name</Property1>
+<Value1>CSEN_CONT_NO_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBenefitGroups</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Scheme Benefit Groups</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBenefitsBenefitTypesTable</CommonName>
+<ClassID>110</ClassID>
+<Path>SchemeBenefitsForm</Path>
+<Property1>block name</Property1>
+<Value1>BNTP</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBenefitsCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>SchemeBenefitsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBenefitsForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Scheme Benefits</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBillingGroupsCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>SchemeBillingGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_CSBC_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBillingGroupsForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Scheme - Billing Groups</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBillingGroupsFormGroupButton</CommonName>
+<ClassID>97</ClassID>
+<Path>SchemeBillingGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CSBC_RULES_0</Value1>
+<Property2></Property2>
+<Value2></Value2>
+<Property3></Property3>
+<Value3></Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBillingGroupsFormScheme</CommonName>
+<ClassID>111</ClassID>
+<Path>SchemeBillingGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>CSBC_CONT_NO_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeBillingGroupsOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>SchemeBillingGroupsForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_CSBC_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>schemeButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_IB_PLAN_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>schemeDataForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Scheme Data</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>schemeDataFormCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>schemeDataForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeLookupForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Scheme Lookup</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeLookupOKButton</CommonName>
+<ClassID>97</ClassID>
+<Path>SchemeLookupForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeLookupTable</CommonName>
+<ClassID>110</ClassID>
+<Path>SchemeLookupForm</Path>
+<Property1>block name</Property1>
+<Value1>CASD</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeMembers_Scheme</CommonName>
+<ClassID>111</ClassID>
+<Path>SchemeMembersForm</Path>
+<Property1>developer name</Property1>
+<Value1>CASD_CONT_NO_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeMembersButton</CommonName>
+<ClassID>76</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>FDP\$HEADING_PB_SCHEME_MEMBER_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeMembersForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Scheme Members</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SchemeMembersTable</CommonName>
+<ClassID>110</ClassID>
+<Path>SchemeMembersForm</Path>
+<Property1>block name</Property1>
+<Value1>CSMB</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>schemeStatusList</CommonName>
+<ClassID>102</ClassID>
+<Path>SimpleSchemeInstall</Path>
+<Property1>developer name</Property1>
+<Value1>CSEN_STAT_CD_0</Value1>
+<Property2>description</Property2>
+<Value2>Enter value for : STAT_CD</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>schemeTab</CommonName>
+<ClassID>109</ClassID>
+<Path>postSchemeInstallForm</Path>
+<Property1>label</Property1>
+<Value1>Scheme</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SimpleSchemeInstall</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Simple Scheme Install</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>SISCOMPASS</CommonName>
+<ClassID>95</ClassID>
+<Property1>title</Property1>
+<Value1>SIS/COMPASS</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>StatusBar</CommonName>
+<ClassID>90</ClassID>
+<Path>SISCOMPASS</Path>
+<Property1>developer name</Property1>
+<Value1>StatusBar_1</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>subSchemeProcessesForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Sub Scheme Processes</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>subSchemeProcessesFormCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>subSchemeProcessesForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>subSchemeProcessesFormOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>subSchemeProcessesForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>subSchemeProcessesTable</CommonName>
+<ClassID>110</ClassID>
+<Path>subSchemeProcessesForm</Path>
+<Property1>block name</Property1>
+<Value1>CBDL</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TESTOBJECT2204</CommonName>
+<ClassID>1</ClassID>
+<Path></Path>
+<Property1>sadwqertuio</Property1>
+<Value1>hjdgftrvbjkl</Value1>
+<Property2></Property2>
+<Value2></Value2>
+<Property3></Property3>
+<Value3></Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerBenefitMoneyTable</CommonName>
+<ClassID>110</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>block name</Property1>
+<Value1>TSKY</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerBenefitOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_1_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerBillGrpRules</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_BGRP_KEYS_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerBillingGroupRulesOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_2_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerBillingGroupRulesReturnButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_RETURN_2_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerBillingGroupRulesTable</CommonName>
+<ClassID>110</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>block name</Property1>
+<Value1>TSKY1</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerCancelButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_CANCEL_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerForm</CommonName>
+<ClassID>101</ClassID>
+<Property1>title</Property1>
+<Value1>Transaction Scheduler</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerFundRatesButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_FDRT_KEYS_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerOkButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_OK_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerReturnButton</CommonName>
+<ClassID>97</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>developer name</Property1>
+<Value1>MISC_BUTTONS_PB_RETURN_1_0</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>TransactionSchedulerTable</CommonName>
+<ClassID>110</ClassID>
+<Path>TransactionSchedulerForm</Path>
+<Property1>block name</Property1>
+<Value1>TSCH</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>WinSisCompass</CommonName>
+<ClassID>37</ClassID>
+<Property1>regexpwndtitle</Property1>
+<Value1>SIS/COMPASS</Value1>
+</ObjectRepository>
+</dataroot>

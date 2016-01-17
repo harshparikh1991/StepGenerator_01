@@ -1,0 +1,26 @@
+<dataroot>
+	<Applications AppID="1">
+		<ApplicationName>SAS</ApplicationName>
+		<DatabasePath>H:\HTML PRoj\XML\Application OR\SAS\SAS.xml</DatabasePath>
+	</Applications>
+	<Applications AppID="3">
+		<ApplicationName>GoBig</ApplicationName>
+		<DatabasePath>H:\HTML PRoj\XML\Application OR\GoBig\GoBig.xml</DatabasePath>
+	</Applications>
+	<Applications AppID="4">
+		<ApplicationName>IPD</ApplicationName>
+		<DatabasePath>H:\HTML PRoj\XML\Application OR\IPD\IPD.xml</DatabasePath>
+	</Applications>
+	<Applications AppID="5">
+		<ApplicationName>OA</ApplicationName>
+		<DatabasePath>H:\HTML PRoj\XML\Application OR\OA\OA.xml</DatabasePath>
+	</Applications>
+	<Applications AppID="6">
+		<ApplicationName>Solar</ApplicationName>
+		<DatabasePath>H:\HTML PRoj\XML\Application OR\Solar\Solar.xml</DatabasePath>
+	</Applications>
+	<Applications AppID="7">
+		<ApplicationName>Solidify</ApplicationName>
+		<DatabasePath>H:\HTML PRoj\XML\Application OR\Solidify\Solidify.xml</DatabasePath>
+	</Applications>
+	<Applications AppID="8"><ApplicationName>Enrollment</ApplicationName><DatabasePath>TBD</DatabasePath></Applications><Applications AppID="9"><ApplicationName>Compass</ApplicationName><DatabasePath>H:\HTML PRoj\XML\Application OR\Compass\Compass.xml</DatabasePath></Applications><Applications AppID="10"><ApplicationName>PPD</ApplicationName><DatabasePath>H:\HTML PRoj\XML\Application OR\PPD\PPD.xml</DatabasePath></Applications><Applications AppID="10"><ApplicationName>Google</ApplicationName><DatabasePath>H:\HTML PRoj\XML\Application OR\Google\Google.xml</DatabasePath></Applications><Applications AppID="10"><ApplicationName>Test Automation</ApplicationName><DatabasePath>H:\HTML PRoj\XML\Application OR\Test\TestAutomation.xml</DatabasePath></Applications></dataroot>

@@ -1,0 +1,522 @@
+<dataroot>
+  <ObjectRepository Value="1">
+    <CommonName>Google Chrome</CommonName>
+    <ObjPath>Dialog("is child window:=0"|"is owned window:=0"|"nativeclass:=#32770"|"text:=Google Chrome")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="2">
+    <CommonName>OK</CommonName>
+    <ObjPath>Dialog("is child window:=0"|"is owned window:=0"|"nativeclass:=#32770"|"text:=Google Chrome").WinButton("nativeclass:=Button"|"text:=OK")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="3">
+    <CommonName>Assurant Employee Benefits</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="4">
+    <CommonName>Solidify HR(TM) Administration</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="5">
+    <CommonName>VTL_Rates</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("index:=5"|"_xpath:=//FIELDSET/FIELDCONTENT[normalize-space()="Minimum Benefit: Maximum Benefit: xSalary Max: Increment: Guaranteed Issue Amount: Late Entrant Guaranteed Issue Amount: Separate Smoker Rates: YesNo Include ADD Option: YesNo Age Reductions Begin At: From Age To Age Rate AD&amp;D Adjustment - Add Row"]/TABLE[1]"|"html tag:=TABLE"|"micclass:=WebTable")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="6">
+    <CommonName>Spouse Benefit Age Table</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("index:=6"|"_xpath:=//FIELDSET/FIELDCONTENT/TABLE[normalize-space()="From Age To Age Non-Smoker Smoker - Add Row"]"|"html tag:=TABLE"|"micclass:=WebTable")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="7">
+    <CommonName>RatesTable</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("index:=5"|"_xpath:=//FIELDSET/FIELDCONTENT/TABLE[normalize-space()="From Age To Age Employee Spouse Child - Add Row"]"|"column names:=;From Age;To Age;Employee;Spouse;Child"|"html tag:=TABLE"|"micclass:=WebTable")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="8">
+    <CommonName>Emp Benefit Age Table</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("index:=5"|"_xpath:=//FIELDSET/FIELDCONTENT/TABLE[normalize-space()="From Age To Age Non-Smoker Smoker - - Add Row"]"|"html tag:=TABLE"|"micclass:=WebTable")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="9">
+    <CommonName>Child Benefit Rate Table</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("index:=7"|"_xpath:=//FIELDSET/FIELDCONTENT[normalize-space()="Minimum Benefit: Maximum Benefit: Increment: Maximum Percentage: Guaranteed Issue Amount: Late Entrant Guaranteed Issue Amount: Limiting Age: Student Age: Rate Options: Single Rate ChartSmoker &amp; Non-Smoker Rates From Age To Age Rate - Add Row"]/TABLE[1]"|"html tag:=TABLE"|"micclass:=WebTable")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="10">
+    <CommonName>taxStatus</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="Pre-taxPost-tax"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][taxStatus]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="11">
+    <CommonName>SpouseIncludeADDOption</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION[normalize-space()="Include ADD Option: YesNo"]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][rates][spouse][addRate]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="12">
+    <CommonName>Spice Benefit Rate Option</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=6"|"_xpath:=//FIELDSET/FIELDCONTENT[normalize-space()="Minimum Benefit: Maximum Benefit: Increment: Maximum Percentage: Age Determination: EmployeeDependent Guaranteed Issue Amount: Late Entrant Guaranteed Issue Amount: Rate Options: Single Rate ChartSmoker &amp; Non-Smoker Rates From Age To Age Rate - Add Row"]/QUESTION[8]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=select")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="13">
+    <CommonName>SitusState</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTIONSET/QUESTION[normalize-space()="Situs State: SelectRegExFullStopRegExFullStopRegExFullStopAlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming"]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[situsState]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="14">
+    <CommonName>SelectCensusReport</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=4"|"_xpath:=//APPLICATION[@id="CensusImport"]/SECTION[1]/SECTIONBODY[1]/P[1]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=select")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="15">
+    <CommonName>Select Group</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=9"|"_xpath:=//APPLICATION[@id="LandingPage"]/SECTION[1]/SECTIONHEADER[1]/SECTIONTITLE[1]/SELECT[2]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=select")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="16">
+    <CommonName>select</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=8"|"_xpath:=//APPLICATION[@id="LandingPage"]/SECTION[1]/SECTIONHEADER[1]/SECTIONTITLE[1]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=select")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="17">
+    <CommonName>RateMode</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="WeeklyMonthly"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][rates][mode]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="18">
+    <CommonName>RateAgeCalculation</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="Issue AgeAttained Age"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][rates][ageCalculation]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="19">
+    <CommonName>EnrollmentType</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="InitialRe-EnrollmentTakeover"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][enrollmentType]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="20">
+    <CommonName>Emp Rate Options</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=5"|"_xpath:=//FIELDSET/FIELDCONTENT[normalize-space()="Minimum Benefit: Maximum Benefit: Increment: Guaranteed Issue Amount: Late Entrant Guaranteed Issue Amount: Rate Options: Single Rate ChartSmoker &amp; Non-Smoker Rates Age Reductions Begin At: From Age To Age Rate - Add Row"]/QUESTION[6]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=select")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="21">
+    <CommonName>DentalBenefitsPlanType</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="PPODHMO"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][planType]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="22">
+    <CommonName>DentalBenefitLevel</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="NoneLoHi"]"|"all items:=None;Lo;Hi"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][benefitLevel]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="23">
+    <CommonName>ContributionFlatPercentage4</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=3"|"_xpath:=//TR/TD[normalize-space()="Tier 4 PercentageFlat"]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][contributions][amountByTier][][type]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="24">
+    <CommonName>ContributionFlatPercentage3</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=2"|"_xpath:=//TR/TD[normalize-space()="Tier 3 PercentageFlat"]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][contributions][amountByTier][][type]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="25">
+    <CommonName>ContributionFlatPercentage2</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=1"|"_xpath:=//TR/TD[normalize-space()="Tier 2 PercentageFlat"]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][contributions][amountByTier][][type]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="26">
+    <CommonName>ContributionFlatPercentage1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("index:=0"|"_xpath:=//TR/TD[normalize-space()="Tier 1 PercentageFlat"]/SELECT[1]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][contributions][amountByTier][][type]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="27">
+    <CommonName>CancerBenefitLevel</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="Level 1Level 2"]"|"all items:=Level 1;Level 2"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][benefit][level]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="28">
+    <CommonName>Benefit Offered To</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//FIELDSET/FIELDCONTENT/QUESTIONSET/QUESTION/SELECT[normalize-space()="Employee OnlyEmployee and SpouseEmployee and ChildrenEmployee, Spouse, and Children"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][offeredTo]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="29">
+    <CommonName>adminSystem</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebList("_xpath:=//QUESTION/SELECT[normalize-space()="CompassViper"]"|"html tag:=SELECT"|"micclass:=WebList"|"name:=form[configuration][adminSystem]")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="30">
+    <CommonName>file</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebFile("index:=0"|"_xpath:=//APPLICATION[@id="CensusImport"]/SECTION[1]/SECTIONBODY[1]/P[1]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebFile"|"name:=file"|"type:=file")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="31">
+    <CommonName>ChooseFile</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebFile("index:=0"|"_xpath:=//APPLICATION[@id="CensusImport"]/SECTION[1]/SECTIONBODY[1]/P[1]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebFile"|"name:=file"|"outerhtml:=&lt;input type="file" data-bind="enable: selectedPackage, event: {change: censusFileSelected}" name="file"&gt;"|"type:=file")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="32">
+    <CommonName>VerifyPackageClassProduct2</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATION[@id="Benefits"]/SECTION[1]/SECTIONBODY[1]/NAV[1]/BLOCK[1]"|"html tag:=BLOCK"|"innertext:=RegExFullStop*ClassesAdd ClassRegExFullStop*ProductsAdd ProductRegExFullStop*"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="33">
+    <CommonName>VerifyPackageClassProduct1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATION[@id="Benefits"]/SECTION[1]/SECTIONBODY[1]/NAV[1]/BLOCK[1]/UL[1]/LI[1]"|"html tag:=LI"|"innertext:=RegExFullStop*ClassesAdd ClassRegExFullStop*ProductsAdd ProductRegExFullStop*TemplatesRegExFullStop*"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="34">
+    <CommonName>VerifyPackageClassProduct</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATION[@id="Benefits"]/SECTION[1]/SECTIONBODY[1]/NAV[1]/BLOCK[1]/UL[1]/LI[1]"|"innertext:=RegExFullStop*ClassesAdd ClassRegExFullStop*ProductsAdd ProductRegExFullStop*"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="35">
+    <CommonName>Verify Login Text</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//SECTION[@id="Header"]/DIV[1]/SPAN[1]"|"html tag:=SPAN"|"innertext:=Welcome,RegExFullStop*"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="36">
+    <CommonName>Verify Group Name</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//SECTION[@id="Header"]/H2[1]"|"height:=18"|"html tag:=H2"|"innertext:=&lt;h2 data-bind="text: groupDisplay"&gt;*RegExFullStop*&lt;/h2&gt;"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="37">
+    <CommonName>SUCCESS</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATION[@id="CensusImport"]/SECTION[1]/SECTIONHEADER[1]/H3[1]"|"html tag:=H3"|"innertext:=SUCCESS!"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="38">
+    <CommonName>PopUpLoad</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATIONMODAL[1]/MESSAGEALIGNMENT[1]/MESSAGEAREA[1]/MESSAGE[1]"|"html tag:=MESSAGE"|"innertext:=Creating new classesRegExFullStopRegExFullStopRegExFullStop"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="39">
+    <CommonName>No of records</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATION[@id="CensusImport"]/SECTION[1]/SECTIONBODY[1]/P[1]"|"html tag:=P"|"innerhtml:=You have successfully uploaded &lt;span data-bind="text: membersUploaded"&gt;122&lt;/span&gt; census record&lt;span data-bind="text: membersUploaded() &amp;gt; 1 ? 's' : ''"&gt;s&lt;/span&gt; into the SolidifyHR systemRegExFullStop Click the "Exit" button to return to the Employees ScreenRegExFullStop"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="40">
+    <CommonName>NewGrpHeader</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//SECTION[@id="Header"]/H2[1]"|"html tag:=H2"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="41">
+    <CommonName>Message - OnAddingPackage</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATION[@id="Benefits"]/SECTION[1]/SECTIONBODY[1]/NAV[1]/BLOCK[1]/P[1]/EM[1]"|"html tag:=EM"|"innertext:=(NOTE: You do not currently have the required permission to create new packages)"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="42">
+    <CommonName>Logout</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//NAV[@id="logout"]/DIV[normalize-space()="Logout"]"|"html tag:=DIV"|"innertext:=Logout"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="43">
+    <CommonName>LoadPopUp</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//APPLICATIONMODAL[1]/MESSAGEALIGNMENT[1]/MESSAGEAREA[1]/MESSAGE[1]"|"html tag:=MESSAGE"|"innertext:=RegExFullStop*"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="44">
+    <CommonName>Home</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//NAV[@id="home"]/DIV[normalize-space()="Home"]"|"html tag:=DIV"|"innertext:=Home"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="45">
+    <CommonName>Group Info Users Employees</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//SECTIONBODY[@id="selectGroup"]/SECTIONGROUP[1]"|"class:=icons"|"html tag:=SECTIONGROUP"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="46">
+    <CommonName>Dashboard</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//NAV[@id="company"]/UL/LI[normalize-space()="Dashboard"]"|"html tag:=LI"|"innertext:=Dashboard"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="47">
+    <CommonName>Company</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//NAV[@id="company"]/DIV[normalize-space()="Company"]"|"html tag:=DIV"|"innertext:=Company"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="48">
+    <CommonName>Census Import</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//SECTIONBODY[@id="selectGroup"]/SECTIONGROUP[1]/SPAN[1]/FIGURE[6]"|"html tag:=FIGURE"|"innertext:=Census Import"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="49">
+    <CommonName>Benefit Plans</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//SECTIONBODY[@id="selectGroup"]/SECTIONGROUP[1]/SPAN[3]/FIGURE[1]"|"html tag:=FIGURE"|"innertext:=Benefit Plans"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="50">
+    <CommonName>Add Group</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebElement("_xpath:=//NAV[@id="company"]/UL/LI[normalize-space()="Add Group"]"|"html tag:=LI"|"innertext:=Add Group"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="51">
+    <CommonName>xSalaryMax</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="xSalary Max:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][benefitAmounts][timesSalaryMaximum]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="52">
+    <CommonName>SpouseMinimumBenefit</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Minimum Benefit:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][spouse][benefitAmounts][minimum]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="53">
+    <CommonName>SpouseMaximumPercentage</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Maximum Percentage:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][spouse][benefitAmounts][maximumPercentageOfEmployee]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="54">
+    <CommonName>SpouseMaximumBenefit</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Maximum Benefit:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][spouse][benefitAmounts][maximum]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="55">
+    <CommonName>SpouseIncreament</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Increment:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][spouse][benefitAmounts][increment]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="56">
+    <CommonName>SpouseGuarnateedIssueAmount</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][spouse][benefitAmounts][guaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="57">
+    <CommonName>Spouce Guaranteed Issue Amount</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][spouse][benefitAmounts][guaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="58">
+    <CommonName>RatesToAge</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//TD[3]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][ageBands][0][toAgeInclusive]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="59">
+    <CommonName>RatesTier4</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//TD[7]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][ageBands][0][tierAmount][4]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="60">
+    <CommonName>RatesTier3</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//TD[6]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][ageBands][0][tierAmount][3]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="61">
+    <CommonName>RatesTier2</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//TD[5]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][ageBands][0][tierAmount][2]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="62">
+    <CommonName>RatesTier1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//TD[4]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][ageBands][0][tierAmount][1]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="63">
+    <CommonName>RatesChildStudentAge</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Child Student Age:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][studentAge]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="64">
+    <CommonName>RatesChildLimitingAge</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Child Limiting Age:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][limitingAge]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="65">
+    <CommonName>password</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//SECTIONGROUP/BLOCK/QUESTION[normalize-space()="Enroller Password: Illegal charactersRegExFullStop"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[password]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="66">
+    <CommonName>PackageName</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=1"|"_xpath:=//QUESTIONSET/QUESTION[normalize-space()="Package Name:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[name]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="67">
+    <CommonName>OpenEnrollmentStartDate</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Start Date:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[openEnrollment][startDate]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="68">
+    <CommonName>OpenEnrollmentEndDate</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="End Date:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[openEnrollment][endDate]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="69">
+    <CommonName>MinSalary</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Minimum Salary:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][eligibilityRules][minimumSalary]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="70">
+    <CommonName>minimumHrs</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Minimum Hours Per Week:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][eligibilityRules][minimumHoursPerWeek]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="71">
+    <CommonName>Minimum Benefit</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Minimum Benefit:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][benefitAmounts][minimum]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="72">
+    <CommonName>Maximum Benefit</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Maximum Benefit:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][benefitAmounts][maximum]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="73">
+    <CommonName>Late Entrant Guaranteed Issue Amt</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Late Entrant Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][benefitAmounts][lateEntrantGuaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="74">
+    <CommonName>Gurantee Issue Amount</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][benefitAmounts][guaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="75">
+    <CommonName>groupname</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=1"|"_xpath:=//QUESTION[normalize-space()="Group name:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[name]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="76">
+    <CommonName>Emp Guaranteed Issue Amount</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][benefitAmounts][guaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="77">
+    <CommonName>Eligibility Min hours per week</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Minimum Hours Per Week:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][eligibilityRules][minimumHoursPerWeek]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="78">
+    <CommonName>deductionsPerYear</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=0"|"_xpath:=//QUESTION[normalize-space()="Deductions Per Year"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[deductionsPerYear]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="79">
+    <CommonName>ContributionTier4</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=3"|"_xpath:=//TR/TD[normalize-space()="Tier 4 PercentageFlat"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][contributions][amountByTier][][value]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="80">
+    <CommonName>ContributionTier3</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=2"|"_xpath:=//TR/TD[normalize-space()="Tier 3 PercentageFlat"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][contributions][amountByTier][][value]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="81">
+    <CommonName>ContributionTier2</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=1"|"_xpath:=//TR/TD[normalize-space()="Tier 2 PercentageFlat"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][contributions][amountByTier][][value]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="82">
+    <CommonName>ContributionTier1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=0"|"_xpath:=//TR/TD[normalize-space()="Tier 1 PercentageFlat"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][contributions][amountByTier][][value]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="83">
+    <CommonName>ContractStartDate</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTIONSET[normalize-space()="Contract Start Date: End Date:"]/QUESTION[1]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[contract][startDate]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="84">
+    <CommonName>ContractEndDate</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTIONSET[normalize-space()="Contract Start Date: End Date:"]/QUESTION[2]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[contract][endDate]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="85">
+    <CommonName>ConfigurationStartDate</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Start Date:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][effective][startDate]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="86">
+    <CommonName>ConfigurationPlanName</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Plan Name: Illegal charactersRegExFullStop"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][displayName]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="87">
+    <CommonName>ConfigurationEndDate</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="End Date:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][effective][endDate]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="88">
+    <CommonName>ClassDescription</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//BLOCK[@id="class"]/FIELDSET[1]/LEGEND[1]/INPUT[2]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[description]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="89">
+    <CommonName>ClassCode</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("index:=1"|"_xpath:=//BLOCK[@id="class"]/FIELDSET[1]/LEGEND[1]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[name]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="90">
+    <CommonName>ChildStudentAge</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Student Age:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][studentAge]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="91">
+    <CommonName>ChildMaxPercentage</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Maximum Percentage:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][maximumPercentageOfEmployee]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="92">
+    <CommonName>ChildLimitingAge</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Limiting Age:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][limitingAge]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="93">
+    <CommonName>ChildGIAmt</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][guaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="94">
+    <CommonName>Child Student Age</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Student Age:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][studentAge]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="95">
+    <CommonName>Child Limiting Age</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Limiting Age:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][limitingAge]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="96">
+    <CommonName>Child Guaranteed Issue Amount</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Guaranteed Issue Amount:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][child][benefitAmounts][guaranteedIssue]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="97">
+    <CommonName>alias</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//SECTIONGROUP/BLOCK/QUESTION[normalize-space()="Group Alias: Required (numbers and lowercase letters only)RegExFullStop"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[alias]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="98">
+    <CommonName>Age Reduction Begin at</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//QUESTION[normalize-space()="Age Reductions Begin At:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=form[configuration][rates][employee][ageReductionsBeginAt]"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="99">
+    <CommonName>AllEmployees</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebCheckBox("_xpath:=//FIELDSET/FIELDSET/FIELDCONTENT/QUESTIONSET/QUESTION[normalize-space()="1 - All Employees:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebCheckBox"|"name:=form[belongsToClasses][]"|"type:=checkbox")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="100">
+    <CommonName>VTLAdd Row</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("index:=0"|"_xpath:=//FIELDSET/FIELDCONTENT[normalize-space()="Minimum Benefit: Maximum Benefit: xSalary Max: Increment: Guaranteed Issue Amount: Late Entrant Guaranteed Issue Amount: Separate Smoker Rates: YesNo Include ADD Option: YesNo Age Reductions Begin At: From Age To Age Rate AD&amp;D Adjustment - Add Row"]/TABLE[1]/TFOOT[1]/TR[1]/TD[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Row"|"type:=button")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="101">
+    <CommonName>Spouse Benifit Add Row</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("index:=1"|"_xpath:=//FIELDSET/FIELDCONTENT/TABLE[normalize-space()="From Age To Age Non-Smoker Smoker - Add Row"]/TFOOT[1]/TR[1]/TD[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Row"|"type:=button")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="102">
+    <CommonName>Save Changes</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//APPLICATION[@id="GroupEdit"]/SECTION[1]/FORM[1]/SECTIONFOOTER[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Save Changes"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="103">
+    <CommonName>Save</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("index:=2"|"_xpath:=//BLOCK[@id="package"]/ASIDE[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Save"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="104">
+    <CommonName>New Package</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//APPLICATION[@id="Benefits"]/SECTION[1]/SECTIONBODY[1]/NAV[1]/BLOCK[1]/HEADER[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=New Package"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="105">
+    <CommonName>Emp Benifit Add Row</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("index:=0"|"_xpath:=//FIELDSET/FIELDCONTENT[normalize-space()="Minimum Benefit: Maximum Benefit: Increment: Guaranteed Issue Amount: Late Entrant Guaranteed Issue Amount: Rate Options: Single Rate ChartSmoker &amp; Non-Smoker Rates Age Reductions Begin At: From Age To Age Rate - Add Row"]/TABLE[1]/TFOOT[1]/TR[1]/TD[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Row"|"type:=button")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="106">
+    <CommonName>Continue</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//APPLICATION[@id="CensusImport"]/SECTION[1]/SECTIONFOOTER[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Continue"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="107">
+    <CommonName>Complete</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//FORM[@id="censusForm"]/SECTIONFOOTER[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Complete"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="108">
+    <CommonName>Add Row_Spouse</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("index:=1"|"_xpath:=//FIELDSET/FIELDCONTENT/TABLE/TFOOT/TR/TD/BUTTON[normalize-space()="Add Row"]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Row"|"type:=button")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="109">
+    <CommonName>Add Row</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("index:=0"|"_xpath:=//FIELDSET/FIELDCONTENT/TABLE/TFOOT/TR/TD/BUTTON[normalize-space()="Add Row"]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Row"|"type:=button")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="110">
+    <CommonName>Add Product</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//APPLICATION[@id="Benefits"]/SECTION[1]/SECTIONBODY[1]/NAV[1]/BLOCK[1]/UL[1]/LI[1]/UL[1]/LI[1]/UL[2]/LI[1]/BUTTON[1]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Product"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="111">
+    <CommonName>Add Class</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//LI/BUTTON[normalize-space()="Add Class"]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Add Class"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="112">
+    <CommonName>Select My Benefits Administrat</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM) Administration")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="113">
+    <CommonName>Verify Login Text_1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM) Administration").WebElement("_xpath:=//SECTION[@id="Header"]/DIV[1]/SPAN[1]"|"html tag:=SPAN"|"innertext:=Welcome,RegExFullStop*"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="114">
+    <CommonName>Logout_1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM) Administration").WebElement("_xpath:=//NAV[@id="logout"]/DIV[normalize-space()="Logout"]"|"html tag:=DIV"|"innertext:=Logout"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="115">
+    <CommonName>Home_1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM) Administration").WebElement("_xpath:=//NAV[@id="home"]/DIV[normalize-space()="Home"]"|"html tag:=DIV"|"innertext:=Home"|"micclass:=WebElement")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="116">
+    <CommonName>LoginSolidify</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM)")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="117">
+    <CommonName>username</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM)").WebEdit("_xpath:=//INPUT[@id="startingField"]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=username"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="118">
+    <CommonName>password_1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM)").WebEdit("_xpath:=//TR[normalize-space()="Password:"]/TD[2]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=password"|"type:=password")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="119">
+    <CommonName>Login</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page"|"title:=Solidify HR(TM)").WebButton("_xpath:=//TR/TD/BUTTON[normalize-space()="Login"]"|"html tag:=BUTTON"|"micclass:=WebButton"|"name:=Login"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="120">
+    <CommonName>Assurant Employee Benefits_1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="121">
+    <CommonName>USERNAME</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//P[normalize-space()="User name:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=USERNAME"|"type:=text")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="122">
+    <CommonName>PASSWORD</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebEdit("_xpath:=//P[normalize-space()="Password:"]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebEdit"|"name:=PASSWORD"|"type:=password")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="123">
+    <CommonName>Log in</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebButton("_xpath:=//P[3]/INPUT[1]"|"html tag:=INPUT"|"micclass:=WebButton"|"name:=Log in"|"type:=submit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="124">
+    <CommonName>Open</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Dialog("is child window:=0"|"is owned window:=-1"|"nativeclass:=#32770"|"text:=Open")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="125">
+    <CommonName>AddressBar</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Dialog("is child window:=0"|"is owned window:=-1"|"nativeclass:=#32770"|"text:=Open").WinToolbar("nativeclass:=ToolbarWindow32"|"text:=Address:RegExFullStop*")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="126">
+    <CommonName>Open_1</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Dialog("is child window:=0"|"is owned window:=-1"|"nativeclass:=#32770"|"text:=Open").WinObject("regexpwndclass:=Button"|"window id:=1")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="127">
+    <CommonName>File Name</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Dialog("is child window:=0"|"is owned window:=-1"|"nativeclass:=#32770"|"text:=Open").WinEdit("attached text:=File &amp;name:"|"nativeclass:=Edit")</ObjPath>
+  </ObjectRepository>
+  <ObjectRepository Value="128">
+    <CommonName>FileName</CommonName>
+    <ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Dialog("is child window:=0"|"is owned window:=-1"|"nativeclass:=#32770"|"text:=Open").WinComboBox("attached text:=File &amp;name:"|"nativeclass:=ComboBox")</ObjPath>
+  </ObjectRepository>
+  	<ObjectRepository>
+		<CommonName Value="129">LoginTable</CommonName>
+		<ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("html tag:=TABLE|name:=USERNAME")</ObjPath>
+	</ObjectRepository>
+	<ObjectRepository>
+		<CommonName Value="130">USERNAME_11</CommonName>
+		<ObjPath>Browser("creationtime:=0"|"micclass:=Browser").Page("micclass:=Page").WebTable("html tag:=TABLE|name:=USERNAME").WebEdit("name:=USERNAME|type:=text")</ObjPath>
+	</ObjectRepository>
+</dataroot>

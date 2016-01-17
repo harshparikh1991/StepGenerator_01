@@ -1,0 +1,467 @@
+<dataroot>
+<ObjectRepository Value= "1">
+<CommonName>BillingGroupsForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Billing Groups")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "2">
+<CommonName>BillSortClassHistoryForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Bill Sort Class History")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "3">
+<CommonName>cafeteriaSelectionForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Cafeteria Selection")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "4">
+<CommonName>FileLocationLookupForm</CommonName>
+<ObjPath>OracleFormWindow("title:=File Location Look up")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "5">
+<CommonName>Forms</CommonName>
+<ObjPath>OracleNotification("title:=Forms")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "6">
+<CommonName>helpScreenForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Help Screen")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "7">
+<CommonName>interfaceAliasForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Interface Alias")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "8">
+<CommonName>MemberFacilitySelectionForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Member Facility Selection")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "9">
+<CommonName>memberGroupsForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Member Groups")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "10">
+<CommonName>OracleApplications</CommonName>
+<ObjPath>OracleApplications("Class Name:=OracleApplications")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "11">
+<CommonName>PayrollRulesForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Payroll Rules")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "12">
+<CommonName>postSchemeInstallForm</CommonName>
+<ObjPath>OracleFormWindow("short title:=Post Scheme Install")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "13">
+<CommonName>SchemeBenefitGroups</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Benefit Groups")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "14">
+<CommonName>SchemeBenefitsForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Benefits")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "15">
+<CommonName>SchemeBillingGroupsForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme - Billing Groups")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "16">
+<CommonName>schemeDataForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Data")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "17">
+<CommonName>SchemeLookupForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Lookup")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "18">
+<CommonName>SchemeMembersForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Members")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "19">
+<CommonName>SimpleSchemeInstall</CommonName>
+<ObjPath>OracleFormWindow("title:=Simple Scheme Install")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "20">
+<CommonName>SISCOMPASS</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "21">
+<CommonName>subSchemeProcessesForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Sub Scheme Processes")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "22">
+<CommonName>TransactionSchedulerForm</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "23">
+<CommonName>WinSisCompass</CommonName>
+<ObjPath>Window("regexpwndtitle:=SIS/COMPASS")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "24">
+<CommonName>BillingGroupsCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Billing Groups").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>BillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "25">
+<CommonName>BillingGroupsOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Billing Groups").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>BillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "26">
+<CommonName>BillingGroupsTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Billing Groups").OracleTable("block name:=BGRP")</ObjPath>
+<strPath>BillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "27">
+<CommonName>BillSortClassHistoryCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Bill Sort Class History").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>BillSortClassHistoryForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "28">
+<CommonName>BillSortClassHistoryOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Bill Sort Class History").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>BillSortClassHistoryForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "29">
+<CommonName>BillSortClassHistoryTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Bill Sort Class History").OracleTable("block name:=SOCL")</ObjPath>
+<strPath>BillSortClassHistoryForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "30">
+<CommonName>PackageSelectionTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Cafeteria Selection").OracleTable("block name:=PKSL")</ObjPath>
+<strPath>cafeteriaSelectionForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "31">
+<CommonName>FileLocationLookupFormTable</CommonName>
+<ObjPath>OracleFormWindow("title:=File Location Look up").OracleTable("block name:=MGDR_MIG_DIR_NM_1")</ObjPath>
+<strPath>FileLocationLookupForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "32">
+<CommonName>FileLocationLookupOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=File Location Look up").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>FileLocationLookupForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "33">
+<CommonName>helpScreenDetailsTabbedRegion</CommonName>
+<ObjPath>OracleFormWindow("title:=Help Screen").OracleTabbedRegion("label:=Details")</ObjPath>
+<strPath>helpScreenForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "34">
+<CommonName>helpScreenDetailsTabbedRegionCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Help Screen").OracleTabbedRegion("label:=Details").OracleButton("developer name:=MISC_BUTTONS_PB_DETL_CANCEL_0")</ObjPath>
+<strPath>helpScreenForm.helpScreenDetailsTabbedRegion</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "35">
+<CommonName>helpScreenDetailsTabbedRegionOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Help Screen").OracleTabbedRegion("label:=Details").OracleButton("developer name:=MISC_BUTTONS_PB_DETL_OK_0")</ObjPath>
+<strPath>helpScreenForm.helpScreenDetailsTabbedRegion</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "36">
+<CommonName>helpScreenTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Help Screen").OracleTabbedRegion("label:=Details").OracleTable("block name:=HELP_DETL_TF")</ObjPath>
+<strPath>helpScreenForm.helpScreenDetailsTabbedRegion</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "37">
+<CommonName>interfaceAliasFormCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Interface Alias").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>interfaceAliasForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "38">
+<CommonName>interfaceAliasFormOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Interface Alias").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>interfaceAliasForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "39">
+<CommonName>interfaceAliasTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Interface Alias").OracleTable("block name:=PAAL")</ObjPath>
+<strPath>interfaceAliasForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "40">
+<CommonName>DependentFacilityCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Member Facility Selection").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>MemberFacilitySelectionForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "41">
+<CommonName>DependentFacilitySelectionTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Member Facility Selection").OracleTable("block name:=ASDO")</ObjPath>
+<strPath>MemberFacilitySelectionForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "42">
+<CommonName>memberGroupIDTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Member Groups").OracleTable("block name:=MBGP")</ObjPath>
+<strPath>memberGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "43">
+<CommonName>memberGroupsFormCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Member Groups").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>memberGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "44">
+<CommonName>PayrollRulesCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Payroll Rules").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>PayrollRulesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "45">
+<CommonName>PayrollRulesFormDescription</CommonName>
+<ObjPath>OracleFormWindow("title:=Payroll Rules").OracleTextField("developer name:=PARL_DESCRIPT_0")</ObjPath>
+<strPath>PayrollRulesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "46">
+<CommonName>PayrollRulesFormFileLocationButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Payroll Rules").OracleButton("developer name:=MISC_BUTTONS_PB_MGDR_0")</ObjPath>
+<strPath>PayrollRulesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "47">
+<CommonName>PayrollRulesOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Payroll Rules").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>PayrollRulesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "48">
+<CommonName>PayrollRulesTrancheTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Payroll Rules").OracleTable("block name:=PARN"|"column names:=Effective Dt;Expiry Date;Payroll Format;File Location;Retention Period")</ObjPath>
+<strPath>PayrollRulesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "49">
+<CommonName>schemeTab</CommonName>
+<ObjPath>OracleFormWindow("short title:=Post Scheme Install").OracleTabbedRegion("label:=Scheme")</ObjPath>
+<strPath>postSchemeInstallForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "50">
+<CommonName>PSI_cancelButton</CommonName>
+<ObjPath>OracleFormWindow("short title:=Post Scheme Install").OracleTabbedRegion("label:=Scheme").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>postSchemeInstallForm.schemeTab</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "51">
+<CommonName>PSI_schemeName</CommonName>
+<ObjPath>OracleFormWindow("short title:=Post Scheme Install").OracleTabbedRegion("label:=Scheme").OracleTextField("developer name:=CASD_PLAN_NM_0")</ObjPath>
+<strPath>postSchemeInstallForm.schemeTab</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "52">
+<CommonName>PSI_schemeNumber</CommonName>
+<ObjPath>OracleFormWindow("short title:=Post Scheme Install").OracleTabbedRegion("label:=Scheme").OracleTextField("developer name:=CASD_CONT_NO_0")</ObjPath>
+<strPath>postSchemeInstallForm.schemeTab</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "53">
+<CommonName>BenefitGroupsTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Benefit Groups").OracleTable("block name:=BNGP")</ObjPath>
+<strPath>SchemeBenefitGroups</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "54">
+<CommonName>SchemeBenefitsBenefitTypesTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Benefits").OracleTable("block name:=BNTP")</ObjPath>
+<strPath>SchemeBenefitsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "55">
+<CommonName>SchemeBenefitsCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Benefits").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>SchemeBenefitsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "56">
+<CommonName>SchemeBillingGroupsCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme - Billing Groups").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_CSBC_0")</ObjPath>
+<strPath>SchemeBillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "57">
+<CommonName>SchemeBillingGroupsFormGroupButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme - Billing Groups").OracleButton("developer name:=MISC_BUTTONS_PB_CSBC_RULES_0")</ObjPath>
+<strPath>SchemeBillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "58">
+<CommonName>SchemeBillingGroupsFormScheme</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme - Billing Groups").OracleTextField("developer name:=CSBC_CONT_NO_0")</ObjPath>
+<strPath>SchemeBillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "59">
+<CommonName>SchemeBillingGroupsOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme - Billing Groups").OracleButton("developer name:=MISC_BUTTONS_PB_OK_CSBC_0")</ObjPath>
+<strPath>SchemeBillingGroupsForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "60">
+<CommonName>schemeDataFormCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Data").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>schemeDataForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "61">
+<CommonName>SchemeLookupOKButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Lookup").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>SchemeLookupForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "62">
+<CommonName>SchemeLookupTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Lookup").OracleTable("block name:=CASD")</ObjPath>
+<strPath>SchemeLookupForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "63">
+<CommonName>SchemeMembers_Scheme</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Members").OracleTextField("developer name:=CASD_CONT_NO_0")</ObjPath>
+<strPath>SchemeMembersForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "64">
+<CommonName>SchemeMembersTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Scheme Members").OracleTable("block name:=CSMB")</ObjPath>
+<strPath>SchemeMembersForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "65">
+<CommonName>OKButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Simple Scheme Install").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>SimpleSchemeInstall</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "66">
+<CommonName>processingStatus</CommonName>
+<ObjPath>OracleFormWindow("title:=Simple Scheme Install").OracleList("developer name:=CSEN_PROC_STAT_CD_0")</ObjPath>
+<strPath>SimpleSchemeInstall</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "67">
+<CommonName>Scheme</CommonName>
+<ObjPath>OracleFormWindow("title:=Simple Scheme Install").OracleTextField("developer name:=CSEN_CONT_NO_0")</ObjPath>
+<strPath>SimpleSchemeInstall</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "68">
+<CommonName>schemeStatusList</CommonName>
+<ObjPath>OracleFormWindow("title:=Simple Scheme Install").OracleList("developer name:=CSEN_STAT_CD_0"|"description:=Enter value for : STAT_CD")</ObjPath>
+<strPath>SimpleSchemeInstall</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "69">
+<CommonName>compassSystemDate</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaEdit("developer name:=FDP\$HEADING_TF_SYSDATE_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "70">
+<CommonName>FirstRecordButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_PB_FIRSTREC_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "71">
+<CommonName>LastRecordButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_PB_LASTREC_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "72">
+<CommonName>NavigationBox</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaList("developer name:=FDP\$HEADING_TF_GO_BUTTON_LIST_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "73">
+<CommonName>NavigationGoButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_PB_GO_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "74">
+<CommonName>NextRecordButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_IB_DOWN_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "75">
+<CommonName>PreviousRecordButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_IB_UP_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "76">
+<CommonName>QueryButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_IB_QUERY_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "77">
+<CommonName>schemeButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_IB_PLAN_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "78">
+<CommonName>SchemeMembersButton</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaButton("developer name:=FDP\$HEADING_PB_SCHEME_MEMBER_0")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "79">
+<CommonName>StatusBar</CommonName>
+<ObjPath>JavaWindow("title:=SIS/COMPASS").JavaStaticText("developer name:=StatusBar_1")</ObjPath>
+<strPath>SISCOMPASS</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "80">
+<CommonName>subSchemeProcessesFormCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Sub Scheme Processes").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>subSchemeProcessesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "81">
+<CommonName>subSchemeProcessesFormOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Sub Scheme Processes").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>subSchemeProcessesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "82">
+<CommonName>subSchemeProcessesTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Sub Scheme Processes").OracleTable("block name:=CBDL")</ObjPath>
+<strPath>subSchemeProcessesForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "83">
+<CommonName>TransactionSchedulerBenefitMoneyTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleTable("block name:=TSKY")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "84">
+<CommonName>TransactionSchedulerBenefitOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_OK_1_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "85">
+<CommonName>TransactionSchedulerBillGrpRules</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_BGRP_KEYS_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "86">
+<CommonName>TransactionSchedulerBillingGroupRulesOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_OK_2_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "87">
+<CommonName>TransactionSchedulerBillingGroupRulesReturnButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_RETURN_2_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "88">
+<CommonName>TransactionSchedulerBillingGroupRulesTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleTable("block name:=TSKY1")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "89">
+<CommonName>TransactionSchedulerCancelButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_CANCEL_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "90">
+<CommonName>TransactionSchedulerFundRatesButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_FDRT_KEYS_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "91">
+<CommonName>TransactionSchedulerOkButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_OK_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "92">
+<CommonName>TransactionSchedulerReturnButton</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleButton("developer name:=MISC_BUTTONS_PB_RETURN_1_0")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "93">
+<CommonName>TransactionSchedulerTable</CommonName>
+<ObjPath>OracleFormWindow("title:=Transaction Scheduler").OracleTable("block name:=TSCH")</ObjPath>
+<strPath>TransactionSchedulerForm</strPath>
+</ObjectRepository>
+</dataroot>

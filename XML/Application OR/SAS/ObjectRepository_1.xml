@@ -1,0 +1,13 @@
+<dataroot>
+	<ObjectRepository>
+		<CommonName>TestObject</CommonName>
+		<ClassID>16</ClassID>
+		<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+		<Property1>type</Property1>
+		<Value1>text</Value1>
+		<Property2></Property2>
+		<Value2></Value2>
+		<Property3></Property3>
+		<Value3></Value3>
+	</ObjectRepository>
+</dataroot>

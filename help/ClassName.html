@@ -1,0 +1,61 @@
+<html>
+<head><title>Class Name Help</title></head>
+<body>
+<script>
+document.write("<h3><b><u>Class List:</u></b></h3><br>");
+if (window != top)
+ top.location.href=location.href
+
+var formData = location.search;
+
+formData = formData.substring(1, formData.length);
+while (formData.indexOf("?") != -1) {
+ formData = formData.replace("?", "");
+}
+
+formData = unescape(formData);
+alert(formData);
+var formArray = formData.split("&");
+//var strSelectedApp = formArray[0].split("=");
+var strDBPath = formArray[2].split("=");
+var pad = strDBPath[0];
+var i,x,y;
+var arrClassName = new Array();
+var arrClassID = new Array();
+pad = pad.slice(1);
+pad = pad.split("\/").join("\\");
+pad = pad.split("\"").join("");
+//pad = pad.split("\/").join("\\\\");
+//pad = pad.split("/").join("\/");
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+
+xmlDoc.async=false;
+xmlDoc.load(pad);
+x = xmlDoc.getElementsByTagName('Name');
+y = xmlDoc.getElementsByTagName('Index');
+var maxLen = x.length - 1;
+	for (i=0;i<=maxLen;i++)
+	{
+		arrClassName[i] = (x[i].text);
+		arrClassID[i] = (y[i].text);
+	}
+var r;
+document.write("<table id=className border=1 WIDTH=90% CELLPADDING=4 CELLSPACING=3 align=center>");
+document.write("<tr style=color:black; font-family:verdana; font-size:12; font-weight:normal>");
+document.write("<th>Sr No</th>");
+document.write("<th>Class Name</th>");
+document.write("<th>Class ID</th>");
+document.write("</tr>");
+for (r=0; r<arrClassName.length; r++)
+		{
+		srNo = r + 1;
+		document.write("<tr style=color:black; font-family:verdana; font-weight:normal>");
+		document.write("<td>"+srNo+"</td>");
+		document.write("<td>"+arrClassName[r]+"</td>");
+		document.write("<td>"+arrClassID[r]+"</td>");
+		document.write("</tr>");
+		}
+document.write("</table>");
+</script>
+</body>
+</html>

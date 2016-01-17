@@ -1,0 +1,864 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Framework Utility</title>
+		<link rel="stylesheet" href= "./CSS/jquery-ui.css" />
+		<link rel="stylesheet" href= "./CSS/proj.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src= ".\js\jquery-1.9.1.js"></script>
+		<script src= ".\js\jquery-ui.js"></script>
+		<script src= ".\js\functions.js"></script>
+		<script src= ".\js\Add_obj_functions.js"></script>
+		<script type="text/vbscript" src=".\vb\VBFunctions.vbs"></script>
+		<script type="text/vbscript" src=".\vb\StopExecution.vbs"></script>
+		<script src= ".\js\tinybox.js"></script>
+		<link rel="stylesheet" href="/resources/demos/style.css" />
+		
+		<script type="text/vbscript">
+			dim arrFL()
+			pad = getXMLPath(7)
+			pad = LTrim(pad)
+			pad = Replace(pad, Chr(34), "")
+			Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+			xmlDoc.Async = "False"
+			xmlDoc.Load(pad)
+			i = 0
+			strQuery = "dataroot/FunctionLibrary/ (LibName)"
+			Set colNodes = xmlDoc.selectNodes( strQuery )
+			For Each appName in colNodes
+				ReDim Preserve arrFL(i)
+				arrFL(i)=appName.text
+				i = i + 1
+			Next
+			</script>
+			
+		<script language="javascript"> 
+			function openwindow(trgtWindow, htmlID) 
+			{ 
+				if (window != top)
+				top.location.href=location.href
+
+				var formData = location.search;
+				formData = formData.substring(1, formData.length);
+				
+				while (formData.indexOf("+") != -1) {
+				formData = formData.replace("+", " ");
+				}
+				//var strXLSPath = document.getElementById("files").value;
+				formData = unescape(formData);
+				var formArray = formData.split("&");
+				var strSelectedApp = formArray[0].split("=");
+				var strDBPath = formArray[1].split("=");
+				var pad = getPath(4);
+				var padClass = getPath(3);
+				//newwindow=window.open(url + "?" + strDBPath[1] + "&" + pad + "&" + padClass,'name','height=300,width=500,scrollbars=yes,resizable=yes');
+				var retval=window.showModalDialog(trgtWindow + "?" + strDBPath[1] + "&" + pad + "&" + padClass, "", "resizable:yes") 
+				if(typeof retval != "undefined"){
+					document.getElementById(htmlID).value=retval;
+					if(htmlID == "objUpList"){
+						chkValueExistsinArray(retval);
+					}
+				}
+			} 
+			function openwindow1(trgtWindow, htmlID) 
+			{ 
+				if (window != top)
+				top.location.href=location.href
+
+				var formData = location.search;
+				formData = formData.substring(1, formData.length);
+				
+				while (formData.indexOf("+") != -1) {
+				formData = formData.replace("+", " ");
+				}
+				//var strXLSPath = document.getElementById("files").value;
+				formData = unescape(formData);
+				var formArray = formData.split("&");
+				var strSelectedApp = formArray[0].split("=");
+				var strDBPath = formArray[1].split("=");
+				var pad = getPath(4);
+				var padClass = getPath(3);
+				//newwindow=window.open(url + "?" + strDBPath[1] + "&" + pad + "&" + padClass,'name','height=300,width=500,scrollbars=yes,resizable=yes');
+				var retval=window.showModalDialog(trgtWindow + "?" + strDBPath[1] + "&" + pad + "&" + padClass) 
+				if(typeof retval != "undefined"){
+					var arrhtmlId = htmlID.split(',');
+					var arrRetVal = retval.split(',');
+					document.getElementById(arrhtmlId[0]).value=arrRetVal[0];
+					document.getElementById(arrhtmlId[1]).value=arrRetVal[1];
+				}
+			} 
+		</script>	
+		
+		<script language="javascript" >
+			var excelApp=null, excelFile=null, excelSheet=null;
+			
+			function initExcel(filename)
+			{
+			excelApp = new ActiveXObject("Excel.Application");
+			excelFile = excelApp.Workbooks.Open(filename);
+			excelSheet = excelApp.Worksheets('TestCase');
+			}
+
+			function myShutdownExcel()
+			{
+			excelApp.Quit();
+			excelApp=null;
+			excelFile=null;
+			excelSheet=null;
+			}
+
+			function myGetData(column, row)
+			{
+			return excelSheet.Cells(column, row).Value;
+			}
+
+			function byId(e) {return document.getElementById(e);}
+
+			function myOnLoad2(filename)
+			{
+			var numRows = 5, numCols = 7;
+			var tBody = byId('XMLTable');
+			var rowIndex, colIndex, curVal;
+			var curRow, curCell, curCellText;
+			initExcel(filename);
+
+			for (rowIndex=1; rowIndex<=numRows; rowIndex++)
+			{
+			curRow = document.createElement('tr');
+			for (colIndex=1; colIndex<=numCols; colIndex++)
+			{
+			curVal = myGetData(rowIndex, colIndex);
+			curCell = document.createElement('td');
+			curCell.setAttribute('title', 'The value of cell [' + rowIndex + ',' + colIndex +']\nis: ' + curVal);
+			curCellText = document.createTextNode(curVal);
+			curCell.appendChild(curCellText);
+			curRow.appendChild(curCell);
+			}
+			tBody.appendChild(curRow);
+			}
+			myShutdownExcel();
+			}
+		</script>
+
+		<script type="text/vbscript">
+			dim arrFuncLib()
+			pad = getXMLPath(7)
+			pad = LTrim(pad)
+			pad = Replace(pad, Chr(34), "")
+			Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+			xmlDoc.Async = "False"
+			xmlDoc.Load(pad)
+			i = 0
+			strQuery = "dataroot/FunctionLibrary/ (LibName)"
+			Set colNodes = xmlDoc.selectNodes( strQuery )
+			For Each FuncLibName in colNodes
+				ReDim Preserve arrFuncLib(i)
+				arrFuncLib(i)=FuncLibName.text
+				i = i + 1
+			Next
+		</script>
+		
+		<script language="javascript">
+			arrClName = new Array()
+		</script>
+		
+		<script type="text/javascript">
+			idleTime = 0;
+			$(document).ready(function () {
+				//Increment the idle time counter every minute.
+				var idleInterval = setInterval(timerIncrement, 30000); // 1 minute
+
+				//Zero the idle timer on mouse movement.
+				$(this).mousemove(function (e) {
+					idleTime = 0;
+				});
+				$(this).keypress(function (e) {
+					idleTime = 0;
+				});
+			});
+
+			function timerIncrement() {
+				idleTime = idleTime + 1;
+				if (idleTime > 1) { // 1 minute
+					autosaveTable();
+				}
+			}
+		</script> 
+		
+		
+		 <style type="text/css" media="screen"> 
+			 #headline1 { 
+				 background-image: url(images/btmbckg.jpg); 
+				 background-repeat: no-repeat; 
+				 background-position: left top; 
+				 padding-top:68px; 
+				 margin-bottom:50px; 
+			 } 
+		 </style> 
+		
+		<script type="text/javascript">
+			var arrClName = new Array();
+			try //Internet Explorer
+			{
+			var xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+			
+			}
+			catch(e)
+			{
+			try //Firefox, Mozilla, Opera, etc.
+			{
+			xmlDoc=document.implementation.createDocument("","",null);
+			}
+			catch(e){alert(e.message)}
+			}
+
+			xmlDoc.async=false;
+			var pad = getXMLPath(3);
+			pad = pad.slice(1);
+			pad = pad.split("\"").join("");
+			xmlDoc.load(pad);
+			x=xmlDoc.getElementsByTagName('Name');
+			
+			for (i=0;i<x.length;i++)
+			{
+				arrClName[i] = (x[i].text);
+			} 
+			//arrClName = BubbleSort(arrClName, "ASC");
+			arrClName = arrClName.sort();
+		</script>
+		
+		<script type="text/javascript">
+			function getUserName(){
+				if (window != top)
+					top.location.href=location.href
+
+				var formData = location.search;
+				formData = formData.substring(1, formData.length);
+
+				formData = unescape(formData);
+				var formArray = formData.split("&");
+
+				var arrUserName = formArray[4].split("=");
+				var strUserName = arrUserName[1];
+				document.getElementById("HeadTitle12").innerHTML = "Welcome, " + strUserName;
+			}
+			
+			function getAppName(){
+				if (window != top)
+					top.location.href=location.href
+
+				var formData = location.search;
+				formData = formData.substring(1, formData.length);
+
+				formData = unescape(formData);
+				var formArray = formData.split("&");
+
+				var arrUserName = formArray[0].split("=");
+				var strUserName = arrUserName[1];
+				document.getElementById("AppSelected").innerHTML = strUserName;
+			}
+		</script>
+		
+		<script type="text/javascript">		
+			function navigateHome(){
+				var strUserName1 = document.getElementById("HeadTitle12").innerHTML;
+				strUserName1 = strUserName1.replace("Welcome, ","");
+				var blnFlag = getUserName1(strUserName1);
+				if(blnFlag) {
+					window.location = "\index_admin.html?username=" + strUserName1
+				}
+				else {
+					window.location = "\index.html?username=" + strUserName1
+				}
+			}
+			
+			function getUserName1(uName){
+				var pad = getXMLPath(1);
+				pad = pad.slice(1);
+				var i;
+				var cn = new ActiveXObject("ADODB.Connection");
+				var strConn = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + pad;
+				cn.Open(strConn);
+				var rs = new ActiveXObject("ADODB.Recordset");
+				var SQL = "select UserName, Role from UserInfo WHERE UserName = '" + uName + "' ORDER BY UserName";
+				rs.Open(SQL, cn);
+				i = 0
+				while (!rs.EOF){
+					var strRole = rs.fields(1).value;
+					if(strRole == "admin"){
+						i = i + 1
+					}
+					rs.MoveNext();
+				}	
+				rs.Close();
+				cn.Close();
+				if(i == 0){
+					return false;
+				}
+				else{
+					return true;		
+				}
+			}
+		</script>
+		
+	</head>
+
+	<!--<body bgcolor="#cccccc" onload = "loadStepFromDB();" style = "font-size:12; font-weight: normal;">-->
+	<body bgcolor="#ffffff" onload = "getUserName();global();getAppName();" style = "font-size:12; font-weight: normal;">
+	
+	<div id="testhead">
+		<a class = "home" href=".\Login.html" onclick="logout();" title="Logout"><font face="verdana">Logout</font></a>
+		<a class = "logout" onClick="navigateHome();" title="Home"><u>Home</u></a>
+		<a style="cursor:help" class = "help" href="#" onclick="window.open('./help/help.pdf', '_blank', 'fullscreen=no'); return false;" title="Help"><u>Help</u></a>
+		
+		<Label for"HeadTitle" class="headTitle" id="HeadTitle12" style="cursor:auto"></label>
+	</div>
+	<br>
+		 <!--<div id="topHeader">
+		<div id="header"></div>
+		</div> -->
+		<div id="top" style = "font-size:10; font-weight: normal;">
+		
+			<div id="tabs" style = "font-size:12; font-weight: normal;">
+				<ul>
+					<li><a href="#tabs-1" style="font-weight: normal;" accesskey = "S"><font color="#0066CC"><b>Add <u>S</u>tep</b></font></a></li>
+					<!--<li><a href="#tabs-2" style="font-weight: normal;">Add Object</a></li>-->
+					<li><a href="#tabs-2" style="font-weight: normal;"><font color="#0066CC"><b>Object Repository</b></font></a></li>
+					<li><a href="#tabs-3" style="font-weight: normal;"><font color="#0066CC"><b>Action Management</b></font></a></li>
+					<li><a href="#tabs-4" style="font-weight: normal;"><font color="#0066CC"><b>Function Libraries</b></font></a></li>
+					<li><a href="#tabs-5" style="font-weight: normal;"><font color="#0066CC"><b>Execute Script</b></font></a></li>
+				</ul>
+				
+				<div id="tabs-1">
+					<h5>
+					<br>
+					<br>
+					<div  style = "font-size:11; font-weight: normal;">
+						<label for="testcaseid" style = "font-size:11; font-weight: normal;"><b>*Test Case: </b></label>
+						<input id="testcaseid" style="width: 190;" tabindex="1"/>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;
+						
+						<label for="Skip"><b> Skip: </b></label>
+						<input type = "checkbox" id="skip" tabindex="2"/>
+
+						<label for="Break" > <b>Break: </b></label>
+						<input type = "checkbox" id="break" tabindex="3"/>
+
+						<label for="tags" ><b>Object: </b></label>
+						<input id="tags"style="width: 190;"tabindex="4"/>
+						<!--<a style="cursor:help" href="help/objectlist.html" onclick="return popitup('help/objectlist.html')" tabindex="-1" title="Object List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>-->
+						<a style="cursor:help" onclick="javascript:openwindow('help/objectlist.html','tags')" tabindex="-1" title="Object List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<!--<input class ="myButton" id="btnaddApp" type="button" value="Add Step" style="width: 150";/ >
+						&nbsp;&nbsp;
+						
+						<input class ="myButton" id="delRow" type="button" value="Delete Row" onclick="delRow();" style="width: 150";/ >-->
+						<br>
+						<br>
+
+						<label for="Actions"><b>*Action:</b> </label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input id="actions" style="width: 190;" tabindex="5"/>  
+						<!--<a style="cursor:help" href="help/actionlist.html" onclick="return popitup('help/actionlist.html')" title="Action List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>-->
+						<a style="cursor:help" onclick="javascript:openwindow('help/actionlist.html','actions')" title="Action List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						<label for="Data"><b>Data: </b></label>
+
+						<textarea name="data" id="data" rows=2 cols="52" tabindex="6" ></textarea>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<!--<input class ="myButton" id="btnClear" type="button" value="Clear" onclick="clear();"  style="width: 150";/ >
+						&nbsp;&nbsp;
+						
+						<input class ="myButton" id="exprtExcel" type="button" value="Export to Excel" onclick="write_to_excel();" style="width: 150";/ >-->
+						<br><br><br><br>
+									
+						
+						<button class ="myButton" id="btnAddXML" style="width: 150"; tabindex="7" style="cursor:pointer" accesskey ="A";><u>A</u>dd Step</button>
+						&nbsp;&nbsp;
+						
+						<button style="cursor:pointer" class ="myButton" id="delRow" value="" onclick="delRow();" tabindex="8" style="width: 150"; accesskey = "R">Delete <u>R</u>ow</button>
+						&nbsp;&nbsp;
+						
+						<button style="cursor:pointer" class ="myButton" id="btnClear" value="Clear" onclick="clearAddPage();" tabindex="9" style="width: 150"; accesskey = "C" ><u>C</u>lear</button>
+						&nbsp;&nbsp;
+						
+						<button style="cursor:pointer" class ="myButton" id="exprtExcel" value="Export to Excel" onclick="write_to_excel();" tabindex="10" style="width: 150"; accesskey = "E" ><u>E</u>xport To Excel</button>
+						&nbsp;&nbsp;
+						
+						<button style="cursor:pointer" class ="myButton" id="saveTable" value="Save Script" onclick="saveTable();" style="width: 150"; tabindex="11" accesskey = "S" >Save <u>S</u>cript</button>
+						&nbsp;&nbsp;
+						
+						<button style="cursor:pointer" class ="myButton" id="exportXML" value="Script SaveAs" onclick="saveAsTable();" style="width: 150"; tabindex="12" accesskey = "V" >Sa<u>v</u>eAs</button>
+					</div>
+					</h5>
+				</div>
+
+				<div id="tabs-2">
+					<h5>
+					<br>
+					<br>
+					<div style = "font-size:11; font-weight: normal;">
+						<label for="CUpname" ><b>*Common Name: </b></label>
+						<input id="objUpList"style="width: 190;" tabindex="1" onChange="chkObjectExistsinArray(this);" onblur="chkObjectExistsinArray(this);"/>
+						<!--<a style="cursor:help" href="help/objectlist.html" onclick="return popitup('help/objectlist.html')" tabindex="-1" title="Object List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>-->
+						<a style="cursor:help" onclick="javascript:openwindow('help/objectlist.html','objUpList')" tabindex="-1" title="Object List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<label for="UpPath"><b>Path:</b> </label>
+						<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+						<textarea name="UpPath" id="txtUpPath" tabindex="2" rows=2 cols="20" ></textarea>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<label for="UpProp1" ><b>*Property1: </b></label>
+						<textarea name="UpProp1" id="txtUpProp1" tabindex="3" rows=2 cols="25" ></textarea>
+						&nbsp;&nbsp;
+						<label for="UpVal1" ><b>*Value1: </b></label>
+						<textarea name="UpVal1" id="txtUpVal1" tabindex="4" rows=2 cols="25" ></textarea>
+						<span style="display:inline-block; width: 15px;"></span>
+						<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+						<button style="cursor:pointer" class ="myButton" id="btnAddObj" type="button" tabindex="10" accesskey="A" value="Add Object" style="width: 150"; ><u>A</u>dd Object</button>
+						<!-- <input class ="myButton" id="delRow" type="button" value="Delete Row" onclick="delRow();" style="width: 150";/ > -->
+						<br>
+						<br>
+						
+						<label for="Upags" ><b>*Class Name: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+						<!--<input id="clName"style="width: 233;" />-->
+						<select name="clUpName" id="clUpName" style="width: 233;" tabindex="5" onchange="getClassIDFromSelection1();">;
+							<option selected="selected">
+								Select value...
+							</option>
+							<script language="javascript">
+								for(i=0;i<arrClName.length;i++){
+								document.write("<option>"+arrClName[i]+"</option>")}
+							</script>							
+						</select>
+						
+						<script type="text/vbscript">
+							Function getClassIDFromSelection1()
+								dim e, str, i, pad, arr2(), selClID
+								str = ""
+								e = document.getElementById("clUpName").selectedIndex
+								str = document.getElementById("clUpName").options(e).Text
+								pad = getXMLPath(3)
+								pad = LTrim(pad)
+								pad = Replace(pad, Chr(34), "")
+								Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+								xmlDoc.Async = "False"
+								xmlDoc.Load(pad)
+								i = 0
+								strQuery = "dataroot/Class [ Name = '" & str & "' ] / Index"
+								Set colNodes = xmlDoc.selectNodes( strQuery )
+								For Each selClID in colNodes
+									ReDim Preserve arr2(i)
+									arr2(i)=selClID.text
+									document.getElementById("clUpID").value = selClID.text
+									i = i + 1
+								Next
+							End Function
+						</script>
+						
+						<!--<a style="cursor:help" href="help/ClassName.html" onclick="return popitup('help/ClassName.html')" tabindex="-1" title="Class Name List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>-->
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<label for="Uptags" ><b>*Class ID: </b></label>&nbsp;&nbsp;&nbsp;
+						<input id="clUpID"style="width: 50;" tabindex="-1" readonly="readonly" />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<label for="UpProp2" ><b>Property2: </b></label>
+						<textarea name="UpProp2" id="txtUpProp2" tabindex="6" rows=2 cols="25" ></textarea>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<label for="UpVal2" ><b>Value2: </b></label>
+						<textarea name="UpVal2" id="txtUpVal2" tabindex="7" rows=2 cols="25" ></textarea>
+						<span style="display:inline-block; width: 15px;"></span>
+						<button style="cursor:pointer" class ="myButton" id="btnUpdateObj" type="button" tabindex="11" accesskey="U" value="Update Object" style="width: 150"; ><u>U</u>pdate Ob<u>j</u>ect</button>
+						
+						<br>
+						<br>
+						<!--<label for="Path"><b>Path:</b> </label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<textarea name="Path" id="txtPath" rows=2 cols="30" ></textarea>-->
+						
+						<!-- <input class ="myButton" id="btnGetObjProp" type="button" value="Add Object" onClick="getObjProp();" style="width: 150";/ > -->
+						<script type="text/vbscript">
+							Function getObjProp()
+								dim e, str, i, pad, arr2(), selClID, intClassId, cbox, selClName, arr3(), arr4(), arrPath(), arrValue(), arrProp(), intArrayIndex
+								dim strObjPath, strPath, strPath1
+								str = ""
+								str = document.getElementById("objUpList").value
+								pad = returnXMLPath()
+								
+								Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+								xmlDoc.Async = "False"
+								xmlDoc.Load(pad)
+								i = 0
+								strQuery = "dataroot/ObjectRepository [ CommonName = '" & str & "' ] /( ObjPath )"
+								Set colNodes = xmlDoc.selectNodes( strQuery )
+								For Each selClID in colNodes
+									strObjPath=selClID.text
+								Next
+								
+								strQuery = "dataroot/ObjectRepository [ CommonName = '" & str & "' ] /( strPath )"
+								Set colNodes = xmlDoc.selectNodes( strQuery )
+								For Each selClID in colNodes
+									strPath1=selClID.text
+								Next
+								
+								arrstrObjPath = Split(strObjPath, ".")
+								strObjPath = arrstrObjPath(UBound(arrstrObjPath))
+								strObjPath = Replace(strObjPath,"RegExFullStop",".")
+								strObjPath = Replace(strObjPath,"&amp;","&")
+								strClass = Left(strObjPath,InStr(1,strObjPath,"(")-1)
+								strObjPath = Replace(Replace(Right(strObjPath,Len(strObjPath) - Instr(1,strObjPath,"(")),"""",""),")","")
+								arrstr = Split(strObjPath,"|")
+								intArrayIndex = 0
+								On Error Resume Next
+									For i = 0 to UBound(arrstr)
+										arrstr1 = Split(arrstr(i),":=")
+										ReDim Preserve arrProp(intArrayIndex)
+										arrProp(intArrayIndex) = arrstr1(0)
+										ReDim Preserve arrValue(intArrayIndex)
+										arrValue(intArrayIndex) = arrstr1(1)
+										intArrayIndex = intArrayIndex + 1
+									Next
+								On Error GoTo 0
+								
+								If strPath1 = "" Then
+									strPath = ""
+									strXMLObjPath1 = ""
+									For i = 0 to UBound(arrstrObjPath)-1
+										If i > 0 Then
+											strXMLObjPath1 = strXMLObjPath1 & "." & arrstrObjPath(i)
+										Else
+											strXMLObjPath1 = arrstrObjPath(i)
+										End If
+										strQuery = "dataroot/ObjectRepository [ ObjPath = '" & strXMLObjPath1 & "' ] /( CommonName )"
+										Set colNodes = xmlDoc.selectNodes( strQuery )
+										For Each selClID in colNodes
+											strPath = strPath & selClID.text & "."
+											Exit For
+										Next
+										'strPath = strPath & Left(arrstrObjPath(i),InStr(1,arrstrObjPath(i),"(") - 1) & "."
+									Next
+									If Len(strPath) > 0 Then
+										If Instr(Len(strPath)-1,strPath,".") > 0 Then
+											strPath = Left(strPath,Len(strPath)-1)
+										End If
+									End If						
+								Else
+									strPath = strPath1
+								End If
+								
+								on Error Resume Next
+									'document.getElementById("clUpName").value = strClass
+									document.getElementById("txtUpPath").value = strPath
+									document.getElementById("txtUpProp1").value = arrProp(0)
+									document.getElementById("txtUpVal1").value = arrValue(0)
+									document.getElementById("txtUpProp2").value = arrProp(1)
+									document.getElementById("txtUpVal2").value = arrValue(1)
+									document.getElementById("txtUpProp3").value = arrProp(2)
+									document.getElementById("txtUpVal3").value = arrValue(2)
+								On Error GoTo 0
+																
+								pad = getXMLPath(3)
+								pad = LTrim(pad)
+								pad = Replace(pad, Chr(34), "")
+								Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+								xmlDoc.Async = "False"
+								xmlDoc.Load(pad)
+								
+								strQuery = "dataroot/Class [ Name = '" & strClass & "' ] / Index"
+								Set colNodes = xmlDoc.selectNodes( strQuery )
+								For Each selClName in colNodes
+									strClassID = selClName.text
+								Next
+								document.getElementById("clUpID").value = strClassID
+								For Each opt in document.getElementById("clUpName").Options
+									If opt.Text = strClass Then
+										opt.Selected = True
+										Exit For
+									Else
+										opt.Selected = False
+									End If
+								Next
+								
+							End Function
+						</script>
+						<span style="display:inline-block; width: 110px;"></span>
+						<button style="cursor:pointer" class ="myButton" id="btnUpDelClear" type="button" tabindex="13" accesskey="C" value="Clear" onClick="clrUpObjData();" style="width: 150"; ><u>C</u>lear</button>
+						<span style="display:inline-block; width: 340px;"></span>
+						<label for="Prop3" ><b>Property3: </b></label>
+						<textarea name="Prop3" id="txtUpProp3" tabindex="8" rows=2 cols="25" ></textarea>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<label for="Val3" ><b>Value3: </b></label>
+						<textarea name="Val3" id="txtUpVal3" tabindex="9" rows=2 cols="25" ></textarea>
+						<span style="display:inline-block; width: 15px;"></span>
+						<button style="cursor:pointer" class ="myButton" id="btnDelObj" type="button" tabindex="12" accesskey="O" value="Delete Object" style="width: 150"; >Delete <u>O</u>bject</button>
+					</div>
+					</h5>
+				</div>
+				
+				<div id="tabs-3">
+					<h5>
+					<br>
+					<br>
+					<div style = "font-size:11; font-weight: normal;">
+						<label for="lblActionName" ><b>Action Name: </b></label>
+						<input id="ActionName"style="width: 190;" tabindex="1" />
+						<!--<a style="cursor:help" href="help/actionlist.html" onclick="javascript:openwindow('help/actionlist.html')" title="Action List" tabindex="-1" ><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>-->
+						<a style="cursor:help" onclick="javascript:openwindow('help/actionlist.html','ActionName')" tabindex="-1" title="Action List"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					
+						<label for="lblActionName" ><b>Updated Action Name: </b></label>
+						<input id="NewActionName"style="width: 190;"tabindex="2" />
+						<br><br>
+						<label style="display:none;" for="lblActionHelp" ><b>Action Help: </b></label>
+						<input style="display:none;" id="ActionHelp"style="width: 190;"tabindex="-1" />
+						<br><br>
+						<button style="cursor:pointer" class ="myButton" id="btnAddAct" type="button" value="Add Action" onclick="AddAction();" tabindex="3" accesskey= "A" style="width: 150"; ><u>A</u>dd Action</button>
+						&nbsp;&nbsp;
+						<button style="cursor:pointer" class ="myButton" id="btnUpdateAct" type="button" value="Update Action" onclick="UpdateAction();" tabindex="4" accesskey= "U" style="width: 150"; ><u>U</u>pdate Action</button>
+						&nbsp;&nbsp;
+						<button style="cursor:pointer" class ="myButton" id="btnDelAct" type="button" value="Delete Action" onclick="DeleteAction();" tabindex="5" accesskey= "E" style="width: 150"; >D<u>e</u>lete Action</button>
+					</div>
+					</h5>
+				</div>
+				
+				<div id="tabs-4">
+					<h5>
+					<br>
+					<br>
+					<div style = "font-size:11; font-weight: normal;">
+						<label for="lblActionName" ><b>Function Library: </b></label>
+						<!--<select name="strAppSelected" id="cbFuncLibName" style="width: 200px;" onchange="getFuncLibPath();">;
+							<script type="text/vbscript">
+								Dim i
+								for i = 0 to Ubound(arrFuncLib)
+									document.write("<option >" & arrFuncLib(i) & "</option>")
+								next
+							</script>
+						</select>-->
+						<input id="cbFuncLibName"style="width: 190;" tabindex="1" onBlur="getFuncLibPath();" />
+						<a style="cursor:help" onclick="javascript:openwindow1('help/functionlist.html','cbFuncLibName,lblFuncPath')" tabindex="-1" title="Function Libraries"><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>
+						<!--<a style="cursor:help" href="help/functionlist.html" onclick="return popitup('help/functionlist.html')" title="Function Libraries" tabindex="-1" ><img src = "images\question_mark_icon.png" style="width: 20px; height:20px; border:0;" /></a>-->
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					
+						<label for="lblFuncPath" ><b>Function Library Path: </b></label>
+						<input id="lblFuncPath"style="width: 400;"tabindex="2" />
+						<script type="text/vbscript">
+								Function getFuncLibPath()
+									dim e, str, i, pad, arr2(), selDBPath
+									str = ""
+									str = document.getElementById("cbFuncLibName").value
+									pad = getXMLPath(7)
+									pad = LTrim(pad)
+									pad = Replace(pad, Chr(34), "")
+									Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+									xmlDoc.Async = "False"
+									xmlDoc.Load(pad)
+									i = 0
+									strQuery = "dataroot/FunctionLibrary [ LibName = '" & str & "' ] / LibPath"
+									Set colNodes = xmlDoc.selectNodes( strQuery )
+									For Each selDBPath in colNodes
+										ReDim Preserve arr2(i)
+										arr2(i)=selDBPath.text
+										document.getElementById("lblFuncPath").value = selDBPath.text
+										i = i + 1
+									Next
+								End Function
+							</script>
+							
+							<script>
+								function fireEvent(element,event){
+									try{
+										if (document.createEventObject){
+											// dispatch for IE
+											var evt = document.createEventObject();
+											return element.fireEvent('on'+event,evt)
+										}
+										else{
+											// dispatch for firefox + others
+											var evt = document.createEvent("Events");
+											evt.initEvent(event, true, true ); // event type,bubbling,cancelable
+											return !element.dispatchEvent(evt);
+										}
+									}
+									catch(exp){
+									}
+								}
+								function fun(){
+									fireEvent(document.getElementById("combo1"), "change");;
+								}
+								fun();
+							</script>
+						
+						<br><br><br><br>
+						<button style="cursor:pointer" class ="myButton" id="btnAddFuncLib" type="button" value="Add FuncLib" onclick="AddFuncLib();" tabindex="3" accesskey= "A" style="width: 150"; ><u>A</u>dd Function Library</button>
+						&nbsp;&nbsp;
+						<button style="cursor:pointer" class ="myButton" id="btnUpdateFuncLib" type="button" value="Update FuncLib" onclick="UpdateFuncLib();" tabindex="4" accesskey= "U" style="width: 150"; ><u>U</u>pdate Library</button>
+						&nbsp;&nbsp;
+						<button style="cursor:pointer" class ="myButton" id="btnDelFuncLib" type="button" value="Delete FuncLib" onclick="DeleteFuncLib();" tabindex="5" accesskey= "E" style="width: 150"; >D<u>e</u>lete Library</button>
+					</div>
+					</h5>
+				</div>
+				
+				<div id="tabs-5" class = "parent">
+					<h5>
+					<br>
+					<br>
+					<div class="leftCol" style = "font-size:11; font-weight: normal;">
+					
+						<label for="lblExcelPath" ><b>Select script(xls/xml):</b></label>
+						<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+						<input type="file" id="files" name="files[]" tabindex="1"/>
+							<output id="list"></output>
+							<script>
+								function handleFileSelect(evt) {
+									var files = evt.target.files; // FileList object
+
+									// files is a FileList of File objects. List some properties.
+									var output = [];
+									for (var i = 0, f; f = files[i]; i++) {
+									  output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+												  f.size, ' bytes, last modified: ',
+												  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
+												  '</li>');
+									}
+									document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+								}
+								try{
+								document.getElementById('files').addEventListener('change', handleFileSelect, false);
+								}
+								catch (e){
+								}
+							</script>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<b>Function Library:</b> 
+						<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type='text' id = "strFuncLibPath" size='34' tabindex="4" ></input>-->
+						
+						<div class="innerleft" id ="test123">
+							<!--<div id ="selectBoxFL">-->
+								<!--<select multiple size="5" name="selectFL" id="selectFL">-->
+
+									<script type="text/javascript">
+										getFLValues();
+									</script>
+								<!--</select>-->
+							<!--</div>-->
+						</div>
+						
+						<br>
+						<!--<b>Object Repository:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="text" id = "strObjRepPath" size="34"tabindex="2"  ></input>
+						<br>-->
+						<a style="cursor:pointer" href="help/excelpreview.html" onclick="return popitup1('help/excelpreview.html');" tabindex="-1" title="Preview Excel">Click here to have a preview test case</a>
+						<!--<a href="#" onclick="window.open('SAS - E2E Worksite & CDC.xls', '_blank', 'fullscreen=no'); return false;">Click here to preview Excel File</a>-->
+						<br><br>
+						<b>Enter Test ID:</b> 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type='text' id = 'strTestID' size='34'tabindex="3" ></input>
+						<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+						<br>
+						<b>Exit QTP after execution:
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<label for="no">No</label> 
+						<input type="radio" name="mygroup" id="no" value="no" tabindex="6" checked/>
+
+						<label for="yes">Yes</label> 
+						<input type="radio" name="mygroup" id="yes" value="yes" tabindex="7" />
+						</b>
+											
+						<!--<b>Enter DataCol Name: </b>
+						&nbsp;
+						<input type='text' id = 'strDataCol' size='34' value="Data" tabindex="5"></input>-->
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<br>
+						<br>
+						<br>
+						<br>
+						<button style="cursor:pointer" id="StartQTP" type="button" class="myButton" name="Start QTP" value="Execute Script" onclick="InvokeQTP()" tabindex="8" accesskey="E" style="width: 150";><u>E</u>xecute Script</button>
+						<!--<button style="cursor:pointer" id="StopQTP" type="button" class="myButton" name="Stop QTP" value="Stop Execution Script" tabindex="9" accesskey="S" style="width: 150";><u>S</u>top Execution</button>-->
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<b>Last Run Result:</b>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<label id="strResult" for='strResult'></label>
+						<br>
+						&nbsp;
+					</div>
+					
+					<div class="rightCol" style = "font-size:9; font-weight: normal;">
+						<h6>
+							Select Add-ins: 
+							<br>
+							<label><input type="checkbox" name="addins1" value="ActiveX" tabindex="1">ActiveX</label>
+							<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+							<div class="innerright">
+								<label><input type="checkbox" name="addins2" value="Terminal_Emulators" tabindex="2">Terminal Emulators</label>
+							</div>
+							<br>
+							<label><input type="checkbox" name="addins3" value="Java" tabindex="3">Java</label>
+							<div class="innerright">
+								<label><input type="checkbox" name="addins4" value="Visual_Basic" tabindex="4">Visual Basic</label>
+							</div>
+							<br>
+							<label><input type="checkbox" name="addins5" value="Oracle" tabindex="5">Oracle</label>
+							<div class="innerright">
+								<label><input type="checkbox" name="addins6" value="Web" tabindex="6" checked>Web</label>
+							</div>
+							<br>
+							<label><input type="checkbox" name="addins7" value="Stingray" tabindex="7">Stingray</label>
+							<div class="innerright">
+								<label><input type="checkbox" name="addins8" value="GWT" tabindex="8">GWT</label>
+							</div>
+						</h5>
+					</div>
+					<!--</h5>-->
+				</div>
+			</div>
+			
+		</div>
+		<span style="display:inline-block; width: 15px;"></span>
+		<label for="Selected Application"><b>Application Selected:</b></label>	
+		<Label for "AppSelected" id="AppSelected" style="cursor:auto"></label>
+		<hr>
+		<div id="bottom">
+			<h5>
+					<!--<form name="abc">
+						<table id = "dtTable" border="5" WIDTH="90%" CELLPADDING="4" CELLSPACING="3" align="center" class="editableTable" BORDERCOLOR=BLACK>
+							<tr class="PortfolioList"  style="color: black; font-family: verdana; font-size: 12; font-weight:normal " class = "cellcolour">
+							<th width="20"><input id="allSelectEditBox" type="checkbox" name="allSelectEditBox" style="text-align:center;" onclick="checkAll();"></th>
+							<th width="200">Test Case ID</th>
+							<th width="20">Skip</th>
+							<th width="20">Break</th>
+							<th style = "width:300px;">Object</th>
+							<th width="150">Action</th>
+							<th style = "width:400px;" >Data</th>
+							<th width="100">Add Step</th>
+							<!--<th width="20"><a href="javascript:clickChk();" title="Add Row"><img src = "images\iconAddRow1.png" style="width: 20px; height:20px; border:0;" /></a></th>
+							</tr>
+						</table>
+					<form>-->
+			</h5>
+			<div id = "XMLTable">
+				<script type="text/javascript">
+					loadFromXML();
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

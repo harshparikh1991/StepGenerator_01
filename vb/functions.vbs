@@ -1,0 +1,3 @@
+function abcxyz(){
+	alert("Hi");
+}

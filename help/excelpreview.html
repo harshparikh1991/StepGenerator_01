@@ -1,0 +1,215 @@
+<html>
+<head><title>Test Case Preview</title>
+<script type="text/javascript">
+function getPath(){
+if (window != top)
+ top.location.href=location.href
+
+var formData = location.search;
+
+formData = formData.substring(1, formData.length);
+while (formData.indexOf("?") != -1) {
+ formData = formData.replace("?", "");
+}
+
+formData = unescape(formData);
+var formArray = formData.split("&");
+var strObjectXML = formArray[3];
+var pad = strObjectXML;
+return pad;
+}
+</script>
+</head>
+<body bgcolor="#ffffff">
+
+<script type="text/vbscript">
+
+	Function GetArrayNode(strPath, strNodeName)
+		Dim arrNode()
+		Set xmlDoc = CreateObject( "Microsoft.XMLDOM" )
+		xmlDoc.Async = "False"
+		xmlDoc.Load(strPath)
+		i = 0
+		strQuery = "dataroot/TestSteps/ (" & strNodeName & ")"
+		Set colNodes = xmlDoc.selectNodes( strQuery )
+		For Each appName in colNodes
+			ReDim Preserve arrNode(i)
+			If appName.text <> "" Then
+				arrNode(i) = appName.text
+			Else
+				arrNode(i) = "&nbsp; "	
+			End If
+			i = i + 1
+		Next
+		GetArrayNode = arrNode
+	End Function
+
+	function excelPreview()
+	
+	On Error Resume Next
+		Dim xlsPath
+		
+		xlsPath = getPath()
+		xlsPath = LTrim(xlsPath)
+		If InStr(1, xlsPath, ".xls") Then
+			blnFlag = True
+		Else
+			blnFlag = False
+		End If
+		
+		If blnFlag Then
+			Dim arrTestCaseID()
+			Dim arrSkip()
+			Dim arrBreak()
+			Dim arrObject()
+			Dim arrAction()
+			Dim arrData()
+			Const adOpenStatic = 3
+			Const adLockOptimistic = 3
+			Const adCmdText = &H0001
+
+			Set objConnection = CreateObject("ADODB.Connection")
+			Set objRecordSet = CreateObject("ADODB.Recordset")
+
+			objConnection.Open "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+				"Data Source=" & xlsPath & ";" & _
+					"Extended Properties=""Excel 8.0;HDR=Yes;IMEX=1""" 
+
+			objRecordset.Open "Select * FROM [TestCase$]", _
+				objConnection, adOpenStatic, adLockOptimistic, adCmdText
+			i = 0
+			Do Until objRecordset.EOF
+				ReDim Preserve arrTestCaseID(i)
+				ReDim Preserve arrSkip(i)
+				ReDim Preserve arrBreak(i)
+				ReDim Preserve arrObject(i)
+				ReDim Preserve arrAction(i)
+				ReDim Preserve arrData(i)
+				
+				On error Resume Next
+
+				If Not IsNull(objRecordset.Fields.Item("TestCase")) Then
+					arrTestCaseID(i) = objRecordset.Fields.Item("TestCase")
+				Else
+					arrTestCaseID(i) = "&nbsp; "
+				End If
+				
+				
+				If Not IsNull(objRecordset.Fields.Item("Skip")) Then
+					arrSkip(i) = objRecordset.Fields.Item("Skip")
+				Else
+					arrSkip(i) = "&nbsp; "
+				End If
+				
+				If Not IsNull(objRecordset.Fields.Item("Break")) Then
+					arrBreak(i) = objRecordset.Fields.Item("Break")
+				Else
+					arrBreak(i) = "&nbsp; "
+				End If
+							
+				If Not IsNull(objRecordset.Fields.Item("Object")) Then
+					arrObject(i) = objRecordset.Fields.Item("Object")
+				Else
+					arrObject(i) = "&nbsp; "
+				End If
+				
+				If Not IsNull(objRecordset.Fields.Item("Action")) Then
+					arrAction(i) = objRecordset.Fields.Item("Action")
+				Else
+					arrAction(i) = "&nbsp; "
+				End If
+				
+				If Not IsNull(objRecordset.Fields.Item("Data")) Or objRecordset.Fields.Item("Data") = " " Then
+					arrData(i) = objRecordset.Fields.Item("Data")
+				Else
+					arrData(i) = "&nbsp;<b></b>"
+				End If
+				
+				i = i + 1
+				objRecordset.MoveNext
+			Loop
+			rMax = UBound(arrTestCaseID)
+			
+			'V_HTML = ""
+			V_HTML = V_HTML & "<table id=className border=1 WIDTH=90% CELLPADDING=4 CELLSPACING=3 align=center>"
+			V_HTML = V_HTML & "<tr style=color:black; font-family:verdana; font-size:12; font-weight:normal>"
+			V_HTML = V_HTML & "<th>TestCase ID</th>"
+			V_HTML = V_HTML & "<th>Skip</th>"
+			V_HTML = V_HTML & "<th>Break</th>"
+			V_HTML = V_HTML & "<th>Object</th>"
+			V_HTML = V_HTML & "<th>Action</th>"
+			V_HTML = V_HTML & "<th>Data</th>"
+			V_HTML = V_HTML & "</tr>"
+			For r = 0 To rMax
+				V_HTML = V_HTML & "<tr style=color:black; font-family:verdana; font-weight:normal>"
+				V_HTML = V_HTML & "<td>" & arrTestCaseID(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrSkip(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrBreak(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrObject(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrAction(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrData(r) & "</td>"
+				V_HTML = V_HTML & "</tr>"
+			Next
+			V_HTML = V_HTML & "</table>"
+			If err.Num = 0 Then
+				excelPreview = V_HTML
+			Else
+				msgbox "Error! " & vblf & err.Description
+			End If
+			
+		Else
+			Dim arrTestCaseIDXML
+			Dim arrSkipXML
+			Dim arrBreakXML
+			Dim arrObjectXML
+			Dim arrActionXML
+			Dim arrDataXML
+			arrTestCaseIDXML = GetArrayNode(xlsPath, "TestCase")
+			arrSkipXML = GetArrayNode(xlsPath, "Skip ")
+			arrBreakXML = GetArrayNode(xlsPath, "Break")
+			arrObjectXML = GetArrayNode(xlsPath, "ObjectName")
+			arrActionXML = GetArrayNode(xlsPath, "ActionName")
+			arrDataXML = GetArrayNode(xlsPath, "Data")
+			rMax = UBound(arrTestCaseIDXML)
+				
+			'V_HTML = ""
+			V_HTML = V_HTML & "<table id=className border=1 WIDTH=90% CELLPADDING=4 CELLSPACING=3 align=center>"
+			V_HTML = V_HTML & "<tr style=color:black; font-family:verdana; font-size:12; font-weight:normal>"
+			V_HTML = V_HTML & "<th>TestCase ID</th>"
+			V_HTML = V_HTML & "<th>Skip</th>"
+			V_HTML = V_HTML & "<th>Break</th>"
+			V_HTML = V_HTML & "<th>Object</th>"
+			V_HTML = V_HTML & "<th>Action</th>"
+			V_HTML = V_HTML & "<th>Data</th>"
+			V_HTML = V_HTML & "</tr>"
+			For r = 0 To rMax
+				V_HTML = V_HTML & "<tr style=color:black; font-family:verdana; font-weight:normal>"
+				V_HTML = V_HTML & "<td>" & arrTestCaseIDXML(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrSkipXML(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrBreakXML(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrObjectXML(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrActionXML(r) & "</td>"
+				V_HTML = V_HTML & "<td>" & arrDataXML(r) & "</td>"
+				V_HTML = V_HTML & "</tr>"
+			Next
+			V_HTML = V_HTML & "</table>"
+			If err.Num = 0 Then
+				excelPreview = V_HTML
+			Else
+				msgbox "Error! " & vblf & err.Description
+			End If
+		End If
+	End Function
+</script>
+<h3><b><u>Test Case Preview:</u></b>&nbsp;&nbsp; 
+<script type="text/javascript">
+	strPath = getPath();
+	document.write(strPath);
+</script>
+</h3><br>
+<script type="text/vbscript">
+dim text : text = excelPreview()
+document.write text
+</script>
+</body>
+</html>

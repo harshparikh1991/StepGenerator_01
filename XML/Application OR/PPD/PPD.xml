@@ -1,0 +1,372 @@
+<dataroot>
+<ObjectRepository Value= "1">
+<CommonName>Browser</CommonName>
+<ObjPath>Browser("creationtime:=0")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "2">
+<CommonName>AssurantEmployeeBenefits</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits")</ObjPath>
+<strPath>Browser</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "3">
+<CommonName>IndividualPPD</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD")</ObjPath>
+<strPath>Browser</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "4">
+<CommonName>alabama</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Alabama")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "5">
+<CommonName>annualPremiumFees</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").WebTable("class:=stattable"|"column names:=Annual Premium Fees")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "6">
+<CommonName>arizona</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Arizona")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "7">
+<CommonName>automaticMonthlyBankDraft</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").WebTable("class:=stattable"|"column names:=Automatic Monthly Bank Draft")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "8">
+<CommonName>enrollNow</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Image("html id:=enrollnow")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "9">
+<CommonName>florida</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Florida")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "10">
+<CommonName>georgia</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Georgia")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "11">
+<CommonName>illinois</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Illinois")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "12">
+<CommonName>individualDental</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Individual dental")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "13">
+<CommonName>kansas</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Kansas")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "14">
+<CommonName>kentucky</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Kentucky")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "15">
+<CommonName>missouri</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Missouri")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "16">
+<CommonName>newMexico</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=New Mexico")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "17">
+<CommonName>newYork</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=New York")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "18">
+<CommonName>ohio</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Ohio")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "19">
+<CommonName>oklahoma</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Oklahoma")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "20">
+<CommonName>pennsylvania</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Pennsylvania")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "21">
+<CommonName>productsAndServices</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Products and Services")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "22">
+<CommonName>tennessee</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Tennessee")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "23">
+<CommonName>texas</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits").Link("name:=Texas")</ObjPath>
+<strPath>Browser.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "24">
+<CommonName>addDependent</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebButton("name:=Add Dependent"|"html tag:=BUTTON"|"class:=gwt-Button")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "25">
+<CommonName>address</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-address")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "26">
+<CommonName>bankAcctNum</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-bankAcctNum")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "27">
+<CommonName>bankCity</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-bankCity")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "28">
+<CommonName>bankName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-bankName")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "29">
+<CommonName>bankRouting</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-bankRouting")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "30">
+<CommonName>bankState</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-bankState")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "31">
+<CommonName>bankTypeChecking</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-bankTypeChecking-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "32">
+<CommonName>cardExpMonth</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-cardExpMonth")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "33">
+<CommonName>cardExpYear</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-cardExpYear")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "34">
+<CommonName>cardNumber</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-cardNumber")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "35">
+<CommonName>cardType</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-cardType")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "36">
+<CommonName>city</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-city")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "37">
+<CommonName>dobDay</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-dobDay")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "38">
+<CommonName>dobMonth</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-dobMonth")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "39">
+<CommonName>dobYear</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-dobYear")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "40">
+<CommonName>email</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-email")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "41">
+<CommonName>eveningPhonechunk1</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-eveningPhonechunk1")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "42">
+<CommonName>eveningPhonechunk2</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-eveningPhonechunk2")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "43">
+<CommonName>eveningPhonechunk3</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-eveningPhonechunk3")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "44">
+<CommonName>facilityProvider</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-facilityProvider")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "45">
+<CommonName>firstName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-firstName")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "46">
+<CommonName>genderFemale</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-genderFemale-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "47">
+<CommonName>genderMale</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-genderMale-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "48">
+<CommonName>homePhoneChunk1</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-homePhoneChunk1")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "49">
+<CommonName>homePhoneChunk2</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-homePhoneChunk2")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "50">
+<CommonName>homePhoneChunk3</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-homePhoneChunk3")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "51">
+<CommonName>individualRadioButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-individualRadioButton-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "52">
+<CommonName>lastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-lastName")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "53">
+<CommonName>mobilePhoneChunk1</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-mobilePhoneChunk1")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "54">
+<CommonName>mobilePhoneChunk2</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-mobilePhoneChunk2")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "55">
+<CommonName>mobilePhoneChunk3</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-mobilePhoneChunk3")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "56">
+<CommonName>paymentMethodCredit</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-paymentMethodCredit-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "57">
+<CommonName>planRates</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebTable("class:=zeropadding"|"column names:=;Monthly;Annually")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "58">
+<CommonName>removeDependent</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebButton("name:=Remove Dependent"|"html tag:=BUTTON"|"class:=gwt-Button")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "59">
+<CommonName>resetForm</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebButton("name:=Reset Form"|"html tag:=BUTTON"|"class:=formbuttonsecondary")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "60">
+<CommonName>spouseDobDay</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-spouseDobDay")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "61">
+<CommonName>spouseDobMonth</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-spouseDobMonth")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "62">
+<CommonName>spouseDobYear</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-spouseDobYear")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "63">
+<CommonName>spouseFacilityProvider</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-spouseFacilityProvider")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "64">
+<CommonName>spouseFirstName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-spouseFirstName")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "65">
+<CommonName>spouseGenderFemale</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-spouseGenderFemale-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "66">
+<CommonName>spouseGenderMale</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebRadioGroup("html id:=gwt-debug-spouseGenderMale-input")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "67">
+<CommonName>spouseLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-spouseLastName")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "68">
+<CommonName>spouseMiddleName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-spouseMiddleName")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "69">
+<CommonName>spouseRelationship</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebList("html id:=gwt-debug-spouseRelationship")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "70">
+<CommonName>ssnChunk1</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-ssnChunk1")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "71">
+<CommonName>ssnChunk2</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-ssnChunk2")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "72">
+<CommonName>ssnChunk3</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-ssnChunk3")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "73">
+<CommonName>submitForm</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebButton("name:=Submit Form"|"html tag:=BUTTON"|"class:=formbutton")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "74">
+<CommonName>zipcode</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Individual PPD").WebEdit("html id:=gwt-debug-zipcode")</ObjPath>
+<strPath>Browser.IndividualPPD</strPath>
+</ObjectRepository>
+</dataroot>

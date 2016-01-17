@@ -1,0 +1,107 @@
+<dataroot>
+<ObjectRepository Value= "1">
+<CommonName>assurantEmployeeBenefits</CommonName>
+<ObjPath>Browser("micclass:=Browser")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "2">
+<CommonName>googleChrome</CommonName>
+<ObjPath>Dialog("text:=Google Chrome"|"nativeclass:=#32770"|"is owned window:=0"|"is child window:=0")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "3">
+<CommonName>oK</CommonName>
+<ObjPath>WinButton("text:=OK"|"nativeclass:=Button")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "4">
+<CommonName>selectMyBenefits</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page")</ObjPath>
+<strPath>assurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "5">
+<CommonName>selectMyBenefitsAdministrat</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page")</ObjPath>
+<strPath>assurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "6">
+<CommonName>login</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebButton("type:=submit"|"name:=Login"|"micclass:=WebButton"|"html tag:=BUTTON")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "7">
+<CommonName>password</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebEdit("type:=password"|"name:=password"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "8">
+<CommonName>username</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebEdit("type:=text"|"name:=username"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "9">
+<CommonName>addGroup</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Add Group"|"html tag:=LI")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "10">
+<CommonName>alias</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebEdit("type:=text"|"name:=form\[alias\]"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "11">
+<CommonName>company</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Company"|"html tag:=DIV")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "12">
+<CommonName>dashboard</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Dashboard"|"html tag:=LI")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "13">
+<CommonName>deductionsPerYear</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebEdit("type:=number"|"name:=form\[deductionsPerYear\]"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "14">
+<CommonName>googleSearchButton</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebButton("html id:=gbqfba")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "15">
+<CommonName>googleWebEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebEdit("html id:=gbqfq")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "16">
+<CommonName>groupInfoUsersEmployees</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebElement("micclass:=WebElement"|"html tag:=SECTIONGROUP"|"class:=icons")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "17">
+<CommonName>groupname</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebEdit("type:=text"|"name:=form\[name\]"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "18">
+<CommonName>logout</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Logout"|"html tag:=DIV")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "19">
+<CommonName>newGrpHeader</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebElement("micclass:=WebElement"|"html tag:=H2")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "20">
+<CommonName>saveChanges</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebButton("type:=submit"|"name:=Save Changes"|"micclass:=WebButton"|"html tag:=BUTTON")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "21">
+<CommonName>select</CommonName>
+<ObjPath>Browser("micclass:=Browser").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT")</ObjPath>
+<strPath>assurantEmployeeBenefits.selectMyBenefitsAdministrat</strPath>
+</ObjectRepository>
+</dataroot>

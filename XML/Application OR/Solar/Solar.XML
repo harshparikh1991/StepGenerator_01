@@ -1,0 +1,1097 @@
+<dataroot>
+<ObjectRepository Value= "1">
+<CommonName>AdobeReader</CommonName>
+<ObjPath>Window("text:=RegExFullStop* - Adobe Reader")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "2">
+<CommonName>DataCapture_Solar</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "3">
+<CommonName>MemberGroupInformation_FYI</CommonName>
+<ObjPath>Dialog("text:=FYI")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "4">
+<CommonName>SolarDataCapture</CommonName>
+<ObjPath>Dialog("text:=Solar Data Capture")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "5">
+<CommonName>AdobeReader_Edit</CommonName>
+<ObjPath>Window("text:=RegExFullStop* - Adobe Reader").WinEdit("window id:=0")</ObjPath>
+<strPath>AdobeReader</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "6">
+<CommonName>AdobeReader_Menu</CommonName>
+<ObjPath>Window("text:=RegExFullStop* - Adobe Reader").WinMenu("menuobjtype:=2")</ObjPath>
+<strPath>AdobeReader</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "7">
+<CommonName>AdditionalAttributes</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Additional AttributesRegExFullStop*"|"window id:=0")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "8">
+<CommonName>DataCaptureToolBar</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").WinToolbar("nativeclass:=ToolbarWindow32")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "9">
+<CommonName>DefineBooklets</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define BookletsRegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "10">
+<CommonName>DefineEligibilityGroup</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "11">
+<CommonName>DefineMemberGroups</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Member GroupsRegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "12">
+<CommonName>DentalEvidence</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "13">
+<CommonName>DentalServiceAgreement</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "14">
+<CommonName>Error_Window</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Error Log - RegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "15">
+<CommonName>ExportToClaimfacts</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To ClaimFacts")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "16">
+<CommonName>ExportToCompass</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To COMPASSRegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "17">
+<CommonName>FYI</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=FYI")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "18">
+<CommonName>FYI_Window</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=FYI")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "19">
+<CommonName>GenerateBooklets</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "20">
+<CommonName>GenerateContracts</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "21">
+<CommonName>GroupCriteria</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "22">
+<CommonName>GroupsList</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").WinListView("attached text:=Group List"|"window id:=1005")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "23">
+<CommonName>Menu</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").WinMenu("menuobjtype:=2")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "24">
+<CommonName>ModifyGroup</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "25">
+<CommonName>OutputErrorMessage</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Output Error Message")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "26">
+<CommonName>PlansList</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").WinListView("window id:=1007")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "27">
+<CommonName>SolarOutputArchivedDocumentSearch</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "28">
+<CommonName>SolarOutputRequestStatus</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "29">
+<CommonName>SubmitSelectPlans</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "30">
+<CommonName>VisionOutlineOfCoverage</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*")</ObjPath>
+<strPath>DataCapture_Solar</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "31">
+<CommonName>AdditionalAttributes_AddlAttributesTable</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Additional AttributesRegExFullStop*"|"window id:=0").WinTable("text:=Custom1"|"window id:=1553")</ObjPath>
+<strPath>DataCapture_Solar.AdditionalAttributes</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "32">
+<CommonName>AdditionalAttributes_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Additional AttributesRegExFullStop*"|"window id:=0").WinButton("window id:=1"|"text:=&amp;OK")</ObjPath>
+<strPath>DataCapture_Solar.AdditionalAttributes</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "33">
+<CommonName>DefineBooklets_Add</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define BookletsRegExFullStop*").WinButton("text:=&amp;Add")</ObjPath>
+<strPath>DataCapture_Solar.DefineBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "34">
+<CommonName>DefineBooklets_BookletDefinationPlans</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define BookletsRegExFullStop*").WinListView("window id:=1001")</ObjPath>
+<strPath>DataCapture_Solar.DefineBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "35">
+<CommonName>DefineBooklets_EligibleClassesBooklet</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define BookletsRegExFullStop*").WinListView("window id:=1004")</ObjPath>
+<strPath>DataCapture_Solar.DefineBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "36">
+<CommonName>DefineBooklets_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define BookletsRegExFullStop*").WinButton("text:=&amp;OK")</ObjPath>
+<strPath>DataCapture_Solar.DefineBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "37">
+<CommonName>DefineBooklets_ServiceRequirementsBooklet</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define BookletsRegExFullStop*").WinListView("window id:=1034")</ObjPath>
+<strPath>DataCapture_Solar.DefineBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "38">
+<CommonName>DefineEligibilityGroup_ConfirmBox</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").Dialog("text:=Confirm")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "39">
+<CommonName>DefineEligibilityGroup_DefinedAsWorking</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinTable("window id:=1479"|"attached text:=defined as working")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "40">
+<CommonName>DefineEligibilityGroup_EarningsDefinationOk</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinButton("text:=&amp;OK")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "41">
+<CommonName>DefineEligibilityGroup_EligibileClassDetails</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinComboBox("window id:=1298")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "42">
+<CommonName>DefineEligibilityGroup_EligibleClassAdd</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinButton("text:=&amp;Add")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "43">
+<CommonName>DefineEligibilityGroup_EligibleClassDelete</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinButton("text:=&amp;Delete")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "44">
+<CommonName>DefineEligibilityGroup_EligibleClassNext</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinButton("text:=&amp;Next >>")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "45">
+<CommonName>DefineEligibilityGroup_EnrtyTerminationDates</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinListView("window id:=1004")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "46">
+<CommonName>DefineEligibilityGroup_EnrtyTerminationDefinedDates</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinListView("window id:=1445")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "47">
+<CommonName>DefineEligibilityGroup_EntryDates</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinComboBox("window id:=1040")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "48">
+<CommonName>DefineEligibilityGroup_PlanEligibleClass</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinListView("window id:=1004")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "49">
+<CommonName>DefineEligibilityGroup_PlanServiceReq</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinListView("window id:=1004")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "50">
+<CommonName>DefineEligibilityGroup_PremiumPaymentType</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinComboBox("window id:=1482")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "51">
+<CommonName>DefineEligibilityGroup_ServiceReq</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinComboBox("window id:=1444")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "52">
+<CommonName>DefineEligibilityGroup_TerminationDates</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").WinComboBox("window id:=1042")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "53">
+<CommonName>DefineEligibilityGroup_ConfirmBox_Yes</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Eligibility RegExFullStop*").Dialog("text:=Confirm").WinButton("text:=&amp;Yes")</ObjPath>
+<strPath>DataCapture_Solar.DefineEligibilityGroup.DefineEligibilityGroup_ConfirmBox</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "54">
+<CommonName>DefineMemberGroups_Finish</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Member GroupsRegExFullStop*").WinButton("text:=&amp;Finish")</ObjPath>
+<strPath>DataCapture_Solar.DefineMemberGroups</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "55">
+<CommonName>DefineMemberGroups_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Define Member GroupsRegExFullStop*").WinButton("text:=&amp;Next >")</ObjPath>
+<strPath>DataCapture_Solar.DefineMemberGroups</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "56">
+<CommonName>DentalEvidence_Apply</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinButton("text:=&amp;Apply")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "57">
+<CommonName>DentalEvidence_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "58">
+<CommonName>DentalEvidence_ExitWindowAfterRequest</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinCheckBox("text:=Exit Window After Request")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "59">
+<CommonName>DentalEvidence_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "60">
+<CommonName>DentalEvidence_NewDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinRadioButton("text:=New Document")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "61">
+<CommonName>DentalEvidence_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinButton("text:=&amp;Next \>\>")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "62">
+<CommonName>DentalEvidence_Request</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinButton("text:=&amp;Request")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "63">
+<CommonName>DentalEvidence_SysTabControl32</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Dental Evidence of CoverageRegExFullStop*").WinTab("nativeclass:=SysTabControl32")</ObjPath>
+<strPath>DataCapture_Solar.DentalEvidence</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "64">
+<CommonName>DentalServiceAgreement_&Request</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;Request")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "65">
+<CommonName>DentalServiceAgreement_Apply</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;Apply")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "66">
+<CommonName>DentalServiceAgreement_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "67">
+<CommonName>DentalServiceAgreement_CurrentSolarOutputDocuments</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinListView("attached text:=Current Solar Output Documents")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "68">
+<CommonName>DentalServiceAgreement_Edit</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;EditRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "69">
+<CommonName>DentalServiceAgreement_ExitWindowAfterRequest</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinCheckBox("text:=Exit Window After Request")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "70">
+<CommonName>DentalServiceAgreement_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "71">
+<CommonName>DentalServiceAgreement_NewDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinRadioButton("text:=New Document")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "72">
+<CommonName>DentalServiceAgreement_NewUsingCurrentDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinRadioButton("text:=New Using Current Document")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "73">
+<CommonName>DentalServiceAgreement_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;Next \>\>")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "74">
+<CommonName>DentalServiceAgreement_ReprintCurrentDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinRadioButton("text:=Reprint Current Document")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "75">
+<CommonName>DentalServiceAgreement_RequestedDocumentData</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinListView("attached text:=Requested Document Data")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "76">
+<CommonName>DentalServiceAgreement_SysTabControl32</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinTab("nativeclass:=SysTabControl32")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "77">
+<CommonName>DentalServiceAgreement_View</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("nativeclass:=#32770").WinButton("text:=&amp;ViewRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.DentalServiceAgreement</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "78">
+<CommonName>ExportToClaimfacts_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To ClaimFacts").WinButton("text:=&amp;OK"|"window id:=1")</ObjPath>
+<strPath>DataCapture_Solar.ExportToClaimfacts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "79">
+<CommonName>ExportToCompass_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To COMPASSRegExFullStop*").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.ExportToCompass</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "80">
+<CommonName>ExportToCompass_ExitWindowAfterExport</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To COMPASSRegExFullStop*").WinCheckBox("text:=Exit Window After Export")</ObjPath>
+<strPath>DataCapture_Solar.ExportToCompass</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "81">
+<CommonName>ExportToCompass_Export</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To COMPASSRegExFullStop*").WinButton("text:=&amp;Export")</ObjPath>
+<strPath>DataCapture_Solar.ExportToCompass</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "82">
+<CommonName>ExportToCompass_Refresh</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To COMPASSRegExFullStop*").WinButton("text:=&amp;Refresh")</ObjPath>
+<strPath>DataCapture_Solar.ExportToCompass</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "83">
+<CommonName>ExportToCompass_Transactions</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Export To COMPASSRegExFullStop*").WinTable("window id:=1555")</ObjPath>
+<strPath>DataCapture_Solar.ExportToCompass</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "84">
+<CommonName>FYI_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=FYI").WinButton("text:=OK")</ObjPath>
+<strPath>DataCapture_Solar.FYI</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "85">
+<CommonName>GenerateBooklets_Apply</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinButton("text:=Apply")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "86">
+<CommonName>GenerateBooklets_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "87">
+<CommonName>GenerateBooklets_Destination</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinComboBox("attached text:=Destination:")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "88">
+<CommonName>GenerateBooklets_ExitWindowAfterRequest</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinCheckBox("text:=Exit Window After Request")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "89">
+<CommonName>GenerateBooklets_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "90">
+<CommonName>GenerateBooklets_Ifapplicable,generate</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinCheckBox("text:=If applicable, generate Product Enhancement Issue Document")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "91">
+<CommonName>GenerateBooklets_NewDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinRadioButton("text:=New Document")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "92">
+<CommonName>GenerateBooklets_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinButton("text:=&amp;Next \>\>")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "93">
+<CommonName>GenerateBooklets_Reissue</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinCheckBox("text:=Reissue")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "94">
+<CommonName>GenerateBooklets_Request</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinButton("text:=&amp;Request")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "95">
+<CommonName>GenerateBooklets_SysTabControl32</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop* Booklet").WinTab("nativeclass:=SysTabControl32")</ObjPath>
+<strPath>DataCapture_Solar.GenerateBooklets</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "96">
+<CommonName>GenerateContracts_Apply</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinButton("text:=&amp;Apply")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "97">
+<CommonName>GenerateContracts_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "98">
+<CommonName>GenerateContracts_Destination</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinComboBox("attached text:=Destination:")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "99">
+<CommonName>GenerateContracts_ExitWindowAfterRequest</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinCheckBox("text:=Exit Window After Request")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "100">
+<CommonName>GenerateContracts_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "101">
+<CommonName>GenerateContracts_NewDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinRadioButton("text:=New Document")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "102">
+<CommonName>GenerateContracts_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinButton("text:=&amp;Next \>\>")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "103">
+<CommonName>GenerateContracts_Reissue</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinCheckBox("text:=Reissue")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "104">
+<CommonName>GenerateContracts_Request</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinButton("text:=&amp;Request")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "105">
+<CommonName>GenerateContracts_SysTabControl32</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinTab("nativeclass:=SysTabControl32")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "106">
+<CommonName>GenerateContracts_View</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Contract").WinButton("text:=&amp;ViewRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.GenerateContracts</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "107">
+<CommonName>GroupCriteria_GroupId</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria").WinCheckBox("text:=Group Id:")</ObjPath>
+<strPath>DataCapture_Solar.GroupCriteria</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "108">
+<CommonName>GroupCriteria_GroupId_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria").WinEdit("window id:=1083")</ObjPath>
+<strPath>DataCapture_Solar.GroupCriteria</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "109">
+<CommonName>GroupCriteria_OK</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria").WinButton("text:=&amp;OK")</ObjPath>
+<strPath>DataCapture_Solar.GroupCriteria</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "110">
+<CommonName>GroupCriteria_Participant</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria").WinEdit("attached text:=Participant:")</ObjPath>
+<strPath>DataCapture_Solar.GroupCriteria</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "111">
+<CommonName>GroupCriteria_Policy</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria").WinCheckBox("text:=Policy:")</ObjPath>
+<strPath>DataCapture_Solar.GroupCriteria</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "112">
+<CommonName>GroupCriteria_Policy_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Group Criteria").WinEdit("window id:=1077")</ObjPath>
+<strPath>DataCapture_Solar.GroupCriteria</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "113">
+<CommonName>ModifyGroup_AddressLine1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEditor("attached text:=Group/Location Addresses:"|"index:=0")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "114">
+<CommonName>ModifyGroup_AppSignedOn</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEditor("attached text:=App\RegExFullStop Signed On\:"|"index:=1")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "115">
+<CommonName>ModifyGroup_Block_Of_Bus</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=1055")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "116">
+<CommonName>ModifyGroup_CarrierNames_DEN</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=1309")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "117">
+<CommonName>ModifyGroup_City</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEditor("window id:=52512"|"index:=1")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "118">
+<CommonName>ModifyGroup_ContactListAdd</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinButton("text:=&amp;Add")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "119">
+<CommonName>ModifyGroup_ContactListOk</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinButton("text:=&amp;OK")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "120">
+<CommonName>ModifyGroup_ContactsFirstName</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEdit("window id:=1140")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "121">
+<CommonName>ModifyGroup_ContactsLastName</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEdit("window id:=1424")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "122">
+<CommonName>ModifyGroup_ContactsMiddleName</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEdit("window id:=1422")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "123">
+<CommonName>ModifyGroup_ContactsNamePrefix</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=1118")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "124">
+<CommonName>ModifyGroup_ContactsPhoneNumber</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEditor("window id:=3")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "125">
+<CommonName>ModifyGroup_ContactsPhoneNumberTable</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinTable("window id:=1437")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "126">
+<CommonName>ModifyGroup_ContactsTitle</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEdit("window id:=1170")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "127">
+<CommonName>ModifyGroup_DistChannel</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=1029")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "128">
+<CommonName>ModifyGroup_Group_Location_Adds_Table</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinTable("window id:=1420")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "129">
+<CommonName>ModifyGroup_GrpOffice</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinObject("window id:=1418")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "130">
+<CommonName>ModifyGroup_LegalEntity</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=1113")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "131">
+<CommonName>ModifyGroup_LocationType</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=52529")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "132">
+<CommonName>ModifyGroup_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinButton("text:=&amp;Next >>")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "133">
+<CommonName>ModifyGroup_State</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinComboBox("window id:=52529")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "134">
+<CommonName>ModifyGroup_Tax_Id_Number</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEditor("window id:=1060")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "135">
+<CommonName>ModifyGroup_ZipCode</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Modify Group RegExFullStop*").WinEditor("window id:=2"|"nativeclass:=Edit")</ObjPath>
+<strPath>DataCapture_Solar.ModifyGroup</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "136">
+<CommonName>OutputErrorMessage_OK</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Output Error Message").WinButton("text:=OK")</ObjPath>
+<strPath>DataCapture_Solar.OutputErrorMessage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "137">
+<CommonName>SolarOutputArchivedDocumentSearch_Appenddocumentstoend</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Append documents to end of current list after Search")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "138">
+<CommonName>SolarOutputArchivedDocumentSearch_Apply</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Apply")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "139">
+<CommonName>SolarOutputArchivedDocumentSearch_ArchiveAsFinal</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Archive As Final")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "140">
+<CommonName>SolarOutputArchivedDocumentSearch_ArchivedDocuments</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinListView("attached text:=Archived Documents")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "141">
+<CommonName>SolarOutputArchivedDocumentSearch_Both</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinRadioButton("text:=Both")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "142">
+<CommonName>SolarOutputArchivedDocumentSearch_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "143">
+<CommonName>SolarOutputArchivedDocumentSearch_Delete</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Delete")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "144">
+<CommonName>SolarOutputArchivedDocumentSearch_Displaycurrentdocuments</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Display current documents only")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "145">
+<CommonName>SolarOutputArchivedDocumentSearch_DocEffDt</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Doc Eff Dt:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "146">
+<CommonName>SolarOutputArchivedDocumentSearch_DocumentID</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Document ID:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "147">
+<CommonName>SolarOutputArchivedDocumentSearch_DocumentId_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEdit("attached text:=To:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "148">
+<CommonName>SolarOutputArchivedDocumentSearch_DocumentName</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Document Name:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "149">
+<CommonName>SolarOutputArchivedDocumentSearch_DocumentName_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinComboBox("attached text:=To:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "150">
+<CommonName>SolarOutputArchivedDocumentSearch_Draft</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinRadioButton("text:=Draft")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "151">
+<CommonName>SolarOutputArchivedDocumentSearch_Edit</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;EditRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "152">
+<CommonName>SolarOutputArchivedDocumentSearch_ExportToAtWork</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Export To @Work")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "153">
+<CommonName>SolarOutputArchivedDocumentSearch_Final</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinRadioButton("text:=Final")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "154">
+<CommonName>SolarOutputArchivedDocumentSearch_From</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEditor("attached text:=From:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "155">
+<CommonName>SolarOutputArchivedDocumentSearch_From_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinTable("window id:=1039")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "156">
+<CommonName>SolarOutputArchivedDocumentSearch_GroupCaseId</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEdit("window id:=1051")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "157">
+<CommonName>SolarOutputArchivedDocumentSearch_GroupCaseID_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Group Case ID:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "158">
+<CommonName>SolarOutputArchivedDocumentSearch_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "159">
+<CommonName>SolarOutputArchivedDocumentSearch_ModifyMailLabel</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Modify  Mail Label")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "160">
+<CommonName>SolarOutputArchivedDocumentSearch_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Next\>\>")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "161">
+<CommonName>SolarOutputArchivedDocumentSearch_PartNo</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEdit("window id:=1048")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "162">
+<CommonName>SolarOutputArchivedDocumentSearch_Policy/PartNo</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Policy/Part No:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "163">
+<CommonName>SolarOutputArchivedDocumentSearch_PolicyNo</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEdit("window id:=1047")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "164">
+<CommonName>SolarOutputArchivedDocumentSearch_Request</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Request")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "165">
+<CommonName>SolarOutputArchivedDocumentSearch_RequestID</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinCheckBox("text:=Request ID:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "166">
+<CommonName>SolarOutputArchivedDocumentSearch_RequestId_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEdit("window id:=1012")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "167">
+<CommonName>SolarOutputArchivedDocumentSearch_Search</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;Search")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "168">
+<CommonName>SolarOutputArchivedDocumentSearch_SetDocumentAsCurrent</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=Set Document As &amp;Current")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "169">
+<CommonName>SolarOutputArchivedDocumentSearch_SolarOutputArchivedTabs</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinTab("nativeclass:=SysTabControl32")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "170">
+<CommonName>SolarOutputArchivedDocumentSearch_To</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinEditor("attached text:=To:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "171">
+<CommonName>SolarOutputArchivedDocumentSearch_To_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinTable("window id:=1040")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "172">
+<CommonName>SolarOutputArchivedDocumentSearch_View</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Search For Groups").WinButton("text:=&amp;ViewRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputArchivedDocumentSearch</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "173">
+<CommonName>SolarOutputRequestStatus_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "174">
+<CommonName>SolarOutputRequestStatus_DocumentID</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinCheckBox("text:=Document ID:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "175">
+<CommonName>SolarOutputRequestStatus_DocumentID_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinEdit("window id:=1015")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "176">
+<CommonName>SolarOutputRequestStatus_DocumentName</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinCheckBox("text:=Document Name:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "177">
+<CommonName>SolarOutputRequestStatus_DocumentName_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinComboBox("window id:=1016")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "178">
+<CommonName>SolarOutputRequestStatus_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "179">
+<CommonName>SolarOutputRequestStatus_RequestDate</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinCheckBox("text:=Request Date:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "180">
+<CommonName>SolarOutputRequestStatus_RequestDate_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinTable("nativeclass:=GXWND")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "181">
+<CommonName>SolarOutputRequestStatus_RequestedDocuments</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinListView("attached text:=Requested Documents")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "182">
+<CommonName>SolarOutputRequestStatus_RequestedDocuments_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinObject("regexpwndclass:=SysHeader32")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "183">
+<CommonName>SolarOutputRequestStatus_RequestID</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinCheckBox("text:=Request ID:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "184">
+<CommonName>SolarOutputRequestStatus_RequestID_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinEdit("window id:=1012")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "185">
+<CommonName>SolarOutputRequestStatus_RequestStatus</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinCheckBox("text:=Request Status:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "186">
+<CommonName>SolarOutputRequestStatus_RequestStatus_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinComboBox("window id:=1035")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "187">
+<CommonName>SolarOutputRequestStatus_SearchRefresh</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinButton("text:=&amp;Search/Refresh")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "188">
+<CommonName>SolarOutputRequestStatus_TrackShipping</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinButton("text:=&amp;Track ShippingRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "189">
+<CommonName>SolarOutputRequestStatus_UserID</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinCheckBox("text:=User ID:")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "190">
+<CommonName>SolarOutputRequestStatus_UserID_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Solar Output Request Status").WinEdit("window id:=1022")</ObjPath>
+<strPath>DataCapture_Solar.SolarOutputRequestStatus</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "191">
+<CommonName>SolarOutputArchivedDocumentSearch_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").Dialog("text:=Search For Groups")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "192">
+<CommonName>SubmitSelectPlans_FYI</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").Dialog("text:=FYI")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "193">
+<CommonName>SubmitSelectPlans_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").WinButton("text:=&amp;Next >>"|"window id:=1403")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "194">
+<CommonName>SubmitSelectPlans_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").WinButton("text:=&amp;OK")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "195">
+<CommonName>SubmitSelectPlans_PoliciesForEachPlan</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").WinTable("window id:=1401"|"text:=Policies For Each Plan")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "196">
+<CommonName>SubmitSelectPlans_SelectPlanList</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").WinListView("attached text:=Please check which plans to submit:"|"nativeclass:=SysListView32")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "197">
+<CommonName>SubmitSelectPlans_Warning</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").Dialog("text:=Warning"|"window id:=0")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "198">
+<CommonName>SolarOutputArchivedDocumentSearch_Cancel</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").Dialog("text:=Search For Groups").WinButton("text:=&amp;Cancel")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans.SolarOutputArchivedDocumentSearch_1</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "199">
+<CommonName>SubmitSelectPlans_FYI_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").Dialog("text:=FYI").WinButton("text:=OK")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans.SubmitSelectPlans_FYI</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "200">
+<CommonName>SubmitSelectPlans_Warning_Ok</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=SubmitRegExFullStop*").Dialog("text:=Warning"|"window id:=0").WinButton("window id:=2"|"text:=OK")</ObjPath>
+<strPath>DataCapture_Solar.SubmitSelectPlans.SubmitSelectPlans_Warning</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "201">
+<CommonName>VisionOutlineOfCoverage_Apply</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;Apply")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "202">
+<CommonName>VisionOutlineOfCoverage_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "203">
+<CommonName>VisionOutlineOfCoverage_CurrentSolarOutputDocuments</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinListView("attached text:=Current Solar Output Documents")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "204">
+<CommonName>VisionOutlineOfCoverage_Edit</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;EditRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "205">
+<CommonName>VisionOutlineOfCoverage_ExitWindowAfterRequest</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinCheckBox("text:=Exit Window After Request")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "206">
+<CommonName>VisionOutlineOfCoverage_Help</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;Help")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "207">
+<CommonName>VisionOutlineOfCoverage_NewDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinRadioButton("text:=New Document")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "208">
+<CommonName>VisionOutlineOfCoverage_NewUsingCurrentDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinRadioButton("text:=New Using Current Document")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "209">
+<CommonName>VisionOutlineOfCoverage_Next</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;Next \>\>")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "210">
+<CommonName>VisionOutlineOfCoverage_Next_1</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;Next \>\>")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "211">
+<CommonName>VisionOutlineOfCoverage_ReprintCurrentDocument</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinRadioButton("text:=Reprint Current Document")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "212">
+<CommonName>VisionOutlineOfCoverage_Request</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;Request")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "213">
+<CommonName>VisionOutlineOfCoverage_RequestedDocumentData</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinListView("attached text:=Requested Document Data")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "214">
+<CommonName>VisionOutlineOfCoverage_SysTabControl32</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinTab("nativeclass:=SysTabControl32")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "215">
+<CommonName>VisionOutlineOfCoverage_View</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=RegExFullStop*Vision Outline Of CoverageRegExFullStop*").WinButton("text:=&amp;ViewRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>DataCapture_Solar.VisionOutlineOfCoverage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "216">
+<CommonName>Error_Window_Close</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=Error Log - RegExFullStop*").WinButton("text:=&amp;Close")</ObjPath>
+<strPath>Error_Window</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "217">
+<CommonName>FYI_Window_OK</CommonName>
+<ObjPath>Window("text:=Data Capture RegExFullStop+ - Solar").Dialog("text:=FYI").WinButton("text:=OK")</ObjPath>
+<strPath>FYI_Window</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "218">
+<CommonName>MemberGroupInformation_FYI_Ok</CommonName>
+<ObjPath>Dialog("text:=FYI").WinButton("text:=OK")</ObjPath>
+<strPath>MemberGroupInformation_FYI</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "219">
+<CommonName>SolarDataCapture_OK</CommonName>
+<ObjPath>Dialog("text:=Solar Data Capture").WinButton("text:=OK")</ObjPath>
+<strPath>SolarDataCapture</strPath>
+</ObjectRepository>
+</dataroot>

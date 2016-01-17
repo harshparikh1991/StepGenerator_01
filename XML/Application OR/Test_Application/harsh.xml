@@ -1,0 +1,4 @@
+<dataroot>
+	<ObjectRepository><CommonName Value="1">Browser</CommonName><ObjPath>Browser("P1:=V2")</ObjPath><strPath></strPath></ObjectRepository><ObjectRepository><CommonName Value="2">Page</CommonName><ObjPath>Browser("P1:=V2").Page("P1:=V1")</ObjPath><strPath>Browser</strPath></ObjectRepository><ObjectRepository><CommonName Value="3">WebEdit</CommonName><ObjPath>Browser("P1:=V2").Page("P1:=V1").WebEdit("P1:=V1")</ObjPath><strPath>Browser.Page</strPath></ObjectRepository><ObjectRepository><CommonName Value="4">WebElement</CommonName><ObjPath>Browser("P1:=V2").Page("P1:=V1").WebElement("P1:=V1")</ObjPath><strPath>Browser.Page</strPath></ObjectRepository><ObjectRepository><CommonName Value="5">Page1</CommonName><ObjPath>Browser("P1:=V2").Page("P1:=V1")</ObjPath><strPath>Browser</strPath></ObjectRepository></dataroot>
+
+

@@ -1,0 +1,14 @@
+<dataroot>
+	<ObjectRepository>
+		<CommonName>TestObject</CommonName>
+		<ClassID>16</ClassID>
+		<Path>AEB_WriteUp.AEBSalesWriteUp</Path>
+		<Property1>type</Property1>
+		<Value1>text</Value1>
+		<Property2></Property2>
+		<Value2></Value2>
+		<Property3></Property3>
+		<Value3></Value3>
+	</ObjectRepository>
+	<ObjectRepository><CommonName>TestObject1</CommonName><ClassID>6</ClassID><Path>Browser1</Path><Property1>P1</Property1><Value1>V5</Value1><Property2>P2</Property2><Value2>V6</Value2><Property3>P3</Property3><Value3>V4</Value3></ObjectRepository><ObjectRepository><CommonName>Test Object 3</CommonName><ClassID>1</ClassID><Path>Browser</Path><Property1>P1</Property1><Value1>V1</Value1><Property2>P2</Property2><Value2>V2</Value2><Property3>P3</Property3><Value3>V3</Value3></ObjectRepository>
+	<ObjectRepository><CommonName>TestObject2</CommonName><ClassID>1</ClassID><Path>Browser</Path><Property1>ha</Property1><Value1>ha</Value1><Property2></Property2><Value2></Value2><Property3></Property3><Value3></Value3></ObjectRepository><ObjectRepository><CommonName>TestObject4</CommonName><ClassID>1</ClassID><Path>Browser</Path><Property1>g</Property1><Value1>dgashj</Value1><Property2></Property2><Value2></Value2><Property3></Property3><Value3></Value3></ObjectRepository><ObjectRepository><CommonName>TestObject5</CommonName><ClassID>1</ClassID><Path>Browser</Path><Property1>r</Property1><Value1>qwert</Value1><Property2></Property2><Value2></Value2><Property3></Property3><Value3></Value3></ObjectRepository><ObjectRepository><CommonName>TestObject6</CommonName><ClassID>1</ClassID><Path></Path><Property1>qwertyy</Property1><Value1>qwertyy</Value1><Property2></Property2><Value2></Value2><Property3></Property3><Value3></Value3></ObjectRepository><ObjectRepository><CommonName>TestObject7</CommonName><ClassID>16</ClassID><Path>AEB_WriteUp.AEBSalesWriteUp</Path><Property1>type</Property1><Value1>webedit</Value1><Property2></Property2><Value2></Value2><Property3></Property3><Value3></Value3></ObjectRepository><ObjectRepository><CommonName>TestObject8</CommonName><ClassID>16</ClassID><Path>AEB_WriteUp.AEBSalesWriteUp</Path><Property1>type</Property1><Value1>webedit</Value1><Property2>index</Property2><Value2>1</Value2><Property3></Property3><Value3></Value3></ObjectRepository></dataroot>

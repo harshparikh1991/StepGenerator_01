@@ -1,0 +1,892 @@
+<dataroot>
+<ObjectRepository Value= "1">
+<CommonName>adobeReader</CommonName>
+<ObjPath>Window("regexpwndtitle:= Adobe Reader")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "2">
+<CommonName>AEB</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "3">
+<CommonName>AEB_WriteUp</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "4">
+<CommonName>fileDownloadDialog</CommonName>
+<ObjPath>Dialog("text:=File Download")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "5">
+<CommonName>securityWarningDialog</CommonName>
+<ObjPath>Dialog("text:=Security Warning")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "6">
+<CommonName>AssurantEmployeeBenefits</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page")</ObjPath>
+<strPath>AEB</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "7">
+<CommonName>solarPlansSynchedSuccDialog</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Dialog("text:=Message from webpage")</ObjPath>
+<strPath>AEB</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "8">
+<CommonName>actionMenu</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Actions"|"html tag:=TD"|"html id:=gwt-uid-10"|"class:=gwt-MenuItem")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "9">
+<CommonName>addGroupName</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-addGroupName")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "10">
+<CommonName>additionalTaskCheckAll</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebCheckBox("html id:=gwt-debug-WorkflowAdditionalTasksAllNone-input")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "11">
+<CommonName>addNewCase</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=Add new case"|"micclass:=WebButton"|"html tag:=BUTTON"|"html id:=gwt-debug-AddNewCase_1")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "12">
+<CommonName>addNewInforceProposalTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("micclass:=WebTable"|"html id:=gwt-debug-CreateCaseTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "13">
+<CommonName>caseSearch</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Link("micclass:=Link"|"innertext:=Case search"|"html tag:=A"|"text:=Case search")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "14">
+<CommonName>caseSearchTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("html id:=gwt-debug-ResultsTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "15">
+<CommonName>caseSummaryTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("micclass:=WebTable"|"html id:=gwt-debug-CaseSummaryTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "16">
+<CommonName>categorizeDocument</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebCheckBox("type:=checkbox"|"name:="|"micclass:=WebCheckBox"|"html tag:=INPUT"|"html id:=gwt-debug-CategorizeDocumentsSelectAllNone-input")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "17">
+<CommonName>category</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"all items:=Case;Common;True Group;Voluntary;Submission;Worksite;Underwriting")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "18">
+<CommonName>completeWriteUpLink</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Link("innertext:=Complete Write-Up")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "19">
+<CommonName>consolidatedProposeCheckAll</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebCheckBox("html id:=gwt-debug-ProposeAllNone-input")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "20">
+<CommonName>coverageStatusTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("column names:=Coverage Status:;Type;Seq;Plan Status;Issue Status;Sub Plan;Base Plan;Description"|"micclass:=WebTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "21">
+<CommonName>CreateProposalSaveButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("class:=buttonprimary"|"html tag:=BUTTON"|"outertext:=Save")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "22">
+<CommonName>documentInfoTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("html id:=gwt-debug-DocumentInfoTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "23">
+<CommonName>documentsTab</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html tag:=DIV"|"innertext:=Documents"|"class:=gwt-Label")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "24">
+<CommonName>documentsTabProposals</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html id:=gwt-debug-cwTree-staticTree-root-child0-content")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "25">
+<CommonName>documentsTabProposalsImage</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Image("file name:=clearRegExFullStopcacheRegExFullStopgif"|"image type:=Plain Image")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "26">
+<CommonName>documentsTabTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("column names:=ProposalsProposal ACC1-CAN1-CIB1-GAP1RegExFullStop*"|"rows:=3"|"cols:=1")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "27">
+<CommonName>documentType</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"all items:=Census;Experience;In Force Plan Info;Other;Plan Detail Info;RFP;RFP Appendices")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "28">
+<CommonName>effDate</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-effDate")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "29">
+<CommonName>forAEB</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Link("text:=For AEB"|"micclass:=Link"|"innertext:=For AEB"|"html tag:=A")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "30">
+<CommonName>groupName</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-groupName")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "31">
+<CommonName>groupNameSearch</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=Search"|"micclass:=WebButton"|"html tag:=BUTTON"|"html id:=gwt-debug-GroupNameSearch")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "32">
+<CommonName>groupOffice</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-GroupOffice")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "33">
+<CommonName>groupOfficeTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("html id:=gwt-debug-GroupOfficeTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "34">
+<CommonName>kansasCityCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html tag:=Label"|"innertext:=Kansas City")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "35">
+<CommonName>kansasWebCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebCheckBox("html id:=gwt-uid-116")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "36">
+<CommonName>kickstartPlan</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html id:=gwt-uid-16")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "37">
+<CommonName>kickstartPlanNote</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("html id:=gwt-debug-KickstartPlanNote")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "38">
+<CommonName>kickstartPlanTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("html id:=gwt-debug-KickstartPlanTable")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "39">
+<CommonName>lastRecord</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=\>\> \|"|"micclass:=WebButton"|"html tag:=BUTTON")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "40">
+<CommonName>loginToOnlineAdvantage</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Link("text:=Login to Online Advantage"|"micclass:=Link"|"innertext:=Login to Online Advantage"|"html tag:=A")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "41">
+<CommonName>nbcCode</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-nbcCode")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "42">
+<CommonName>noOfLives</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-lives")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "43">
+<CommonName>noResultsFound</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("Class Name:=WebElement"|"innertext:=No Results Found"|"innerhtml:=No Results Found"|"html tag:=B")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "44">
+<CommonName>parr</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-parr")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "45">
+<CommonName>partNumber</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"html id:=gwt-debug-partNumber")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "46">
+<CommonName>password</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=password"|"name:=PASSWORD"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "47">
+<CommonName>pdfImage</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Image("class:=gwt-Image"|"file name:=pdf_iconRegExFullStopgif")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "48">
+<CommonName>plansTab</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html tag:=DIV"|"innertext:=Plans"|"class:=gwt-Label")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "49">
+<CommonName>plansTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("column names:=Plan description;Type;Seq;Series;Sub;Eff date;Discount description;lives;Premium;Proposed;Show;Delivery;Sold;Status")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "50">
+<CommonName>policyNumber</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"html id:=gwt-debug-policyNumber")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "51">
+<CommonName>policyNumberSearch</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"html id:=gwt-debug-PolPartSearch")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "52">
+<CommonName>producerName</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-producer")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "53">
+<CommonName>producerSearch</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=Search"|"micclass:=WebButton"|"html tag:=BUTTON"|"html id:=gwt-debug-ProducerSearch")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "54">
+<CommonName>producerTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("micclass:=WebTable"|"html id:=gwt-debug-ProducerTable"|"index:=0")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "55">
+<CommonName>proposalReqSubmitted</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("innertext:=Proposal Request has been submitted"|"class:=infomessage")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "56">
+<CommonName>proposePlansButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("html id:=gwt-debug-Propose")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "57">
+<CommonName>publicTaskListTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("micclass:=WebTable"|"html id:=gwt-debug-PublicTasklist")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "58">
+<CommonName>pushToStatus</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("html id:=gwt-debug-WorkflowPushToStatus")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "59">
+<CommonName>requestBeingProcessed</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("innertext:=Request being processed"|"index:=0")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "60">
+<CommonName>retrievingDefaultValues</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("innertext:=Retrieving Default Values"|"index:=0")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "61">
+<CommonName>salesAutomationSystem</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Link("text:=Sales Automation System (SAS)"|"micclass:=Link"|"innertext:=Sales Automation System (SAS)"|"html tag:=A")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "62">
+<CommonName>salesRep</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-salesRep")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "63">
+<CommonName>save</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=Save"|"micclass:=WebButton"|"html tag:=BUTTON"|"html id:=gwt-debug-Save")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "64">
+<CommonName>saveGroupOffice</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=Save"|"html id:=gwt-debug-SaveGroupOffice")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "65">
+<CommonName>saveKickstartPlan</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("html id:=gwt-debug-SaveKickstartPlan")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "66">
+<CommonName>searchByCaseID</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("html id:=gwt-debug-caseId")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "67">
+<CommonName>searchByCaseId_SearchButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("html id:=gwt-debug-CaseIdSearch")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "68">
+<CommonName>searchExistingPolicies</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("type:=button"|"name:=Search Existing Policies"|"micclass:=WebButton"|"html tag:=BUTTON"|"html id:=gwt-debug-SearchExisting_1")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "69">
+<CommonName>setUpCase</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").Link("micclass:=Link"|"innertext:=Set up case"|"html tag:=A"|"text:=Set up case")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "70">
+<CommonName>sicCode</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-sicCode")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "71">
+<CommonName>sicSource</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=textarea"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=TEXTAREA"|"html id:=gwt-debug-sicSource")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "72">
+<CommonName>situsState</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-situsState")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "73">
+<CommonName>solarCaseTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("micclass:=WebTable"|"html id:=gwt-debug-SolarCases")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "74">
+<CommonName>states</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-state")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "75">
+<CommonName>synchronizePlans</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html id:=gwt-uid-18")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "76">
+<CommonName>taskList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-TaskListMenu")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "77">
+<CommonName>tasklist_Tab</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Tasklist"|"html tag:=TD"|"html id:=gwt-uid-2")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "78">
+<CommonName>username</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebEdit("type:=text"|"name:=USERNAME"|"micclass:=WebEdit"|"html tag:=INPUT")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "79">
+<CommonName>workflowTab</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("html tag:=DIV"|"innertext:=Workflow"|"class:=gwt-Label")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "80">
+<CommonName>workflowTabSaveButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebButton("html id:=gwt-debug-WorkflowSave")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "81">
+<CommonName>workFlowTasksTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebTable("html id:=gwt-debug-WorkflowTasks")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "82">
+<CommonName>writeUpCase</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Write Up Case"|"html tag:=TD"|"html id:=gwt-uid-11")</ObjPath>
+<strPath>AEB.AssurantEmployeeBenefits</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "83">
+<CommonName>fileDownloadDialogOpenButton</CommonName>
+<ObjPath>Dialog("text:=File Download").WinButton("text:=&amp;Open")</ObjPath>
+<strPath>AEB.fileDownloadDialog</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "84">
+<CommonName>solarPlansSynchedSuccDialogOKButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=0").Dialog("text:=Message from webpage").WinButton("text:=OK")</ObjPath>
+<strPath>AEB.solarPlansSynchedSuccDialog</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "85">
+<CommonName>AEBSalesWriteUp</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page")</ObjPath>
+<strPath>AEB_WriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "86">
+<CommonName>accidentAdminList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCadministrationLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "87">
+<CommonName>accidentalDeathList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCaccidentalDeathLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "88">
+<CommonName>accidentBrokerFeeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCbrokersFeeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "89">
+<CommonName>accidentConsultingFeeEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSACCconsultingFeeTB"|"Class Name:=WebEdit"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "90">
+<CommonName>accidentContractOptionList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCcontractOptionsLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "91">
+<CommonName>accidentContractStateList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCcontractStateLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "92">
+<CommonName>accidentDescEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSACCdescriptionTB"|"Class Name:=WebEdit"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "93">
+<CommonName>accidentEligibleLivesEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSACCeligibleLivesTB"|"Class Name:=WebEdit"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "94">
+<CommonName>accidentEmergencyRoomList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCemergencyRoomLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "95">
+<CommonName>accidentNonEmergencyRoomList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCnonEmergencyRoomLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "96">
+<CommonName>accidentNoteEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html tag:=TEXTAREA"|"Class Name:=WebEdit"|"class:=gwt-TextArea"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "97">
+<CommonName>accidentRateguaranteeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCrateGuaranteeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "98">
+<CommonName>accidentRateStructureList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCrateStrucutreLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "99">
+<CommonName>accidentScaleList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCscaleLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "100">
+<CommonName>accidentServiceFeeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCserviceFeeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "101">
+<CommonName>accidentSpouseIncludeBenefitList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCincludeBenefitLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "102">
+<CommonName>accidentTypeBenefitList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCaccidentTypeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "103">
+<CommonName>accidentWebCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebCheckBox("html id:=gwt-uid-9")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "104">
+<CommonName>accidentWellnessList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCwellnessLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "105">
+<CommonName>cancerAdminList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIadministrationLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "106">
+<CommonName>cancerBrokerFeeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIbrokersFeeLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "107">
+<CommonName>cancerConsultingFeeEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSCIconsultingFeeTB"|"Class Name:=WebEdit"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "108">
+<CommonName>cancerContractOptionList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIcontractOptionsLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "109">
+<CommonName>cancerContractStateList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIcontractStateLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "110">
+<CommonName>cancerDescEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSCIdescriptionTB"|"Class Name:=WebEdit"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "111">
+<CommonName>cancerEligibleLivesEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSCIeligibleLivesTB"|"Class Name:=WebEdit"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "112">
+<CommonName>cancerNoteEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html tag:=TEXTAREA"|"Class Name:=WebEdit"|"class:=gwt-TextArea"|"index:=2")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "113">
+<CommonName>cancerPlanLevelList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIPlanLevelLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "114">
+<CommonName>cancerRateguaranteeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIrateGuaranteeLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "115">
+<CommonName>cancerRateStructureList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIrateStrucutreLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "116">
+<CommonName>cancerScaleList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIscaleLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "117">
+<CommonName>cancerServiceFeeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIserviceFeeLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "118">
+<CommonName>cancerTobaccoList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCITobaccoLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "119">
+<CommonName>cancerTransferList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCITransferLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "120">
+<CommonName>cancerWebCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebCheckBox("html id:=gwt-uid-11")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "121">
+<CommonName>census_Tab</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Census"|"class:=gwt-Label"|"html tag:=DIV")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "122">
+<CommonName>censusEEFam</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=eefam_29"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-CensusEefam_0 - 29")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "123">
+<CommonName>censusMale</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=male_29"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-censusMale_0 - 29")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "124">
+<CommonName>commonDentalPlanTemplate</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("micclass:=WebList"|"html id:=gwt-debug-CDCPlanTemplate")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "125">
+<CommonName>commonDentalPlanType</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("micclass:=WebList"|"html id:=gwt-debug-CDCTypeOfPlan")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "126">
+<CommonName>critical_IllnessWebCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebCheckBox("html id:=gwt-uid-10")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "127">
+<CommonName>criticalIllnessAdminList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIadministrationLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "128">
+<CommonName>criticalIllnessBenefitPlanLevelList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIPlanLevelLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "129">
+<CommonName>criticalIllnessBrokerFeeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIbrokersFeeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "130">
+<CommonName>criticalIllnessConsultingFeeEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSCIconsultingFeeTB"|"Class Name:=WebEdit"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "131">
+<CommonName>criticalIllnessContractOptionList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIcontractOptionsLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "132">
+<CommonName>criticalIllnessContractStateList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIcontractStateLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "133">
+<CommonName>criticalIllnessDescEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSCIdescriptionTB"|"Class Name:=WebEdit"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "134">
+<CommonName>criticalIllnessEligibleLivesEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSCIeligibleLivesTB"|"Class Name:=WebEdit"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "135">
+<CommonName>criticalIllnessmaximumBenefitAmountList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCImaximumBenefitAmountLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "136">
+<CommonName>criticalIllnessNoteEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html tag:=TEXTAREA"|"Class Name:=WebEdit"|"class:=gwt-TextArea"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "137">
+<CommonName>criticalIllnessRateguaranteeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIrateGuaranteeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "138">
+<CommonName>criticalIllnessRateStructureList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIrateStrucutreLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "139">
+<CommonName>criticalIllnessRateTypeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIrateTypeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "140">
+<CommonName>criticalIllnessScaleList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIscaleLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "141">
+<CommonName>criticalIllnessServiceFeeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIserviceFeeLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "142">
+<CommonName>criticalIllnessTobaccoList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCITobaccoLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "143">
+<CommonName>criticalIllnessTransferList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCITransferLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "144">
+<CommonName>criticalIllnessWellnessList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSCIwellnessLB"|"Class Name:=WebList"|"index:=0")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "145">
+<CommonName>dentalCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebCheckBox("type:=checkbox"|"name:=COMDEN"|"micclass:=WebCheckBox"|"html tag:=INPUT"|"html id:=gwt-uid-1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "146">
+<CommonName>dentalPlanCensusAgeBandTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebTable("micclass:=WebTable"|"column names:=Age Band;Male;Female"|"html tag:=TABLE"|"name:=male_18")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "147">
+<CommonName>dentalPlanCensusEEOnlyTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebTable("name:=ee_18"|"class:=tablesecondary FlexTable")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "148">
+<CommonName>dentalPlanLocationsTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebTable("micclass:=WebTable"|"column names:=ZIP Code;Employees"|"html tag:=TABLE"|"name:=zipCode_1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "149">
+<CommonName>eligibleEES</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-CDCLivesEligible")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "150">
+<CommonName>empZip</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=eeszipCode_1"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-censusEesZipCode_1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "151">
+<CommonName>gapAdminList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCadministrationLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "152">
+<CommonName>gapContractOptionList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCcontractOptionsLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "153">
+<CommonName>gapContractStateList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCcontractStateLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "154">
+<CommonName>gapDescEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSACCdescriptionTB"|"Class Name:=WebEdit"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "155">
+<CommonName>gapEligibleLivesEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html id:=gwt-debug-WSACCeligibleLivesTB"|"Class Name:=WebEdit"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "156">
+<CommonName>gapInpatient</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSGAPInPatientLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "157">
+<CommonName>gapNoteEdit</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("html tag:=TEXTAREA"|"Class Name:=WebEdit"|"class:=gwt-TextArea"|"index:=3")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "158">
+<CommonName>gapOutpatient</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSGAPOutPatientLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "159">
+<CommonName>gapRateguaranteeList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCrateGuaranteeLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "160">
+<CommonName>gapRateStructureList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCrateStrucutreLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "161">
+<CommonName>gapScaleList</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("html id:=gwt-debug-WSACCscaleLB"|"Class Name:=WebList"|"index:=1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "162">
+<CommonName>gapWebCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebCheckBox("html id:=gwt-uid-13")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "163">
+<CommonName>participatingEES</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-CDCLivesParticipating")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "164">
+<CommonName>planDescription</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=WebEdit"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-CDCPlanDescription")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "165">
+<CommonName>planNotInEditedStatus</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebElement("innertext:=GAP 1 , Plan not in edited status"|"class:=warningmessage"|"html tag:=DIV")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "166">
+<CommonName>planType</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebList("name:=select"|"micclass:=WebList"|"html tag:=SELECT"|"html id:=gwt-debug-CDCTypeOfPlan")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "167">
+<CommonName>savePlansToSolar</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebButton("type:=button"|"name:=Save plans to Solar and close write-up"|"micclass:=WebButton"|"innertext:=Save plans to Solar and close write-up"|"html tag:=BUTTON")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "168">
+<CommonName>saveWriteUp</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebButton("type:=button"|"name:=Save"|"micclass:=WebButton"|"html tag:=BUTTON"|"html id:=gwt-debug-saveButton_debug2")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "169">
+<CommonName>selectCoveragesTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebTable("column names:=Select CoveragesRegExFullStopRegExFullStopRegExFullStop")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "170">
+<CommonName>updateConfirmationCancelButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebButton("class:=buttonsecondary"|"innertext:=Cancel")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "171">
+<CommonName>updateConfirmationTable</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebTable("name:=Update Plan"|"Class Name:=WebTable"|"column names:=;Update Confirmation;")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "172">
+<CommonName>updatePlanButton</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebButton("class:=buttonprimary"|"innertext:=Update Plan")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "173">
+<CommonName>worksiteWebCheckBox</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebCheckBox("html id:=gwt-uid-96")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "174">
+<CommonName>writeup_Tab</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebElement("micclass:=WebElement"|"innertext:=Writeup"|"innerhtml:=Writeup"|"html tag:=DIV")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "175">
+<CommonName>writeupSavedSuccessfully</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebElement("class:=infomessage"|"innertext:=Write Up saved successfully")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "176">
+<CommonName>WriteUpSaveSuccessful</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebElement("Class Name:=WebElement"|"class:=infomessage"|"innertext:=Write Up saved successfully"|"html tag:=DIV")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "177">
+<CommonName>zipCode</CommonName>
+<ObjPath>Browser("micclass:=Browser"|"CreationTime:=1").Page("micclass:=Page").WebEdit("type:=text"|"name:=zipCode_1"|"micclass:=WebEdit"|"html tag:=INPUT"|"html id:=gwt-debug-censusZipCode_1")</ObjPath>
+<strPath>AEB_WriteUp.AEBSalesWriteUp</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "178">
+<CommonName>securityWarningYesButton</CommonName>
+<ObjPath>Dialog("text:=Security Warning").WinButton("text:=&amp;Yes")</ObjPath>
+<strPath>securityWarningDialog</strPath>
+</ObjectRepository>
+</dataroot>

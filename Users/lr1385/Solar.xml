@@ -1,0 +1,2 @@
+<dataroot>
+	<TestSteps id="1"><SrNo>1</SrNo><TestCase>TC01</TestCase><Skip> </Skip><Break> </Break><ObjectName> </ObjectName><ActionName>func_InvokeSolarApp</ActionName><Data>"Data Capture"</Data><Checked>myTextEditBox0</Checked></TestSteps></dataroot>

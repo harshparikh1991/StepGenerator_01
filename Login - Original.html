@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<!-----Meta----->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Login Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<link rel="stylesheet" href= "./CSS/proj.css" />
+<style type="text/css">
+      #loadingmsg {
+      color: black;
+      background: #fff; 
+      padding: 10px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      z-index: 100;
+      margin-right: -25%;
+      margin-bottom: -25%;
+      }
+      #loadingover {
+      background: black;
+      z-index: 99;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+      filter: alpha(opacity=80);
+      -moz-opacity: 0.8;
+      -khtml-opacity: 0.8;
+      opacity: 0.8;
+    }
+</style>
+  
+	<script type="text/javascript">
+		function VerifyCredentials(){
+			var uName = document.getElementById("uName").value;
+			var pwd = document.getElementById("pwd").value;
+			try{
+				var blnFlag = CheckLoginQC(uName,pwd);
+			}
+			catch (e){
+				var blnFlag = false;
+			}
+			return blnFlag;
+		}
+		function getConfigPath(){
+			var fPath = document.location.pathname;
+			fPath = fPath.slice(1);
+			fPath = fPath.replace("Login.html","config.txt");
+			fPath = fPath.split("\/").join("\\");
+			fPath = fPath.split("\%20").join(" ");
+			return fPath;
+		}
+		
+	</script>
+	<script language="VBScript">
+		Function OpenConfigFile()
+			Dim wshShell, fPath
+			Set wshShell = CreateObject("WScript.Shell")
+			fPath = getConfigPath()
+			wshShell.Run chr(34) & fPath & chr(34)
+			OpenConfigFile = False
+		End Function
+		
+		
+		Function CheckAdmin(uName)
+			blnFlag = getUserName(uName)
+			If blnFlag Then
+				window.location = "index_admin.html?username=" & uName
+				CheckAdmin = True
+			Else
+				window.location = "index.html?username=" & uName
+				CheckAdmin = True
+			End If
+		End Function
+
+		Function CheckLoginQC()
+			uName1 = document.getElementById("uName").value
+			pwd1 = document.getElementById("pwd").value
+			On Error Resume Next
+			Set TDConnection = CreateObject("TDApiOle80.TDConnection")
+
+			TDConnection.InitConnection "http://hpqc.assurant.com:8080/qcbin/"
+			TDConnection.Login uName1,pwd1
+			TDConnection.Connect "AEB_AUTOMATION","Web_Automation"
+			If Err.Number = 0 Then
+				CheckAdmin(uName1)
+				CheckLoginQC = True
+			Else
+				document.GetElementByID("LoginStatus").innerHTML = "<font color='red'>Unable to Login. Please try again.</font>"
+				CheckLoginQC = False
+			End If
+		End Function
+	</script>
+
+<!--Stylesheets-->
+<link href="css/Login_style.css" rel="stylesheet" type="text/css" />
+<link href="css/dzyngiri.css" rel="stylesheet" type="text/css">
+<link href="fonts/pacifico/stylesheet.css" rel="stylesheet" type="text/css" />
+
+<!--Scripts-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<!--Sliding icons-->
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".username").focus(function() {
+		$(".user-icon").css("left","-48px");
+	});
+	$(".username").blur(function() {
+		$(".user-icon").css("left","0px");
+	});
+	
+	$(".password").focus(function() {
+		$(".pass-icon").css("left","-48px");
+	});
+	$(".password").blur(function() {
+		$(".pass-icon").css("left","0px");
+	});
+});
+
+</script>
+
+<script type="text/javascript">
+	function getFilePath(){
+		try //Internet Explorer
+		{
+		var fso=new ActiveXObject("Scripting.FileSystemObject");
+		
+		}
+		catch(e)
+		{
+		try //Firefox, Mozilla, Opera, etc.
+		{
+			fso=document.implementation.createDocument("","",null);
+		}
+		catch(e){alert(e.message)}
+		}
+
+		var fPath = document.location.pathname;
+		fPath = fPath.slice(1);
+		fPath = fPath.replace("Login.html","config.txt");
+		fPath = fPath.split("\/").join("\\\\");
+		fPath = fPath.split("\%20").join(" ");
+	   var fh = fso.OpenTextFile(fPath, 1);
+	   var i = 0;
+	   var r = fh.ReadAll();
+	   arrR = r.split(";");
+	   var pad = arrR[1].split("=");
+	   fh.Close();
+	   return pad[1];
+	}
+
+	function getUserName(uName){
+		var pad = getFilePath();
+		pad = pad.slice(1);
+		var i;
+		var cn = new ActiveXObject("ADODB.Connection");
+		var strConn = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + pad;
+		cn.Open(strConn);
+		var rs = new ActiveXObject("ADODB.Recordset");
+		var SQL = "select UserName, Role from UserInfo WHERE UserName = '" + uName + "' ORDER BY UserName";
+		rs.Open(SQL, cn);
+		i = 0
+		while (!rs.EOF){
+			var strRole = rs.fields(1).value;
+			if(strRole == "admin"){
+				i = i + 1
+			}
+			rs.MoveNext();
+		}	
+		rs.Close();
+		cn.Close();
+		if(i == 0){
+			return false;
+		}
+		else{
+			return true;		
+		}
+	}
+</script>
+
+</head>
+<body bgcolor="000000" link="blue">
+<div id="container">
+	<!--<div id="header"></div>-->
+	<div id="body">
+		<div id="wrapper">
+			<!--Sliding icons-->
+			<div class="user-icon"></div>
+			<div class="pass-icon"></div>
+			<!--END Sliding icons-->
+
+		<!--login form inputs-->
+
+
+		<!--<form name="login-form" class="login-form" action="./index.html" method="get">-->
+		<div name="login-form" class="login-form">
+		<!--<form name="login-form" class="login-form" onSubmit="return CheckLoginQC();" action="#">-->
+
+			<!--Header-->
+			<div class="header">
+			<h1>Login to Step Generator</h1>
+			<span>Enter LAN ID and Password:</span>
+			<br>
+			<span id="LoginStatus" for='LoginStatus'></span>
+			</div>
+			<!--END header-->
+			
+			<!--Input fields-->
+			<div class="content">
+			<!--USERNAME--><input id="uName" name="username" type="text" class="input username" value="LAN ID" onfocus="if(this.value == 'LAN ID'){this.value = '';}" onBlur="if(this.value == ''){this.value = 'LAN ID';}"/><!--END USERNAME-->
+			<!--PASSWORD--><input id="pwd" type="password" class="input password" onfocus="if(this.value == 'password'){this.value = '';}" onBlur="if(this.value == ''){this.value = 'password';}" value="password"/><!--END PASSWORD-->
+			</div>
+			<!--END Input fields-->
+			
+			<!--Buttons-->
+			<div class="footer">
+			<!--Login button--><input type="submit" value="Login" class="button" onClick="return CheckLoginQC();"/><!--END Login button-->
+			<!--Register button<input type="submit" name="submit" value="Register" class="register" /><!--END Register button-->
+			</div>
+			<!--END Buttons-->
+
+		</div>
+		<!--end login form-->
+
+		</div>
+	</div>
+	<div id="footer">
+		<font color="white" size="2">
+		<p><a href="" onClick = "OpenConfigFile(); return false;">Click here</a> to change the config properties.</p>
+		<!--<p>: <a href="mailto:harsh.parikh@igate.com">harsh.parikh@igate.com</a>.</p>-->
+		</font>
+	</div>
+
+</div>
+</body>
+</html>

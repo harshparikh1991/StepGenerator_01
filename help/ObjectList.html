@@ -1,0 +1,63 @@
+<html>
+<head><title>Object Help</title>
+	<script language="javascript"> 
+		function changeparent(strValue) 
+		{ 
+			window.returnValue = strValue;
+			window.close();
+		} 
+	</script> 
+</head>
+<body>
+<script>
+document.write("<h3><b><u>Object List:</u></b></h3><br>");
+if (window != top)
+ top.location.href=location.href
+
+var formData = location.search;
+
+formData = formData.substring(1, formData.length);
+while (formData.indexOf("?") != -1) {
+	formData = formData.replace("?", "");
+}
+
+formData = unescape(formData);
+var formArray = formData.split("&");
+var strObjectXML = formArray[0];
+var pad = strObjectXML;
+
+var i,x;
+var arrAction = new Array();
+pad = pad.split("\/").join("\\");
+pad = pad.split("\"").join("");
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async=false;
+xmlDoc.load(pad);
+x = xmlDoc.getElementsByTagName('CommonName');
+var maxLen = x.length - 1;
+	for (i=0;i<=maxLen;i++)
+	{
+		arrAction[i] = (x[i].text);
+	}
+var r;
+document.write("<table id=className border=1 WIDTH=90% CELLPADDING=4 CELLSPACING=3 align=center>");
+document.write("<tr style=color:black; font-family:verdana; font-size:12; font-weight:normal>");
+document.write("<th>Sr No</th>");
+document.write("<th>Object Name</th>");
+document.write("<th>Select</th>");
+document.write("</tr>");
+var sChar=String.fromCharCode(34);
+for (r=0; r<arrAction.length; r++)
+		{
+		srNo = r + 1;
+		var ObjName = arrAction[r];
+		document.write("<tr style=color:black; font-family:verdana; font-weight:normal>");
+		document.write("<td>"+srNo+"</td>");
+		document.write("<td><a style='cursor:hand' onclick='changeparent(" + sChar + ObjName + sChar + ");'>"+arrAction[r]+"</a></td>");
+		document.write("<td><input type=button onclick='changeparent(" + sChar + ObjName + sChar + ");' value='Select'></td>");
+		document.write("</tr>");
+		}
+document.write("</table>");
+</script>
+</body>
+</html>

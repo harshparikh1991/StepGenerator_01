@@ -1,0 +1,607 @@
+<dataroot>
+<ObjectRepository Value= "1">
+<CommonName>addModifyCoverageForm5Return</CommonName>
+<ObjPath>WebButton)</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "2">
+<CommonName>adobeReaderWindow</CommonName>
+<ObjPath>Window("text:=OA-User-Guide\[1\]RegExFullStoppdf - Adobe Reader")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "3">
+<CommonName>brwsr</CommonName>
+<ObjPath>Browser("creationtime:=0")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "4">
+<CommonName>pdfBrwsr</CommonName>
+<ObjPath>Browser("title:=https://stage2RegExFullStopassurantemployeebenefitsRegExFullStopcom/816/aebcom/xhtml_clip/foremployers/OA-User-GuideRegExFullStoppdf")</ObjPath>
+<strPath> </strPath>
+</ObjectRepository>
+<ObjectRepository Value= "5">
+<CommonName>avPageViewObject</CommonName>
+<ObjPath>Window("text:=OA-User-Guide\[1\]RegExFullStoppdf - Adobe Reader").WinObject("regexpwndtitle:=AVPageView")</ObjPath>
+<strPath>adobeReaderWindow</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "6">
+<CommonName>aebPage</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Assurant Employee Benefits")</ObjPath>
+<strPath>brwsr</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "7">
+<CommonName>oaEmpPage</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers")</ObjPath>
+<strPath>brwsr</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "8">
+<CommonName>addAccessFormEmail</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=addAccessForm:email")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "9">
+<CommonName>addAccessFormFirstName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=addAccessForm:firstName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "10">
+<CommonName>addAccessFormLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=addAccessForm:lastName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "11">
+<CommonName>addAccessFormSavePrivilegesButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=addAccessForm:savePrivilegesButton")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "12">
+<CommonName>addModifyCoverageTable</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebTable("html id:=memberGroupTransferForm2:availableTable")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "13">
+<CommonName>addNewDependentButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=mainform:_id202")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "14">
+<CommonName>billComparisonElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Bill Comparison"|"html tag:=H1")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "15">
+<CommonName>compareBillsLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("name:=Compare Bills"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "16">
+<CommonName>compareCensusElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Compare Census"|"html tag:=H1")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "17">
+<CommonName>compareCensusLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("name:=Compare Census"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "18">
+<CommonName>Congratulations_enrollment</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Congratulations! The enrollment was successfulRegExFullStop")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "19">
+<CommonName>contactUsBackButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("html id:=contactUsForm:backButton")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "20">
+<CommonName>contactUsComment</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=contactUsForm:cuMessageBody")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "21">
+<CommonName>contactUsConfirmationContinueButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("html id:=contactUsConfirmationForm:continueButton")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "22">
+<CommonName>contactUsConfirmationElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Contact Us Confirmation")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "23">
+<CommonName>contactUsElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Contact Us"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "24">
+<CommonName>contactUsSubmitButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("html id:=contactUsForm:submitButton")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "25">
+<CommonName>continueButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("name:=Continue >>"|"type:=submit"|"html tag:=INPUT")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "26">
+<CommonName>customerAdvocacyLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("name:=Customer Advocacy"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "27">
+<CommonName>Display</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("name:=salaryEditorForm:_id17RegExFullStop*")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "28">
+<CommonName>editMembersLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("innertext:=Edit Members")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "29">
+<CommonName>enrollConfirmForm:policyOverview</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=enrollConfirmForm:policyOverview")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "30">
+<CommonName>enrollDependentsDateOfBirthCalendarInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependents:dependentList:0:dateOfBirthCalendarInputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "31">
+<CommonName>enrollDependentsDependentGender</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollDependents:dependentList:0:dependentGender")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "32">
+<CommonName>enrollDependentsDependentRelationship</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollDependents:dependentList:0:dependentRelationship")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "33">
+<CommonName>enrollDependentsFistName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependents:dependentList:0:dependentFistName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "34">
+<CommonName>enrollDependentsForm:dependentList_0_dateOfBirthCalendarInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependentsForm:dependentList:0:dateOfBirthCalendarInputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "35">
+<CommonName>enrollDependentsForm:dependentList_0_dependentFistName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependentsForm:dependentList:0:dependentFistName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "36">
+<CommonName>enrollDependentsForm:dependentList_0_dependentGender</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollDependentsForm:dependentList:0:dependentGender")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "37">
+<CommonName>enrollDependentsForm:dependentList_0_dependentLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependentsForm:dependentList:0:dependentLastName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "38">
+<CommonName>enrollDependentsForm:dependentList_0_dependentRelationship</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollDependentsForm:dependentList:0:dependentRelationship")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "39">
+<CommonName>enrollDependentsForm:dependentList_0_dependentSSN</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependentsForm:dependentList:0:dependentSSN")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "40">
+<CommonName>enrollDependentsForm:dependentList_0_dependentSuffix</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependentsForm:dependentList:0:dependentSuffix")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "41">
+<CommonName>enrollDependentsForm:dependentList_0_middleName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependentsForm:dependentList:0:middleName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "42">
+<CommonName>enrollDependentsForm:depToReviewSummary</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=enrollDependentsForm:depToReviewSummary")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "43">
+<CommonName>enrollDependentsLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollDependents:dependentList:0:dependentLastName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "44">
+<CommonName>enrollMemberFormFirstName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=selectCoveragesForm:firstName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "45">
+<CommonName>enrollMemberFormLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=selectCoveragesForm:lastName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "46">
+<CommonName>enrollMemberFormMemberGroup</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=selectCoveragesForm:memberGroup")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "47">
+<CommonName>enrollMemberFormMiddleName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=selectCoveragesForm:middleName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "48">
+<CommonName>enrollMemberFormSuffix</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=selectCoveragesForm:suffix")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "49">
+<CommonName>enrollMemberInfoFormAddrLine1</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:addrLine1")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "50">
+<CommonName>enrollMemberInfoFormAddrLine2</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:addrLine2")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "51">
+<CommonName>enrollMemberInfoFormCity</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:city")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "52">
+<CommonName>enrollMemberInfoFormCountry</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollMemberInfoForm:country")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "53">
+<CommonName>enrollMemberInfoFormDepartmentsValue</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollMemberInfoForm:departmentsValue")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "54">
+<CommonName>enrollMemberInfoFormDobCalendarInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:dobCalendarInputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "55">
+<CommonName>enrollMemberInfoFormEmploymentStatus</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollMemberInfoForm:employmentStatus")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "56">
+<CommonName>enrollMemberInfoFormFullTimeInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:_id136InputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "57">
+<CommonName>enrollMemberInfoFormGender</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollMemberInfoForm:gender")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "58">
+<CommonName>enrollMemberInfoFormHours</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:hours")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "59">
+<CommonName>enrollMemberInfoFormMbrInfoToDpndnts</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=enrollMemberInfoForm:mbrInfoToDpndnts")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "60">
+<CommonName>enrollMemberInfoFormPartTimeInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:_id140InputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "61">
+<CommonName>enrollMemberInfoFormPayPeriod</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollMemberInfoForm:payPeriod")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "62">
+<CommonName>enrollMemberInfoFormSalaryAmt</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:salaryAmt")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "63">
+<CommonName>enrollMemberInfoFormSSN</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:ssn")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "64">
+<CommonName>enrollMemberInfoFormState</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=enrollMemberInfoForm:state")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "65">
+<CommonName>enrollMemberInfoFormZip</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=enrollMemberInfoForm:zip")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "66">
+<CommonName>enrollMembersLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("innertext:=Enroll Members")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "67">
+<CommonName>formEnrollSummary:completeEnrollment</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=formEnrollSummary:completeEnrollment")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "68">
+<CommonName>formsElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Forms")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "69">
+<CommonName>mainformDependentInfoTab</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("html id:=mainform:dependentInfoTab_lbl")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "70">
+<CommonName>mainformFirstNameEdit</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=mainform:firstNameEdit")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "71">
+<CommonName>mainformLastNameEdit</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=mainform:lastNameEdit")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "72">
+<CommonName>mainformMemberNumberEdit</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("html id:=mainform:memberNumberEdit")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "73">
+<CommonName>manageAccessFormAddUserButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=manageAccessForm:addUserButton")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "74">
+<CommonName>memberDetailsElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Member Details"|"html tag:=P")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "75">
+<CommonName>memberEffectiveDate[n]</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("name:=salaryEditorForm:_id102:0:_id113:[n]:_id150InputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "76">
+<CommonName>memberHourperWeek[n]</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("name:=salaryEditorForm:_id102:0:_id113:[n]:_id148")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "77">
+<CommonName>memberNewSalary[n]</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("name:=salaryEditorForm:_id102:0:_id113:[n]:_id143")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "78">
+<CommonName>memberNumberTable</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebTable("html id:=bbTesting:orderByDateTable")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "79">
+<CommonName>memberPayPeriod[n]</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("name:=salaryEditorForm:_id102:0:_id113:[n]:_id145")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "80">
+<CommonName>memberTable</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebTable("name:=selectCoveragesForm:firstName"|"html tag:=Table")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "81">
+<CommonName>menuPolicy_span</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("html id:=headerForm:menuPolicy_span")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "82">
+<CommonName>onlineAdvantageLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("name:=Online Advantage"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "83">
+<CommonName>onlineAdvantageUserGuideLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("innertext:=Online Advantage User Guide"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "84">
+<CommonName>policyFormsLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("innertext:=Policy Forms")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "85">
+<CommonName>PolicyNumberSelection</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=policySelectionForm:compassPolicyNumber")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "86">
+<CommonName>salaryEditorConfirmationData</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Confirmation Data"|"html tag:=H2")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "87">
+<CommonName>salaryEditorElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Salary Editor"|"html tag:=H1")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "88">
+<CommonName>SalaryEditorFirstName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=salaryEditorForm:firstName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "89">
+<CommonName>salaryEditorForm[n]</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("html id:=salaryEditorForm:_id102:0:_id113:[n]:_id114")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "90">
+<CommonName>SalaryEditorLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=salaryEditorForm:lastName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "91">
+<CommonName>salaryEditorLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("html tag:=A"|"name:=Salary Editor")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "92">
+<CommonName>SalaryEditorMemberGroup</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=salaryEditorForm:memberGroup")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "93">
+<CommonName>SalaryEditorName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("html id:=salaryEditorForm:_id1RegExFullStop*")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "94">
+<CommonName>salaryEditorSubmitButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=salaryEditorForm:updateSalaries"|"type:=submit"|"name:=Submit")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "95">
+<CommonName>salaryEditorTable</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebTable("html id:=salaryEditorForm:_id102")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "96">
+<CommonName>saveButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("name:=Save"|"type:=submit"|"html tag:=INPUT")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "97">
+<CommonName>Search</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("name:=Search")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "98">
+<CommonName>selectCoveragesFormCoverageList_1</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=selectCoveragesForm:coverageList:0:coverageAmountContrib")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "99">
+<CommonName>selectCoveragesFormCoverageList_2</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=selectCoveragesForm:coverageList:1:coverageAmountContrib")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "100">
+<CommonName>selectCoveragesFormCoverageList_3</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=selectCoveragesForm:coverageList:2:coverageAmountContrib")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "101">
+<CommonName>selectCoveragesFormCoverageList_4</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=selectCoveragesForm:coverageList:3:coverageAmountContrib")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "102">
+<CommonName>selectCoveragesFormInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=selectCoveragesForm:_id110InputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "103">
+<CommonName>selectCoveragesFormLifeEvent</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=selectCoveragesForm:lifeEvent")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "104">
+<CommonName>selectCoveragesFormSelectCvrgsToMemberInfo</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=selectCoveragesForm:selectCvrgsToMemberInfo")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "105">
+<CommonName>selectCoveragesFormSigDateInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=selectCoveragesForm:sigDateInputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "106">
+<CommonName>sigDateInputDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=memberGroupTransferForm2:sigDateInputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "107">
+<CommonName>Terminate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("type:=submit"|"name:=Terminate >>")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "108">
+<CommonName>TerminateCoverage_No</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("type:=submit"|"name:=No"|"outerhtml:=<INPUT class=formbuttonsecondary value=No type=submit name=mainform:_id21>"|"value:=No")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "109">
+<CommonName>TerminateCoverage_Yes</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("type:=submit"|"name:=Yes"|"outerhtml:=<INPUT class=formbuttonsecondary value=Yes type=submit name=mainform:_id19>"|"value:=Yes")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "110">
+<CommonName>terminateCoverageElement</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("innertext:=Terminate Coverage"|"html tag:=TD")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "111">
+<CommonName>terminateCoverageLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("html tag:=A"|"name:=Terminate Coverage")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "112">
+<CommonName>TerminateCoverageUpdateMessage</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebElement("html id:=mainform:confirmation"|"class:=confirmmessage"|"innertext:=Your request has been processed successfullyRegExFullStop")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "113">
+<CommonName>TerminateMemberCoveragesTable</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebTable("column names:=Select coverage\(s\) to terminate"|"name:=All\/None")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "114">
+<CommonName>TerminationDate</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=mainform:maindateInputDate")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "115">
+<CommonName>TerminationReasonCode</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebList("html id:=mainform:terminationReasonCode")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "116">
+<CommonName>viewCensusDataFormFirstName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=viewCensusDataForm:firstName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "117">
+<CommonName>viewCensusDataFormLastName</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebEdit("html id:=viewCensusDataForm:lastName")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "118">
+<CommonName>viewCensusDataFormSearchButton</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebButton("html id:=viewCensusDataForm:searchButton")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "119">
+<CommonName>viewMemberDataTable</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").WebTable("html id:=viewCensusDataForm:_id103")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "120">
+<CommonName>viewTransactionHistoryLink</CommonName>
+<ObjPath>Browser("creationtime:=0").Page("title:=Online Advantage for Employers").Link("name:=View Transaction History"|"html tag:=A")</ObjPath>
+<strPath>brwsr.oaEmpPage</strPath>
+</ObjectRepository>
+<ObjectRepository Value= "121">
+<CommonName>aVPageViewWindow</CommonName>
+<ObjPath>Browser("title:=https://stage2RegExFullStopassurantemployeebenefitsRegExFullStopcom/816/aebcom/xhtml_clip/foremployers/OA-User-GuideRegExFullStoppdf").WinObject("nativeclass:=AVL_AVView")</ObjPath>
+<strPath>pdfBrwsr</strPath>
+</ObjectRepository>
+</dataroot>

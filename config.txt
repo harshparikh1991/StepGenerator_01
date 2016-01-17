@@ -1,0 +1,9 @@
+mainPath= "H:\Work\HTML PRoj\";
+USerDBFile = "H:\Work\HTML PRoj\UserInfo.mdb";
+ApplicationXML = "H:\Work\HTML PRoj\XML\ApplicationsList.xml";
+ClassFile = "H:\Work\HTML PRoj\XML\Class.xml";
+ActionFile = "H:\Work\HTML PRoj\XML\Actions.xml";
+RootFolder = "H:\Work\HTML PRoj\";
+FrameWorkScript = "[QualityCenter] Subject\Development\Harsh\FrameworkDriver1";
+FunctionXML = "H:\Work\HTML PRoj\XML\FunctionLibraries.xml";
+ReusableScript = "[QualityCenter] Subject\Development\Harsh\ReusableFrameworkDriver";

@@ -1,0 +1,2 @@
+<dataroot>
+	<TestSteps id="1"><SrNo>1</SrNo><TestCase>TC01</TestCase><Skip> </Skip><Break>y</Break><ObjectName>AEB_WriteUp</ObjectName><ActionName>msgbox</ActionName><Data>This is a test step.</Data><Checked>myTextEditBox0</Checked></TestSteps><TestSteps id="2"><SrNo>2</SrNo><TestCase>TC01</TestCase><Skip> </Skip><Break> </Break><ObjectName> </ObjectName><ActionName>msgbox</ActionName><Data>This is a second test step</Data><Checked>myTextEditBox1</Checked></TestSteps></dataroot>

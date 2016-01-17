@@ -1,0 +1,37 @@
+<dataroot>
+	<FunctionLibrary FuncLibID="1">
+		<LibName>AEB</LibName>
+		<LibPath>[QualityCenter] Subject\Common\AEB.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="2">
+		<LibName>OA</LibName>
+		<LibPath>[QualityCenter] Subject\Common\OA.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="3">
+		<LibName>SAS</LibName>
+		<LibPath>[QualityCenter\Resources] Resources\Development\Libraries\SAS\StepGenerator_SAS.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="4">
+		<LibName>IPD</LibName>
+		<LibPath>[QualityCenter\Resources] Resources\Libraries\Individual Prepaid Dental\Individual Prepaid Dental.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="5">
+		<LibName>Solidify</LibName>
+		<LibPath>[QualityCenter] Subject\Solidify\Function Library\Solidify.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="7"><LibName>SAS</LibName>
+		<LibPath>[QualityCenter\Resources] Resources\Development\Libraries\SAS\StepGenerator_SAS.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="10">
+		<LibName>Solar</LibName>
+		<LibPath>[QualityCenter\Resources] Resources\Development\Libraries\Solar\Solar.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="9">
+		<LibName>GoogleTest</LibName>
+		<LibPath>T:\Test Services\Offshore Folder\Final_VI\HTML PRoj\XML\Application OR\Google\Google.qfl</LibPath>
+	</FunctionLibrary>
+	<FunctionLibrary FuncLibID="10">
+		<LibName>Test Automation</LibName>
+		<LibPath>T:\Test Services\Offshore Folder\Final_VI\HTML PRoj\Users\ew5755</LibPath>
+	</FunctionLibrary>
+</dataroot>

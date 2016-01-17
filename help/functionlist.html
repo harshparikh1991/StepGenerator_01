@@ -1,0 +1,107 @@
+<html>
+<head><Title>Function Libraries</title>
+	<script language="javascript"> 
+		function changeparent(strValue) 
+		{ 
+			window.returnValue = strValue;
+			window.close();
+		} 
+	</script>
+	<script src= ".\js\functions.js"></script>
+	<script language="javascript" >
+		function getPath1(intPar){
+		   var fso  = new ActiveXObject("Scripting.FileSystemObject");
+		   var fPath = document.location.pathname;
+			//fPath = fPath.slice(1);
+			fPath = fPath.replace("help\functionlist.html","config.txt");
+			fPath = fPath.split("\/").join("\\\\");
+			fPath = fPath.split("\%20").join(" ");
+			
+		   var fh = fso.OpenTextFile(fPath, 1);
+		   var i = 0;
+		   var r = fh.ReadAll();
+		   arrR = r.split(";");
+		   var pad = arrR[intPar].split("=");
+		   fh.Close();
+		   return pad[1];
+		}
+	</script>
+</head>
+<body>
+<script>
+document.write("<h3><b><u>Function List:</u></b></h3><br>");
+
+//var pad = getPath1(7);
+
+if (window != top)
+ top.location.href=location.href
+
+var formData = location.search;
+
+formData = formData.substring(1, formData.length);
+while (formData.indexOf("?") != -1) {
+ formData = formData.replace("?", "");
+}
+
+formData = unescape(formData);
+
+var formArray = formData.split("&");
+//var strSelectedApp = formArray[0].split("=");
+var strDBPath = formArray[2].split("=");
+var pad = strDBPath[0];
+var i,x,y;
+var arrClassName = new Array();
+var arrClassID = new Array();
+//pad = pad.slice(1);
+pad = pad.split("\/").join("\\");
+pad = pad.split("\"").join("");
+pad = pad.replace("Class.xml","FunctionLibraries.xml");
+var i,x;
+var arrFunc = new Array();
+var arrFuncPath = new Array();
+pad = pad.slice(1);
+pad = pad.split("\/").join("\\");
+pad = pad.split("\"").join("");
+
+//pad = pad.split("\/").join("\\\\");
+//pad = pad.split("/").join("\/");
+var xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+
+xmlDoc.async=false;
+xmlDoc.load(pad);
+x = xmlDoc.getElementsByTagName('LibName');
+var maxLen = x.length - 1;
+	for (i=0;i<=maxLen;i++)
+	{
+		arrFunc[i] = (x[i].text);
+	} 
+	
+x = xmlDoc.getElementsByTagName('LibPath');
+var maxLen = x.length - 1;
+	for (i=0;i<=maxLen;i++)
+	{
+		arrFuncPath[i] = (x[i].text);
+	} 
+var r;
+document.write("<table id=className border=1 WIDTH=90% CELLPADDING=4 CELLSPACING=3 align=center>");
+document.write("<tr style=color:black; font-family:verdana; font-size:12; font-weight:normal>");
+document.write("<th>Sr No</th>");
+document.write("<th>Library Name</th>");
+document.write("<th>Select</th>");
+document.write("</tr>");
+var sChar=String.fromCharCode(34);
+for (r=0; r<arrFunc.length; r++)
+		{
+		srNo = r + 1;
+		var FLName = arrFunc[r];
+		var FLPath = arrFuncPath[r];
+		document.write("<tr style=color:black; font-family:verdana; font-weight:normal>");
+		document.write("<td>"+srNo+"</td>");
+		document.write("<td><a style='cursor:hand' onclick='changeparent(" + sChar + FLName + "," + FLPath + sChar + ");'>"+arrFunc[r]+"</a></td>");
+		document.write("<td><input type=button onclick='changeparent(" + sChar + FLName + "," + FLPath + sChar + ");' value='Select'></td>");
+		document.write("</tr>");
+		}
+document.write("</table>");
+</script>
+</body>
+</html>

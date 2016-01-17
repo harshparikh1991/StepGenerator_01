@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-10-23T13:11:02">
+<ObjectRepository>
+<CommonName>addGroup</CommonName>
+<ClassID>17</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Add Group</Value2>
+<Property3>html tag</Property3>
+<Value3>LI</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>alias</CommonName>
+<ClassID>16</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>form\[alias\]</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>assurantEmployeeBenefits</CommonName>
+<ClassID>1</ClassID>
+<Property1>micclass</Property1>
+<Value1>Browser</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>company</CommonName>
+<ClassID>17</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Company</Value2>
+<Property3>html tag</Property3>
+<Value3>DIV</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>dashboard</CommonName>
+<ClassID>17</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Dashboard</Value2>
+<Property3>html tag</Property3>
+<Value3>LI</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>deductionsPerYear</CommonName>
+<ClassID>16</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>type</Property1>
+<Value1>number</Value1>
+<Property2>name</Property2>
+<Value2>form\[deductionsPerYear\]</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>googleChrome</CommonName>
+<ClassID>31</ClassID>
+<Property1>text</Property1>
+<Value1>Google Chrome</Value1>
+<Property2>nativeclass</Property2>
+<Value2>#32770</Value2>
+<Property3>is owned window</Property3>
+<Value3>0</Value3>
+<Property4>is child window</Property4>
+<Value4>0</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>googleSearchButton</CommonName>
+<ClassID>14</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>html id</Property1>
+<Value1>gbqfba</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>googleWebEdit</CommonName>
+<ClassID>16</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>html id</Property1>
+<Value1>gbqfq</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>groupInfoUsersEmployees</CommonName>
+<ClassID>17</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>html tag</Property2>
+<Value2>SECTIONGROUP</Value2>
+<Property3>class</Property3>
+<Value3>icons</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>groupname</CommonName>
+<ClassID>16</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>form\[name\]</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>login</CommonName>
+<ClassID>14</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefits</Path>
+<Property1>type</Property1>
+<Value1>submit</Value1>
+<Property2>name</Property2>
+<Value2>Login</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>logout</CommonName>
+<ClassID>17</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>innertext</Property2>
+<Value2>Logout</Value2>
+<Property3>html tag</Property3>
+<Value3>DIV</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>newGrpHeader</CommonName>
+<ClassID>17</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>micclass</Property1>
+<Value1>WebElement</Value1>
+<Property2>html tag</Property2>
+<Value2>H2</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>oK</CommonName>
+<ClassID>33</ClassID>
+<Property1>text</Property1>
+<Value1>OK</Value1>
+<Property2>nativeclass</Property2>
+<Value2>Button</Value2>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>password</CommonName>
+<ClassID>16</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefits</Path>
+<Property1>type</Property1>
+<Value1>password</Value1>
+<Property2>name</Property2>
+<Value2>password</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>saveChanges</CommonName>
+<ClassID>14</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>type</Property1>
+<Value1>submit</Value1>
+<Property2>name</Property2>
+<Value2>Save Changes</Value2>
+<Property3>micclass</Property3>
+<Value3>WebButton</Value3>
+<Property4>html tag</Property4>
+<Value4>BUTTON</Value4>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>select</CommonName>
+<ClassID>19</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefitsAdministrat</Path>
+<Property1>name</Property1>
+<Value1>select</Value1>
+<Property2>micclass</Property2>
+<Value2>WebList</Value2>
+<Property3>html tag</Property3>
+<Value3>SELECT</Value3>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectMyBenefits</CommonName>
+<ClassID>5</ClassID>
+<Path>assurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>Page</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>selectMyBenefitsAdministrat</CommonName>
+<ClassID>5</ClassID>
+<Path>assurantEmployeeBenefits</Path>
+<Property1>micclass</Property1>
+<Value1>Page</Value1>
+</ObjectRepository>
+<ObjectRepository>
+<CommonName>username</CommonName>
+<ClassID>16</ClassID>
+<Path>assurantEmployeeBenefits.selectMyBenefits</Path>
+<Property1>type</Property1>
+<Value1>text</Value1>
+<Property2>name</Property2>
+<Value2>username</Value2>
+<Property3>micclass</Property3>
+<Value3>WebEdit</Value3>
+<Property4>html tag</Property4>
+<Value4>INPUT</Value4>
+</ObjectRepository>
+</dataroot>
